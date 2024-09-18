@@ -1,0 +1,53 @@
+## Tệp cấu hình mẫu cho GNU nano
+
+## Tùy chọn chung
+set number
+set afterends             # Dừng tại cuối từ với Ctrl+Right và Ctrl+Delete
+set atblanks              # Ngắt dòng tại khoảng trắng trong chế độ ngắt dòng mềm
+set autoindent            # Tự động thụt lề dòng mới
+set boldtext              # Sử dụng văn bản in đậm thay vì văn bản đảo ngược video
+set bookstyle             # Xem dòng có khoảng trắng dẫn đầu như đoạn văn
+set breaklonglines        # Tự động ngắt dòng khi quá dài
+set casesensitive         # Tìm kiếm phân biệt chữ hoa thường
+set constantshow          # Hiển thị liên tục vị trí con trỏ trên thanh trạng thái
+set indicator             # Hiển thị thanh cuộn ở bên phải cửa sổ chỉnh sửa
+set linenumbers           # Hiển thị số dòng bên trái
+set matchbrackets "(<[{)>}]}"  # Dấu ngoặc mở và đóng cho việc tìm kiếm ngoặc khớp
+set mouse                 # Kích hoạt hỗ trợ chuột
+set multibuffer            # Hỗ trợ nhiều bộ đệm tệp
+set noconvert              # Không chuyển đổi tệp từ định dạng DOS/Mac
+set preserve               # Bảo tồn các phím XON và XOFF (^Q và ^S)
+set rawsequences           # Khắc phục sự miêu tả thiết bị đầu cuối mismatching terminfo
+set softwrap               # Phân tán các dòng quá dài ra nhiều dòng màn hình
+set speller "aspell -x -c" # Sử dụng trình kiểm tra chính tả aspell
+set unix                  # Lưu tệp theo định dạng Unix
+
+## Tùy chọn màu sắc
+set titlecolor bold,white,blue
+set promptcolor lightwhite,grey
+set statuscolor bold,white,green
+set errorcolor bold,white,red
+set spotlightcolor black,lightyellow
+set selectedcolor lightwhite,magenta
+set stripecolor ,yellow
+set scrollercolor cyan
+set numbercolor cyan
+set keycolor cyan
+set functioncolor green
+
+## Bao gồm các định nghĩa cú pháp
+#include "/mnt/e/chocolatey/lib/nano-win/tools/syntax/*.nanorc"
+# Chọn định nghĩa cú pháp cụ thể nếu cần
+# include "/path/to/syntax/html.nanorc"
+# include "/path/to/syntax/python.nanorc"
+
+## Liên kết phím
+# Sửa liên kết phím hoặc thêm liên kết phím tùy chỉnh theo nhu cầu
+# bind ^Z suspend main
+# bind ^H chopwordleft main
+# bind M-K comment main
+# bind ^s "{execute}| sed 's/\s\+$//' {enter}{savefile}" main
+
+## Tùy chọn bổ sung
+# Bao gồm các cấu hình cá nhân khác nếu cần
+# include "$HOME/.oh-my-zsh/custom/custom_nanorc"
