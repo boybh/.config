@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh 
 # BIẾN MÔI TRƯỜNG
-export ZSH_CUSTOM="$HOME/.config/custom"
+export config="/mnt/e/config"
 export klbk="$config/kali-backup"
 export oe="/mnt/e"
 export od="/mnt/d"
@@ -18,8 +18,8 @@ export user="/mnt/c/user"
 export uboybh="/mnt/c/user/boybh"
 export file="/mnt/file"
 export vpsaddon="/mnt/file/addon"
-#export ZSH=$HOME/.oh-my-zsh/
-#export ZSH_CUSTOM=$ZSH/custom
+export ZSH=$HOME/.oh-my-zsh/
+export ZSH_CUSTOM=$ZSH/custom
 
 
 

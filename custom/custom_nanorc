@@ -1,0 +1,173 @@
+## === Tùy chọn cơ bản cho nano ===
+
+# -A, --smarthome: Kích hoạt phím Home thông minh (đi đến đầu dòng không trống)
+# set smarthome
+
+# -B, --backup: Lưu bản sao lưu của file gốc
+# set backup
+
+# -C <dir>, --backupdir=<dir>: Thư mục để lưu các file sao lưu
+# set backupdir "<đường dẫn đến thư mục sao lưu>"
+
+# -D, --boldtext: Sử dụng văn bản in đậm thay vì văn bản đảo ngược
+# set boldtext
+
+# -E, --tabstospaces: Chuyển tab thành dấu cách khi gõ
+# set tabstospaces
+
+# -F, --multibuffer: Tự động đọc file vào bộ đệm mới
+# set multibuffer
+
+# -G, --locking: Sử dụng file khóa kiểu vim
+# set locking
+
+# -H, --historylog: Lưu và tải lại các chuỗi tìm kiếm/thay thế cũ
+# set historylog
+
+# -I, --ignorercfiles: Không sử dụng các file cấu hình nanorc
+# set ignorercfiles
+
+# -J <number>, --guidestripe=<number>: Hiển thị thanh hướng dẫn tại cột này
+# set guidestripe <số_cột>
+
+# -K, --rawsequences: Sửa lỗi nhầm lẫn bàn phím số
+# set rawsequences
+
+# -L, --nonewlines: Không thêm dòng mới tự động
+# set nonewlines
+
+# -M, --trimblanks: Cắt khoảng trắng thừa khi gói cứng dòng
+# set trimblanks
+
+# -N, --noconvert: Không chuyển định dạng file từ DOS/Mac
+# set noconvert
+
+# -O, --bookstyle: Khoảng trắng đầu dòng nghĩa là đoạn văn mới
+# set bookstyle
+
+# -P, --positionlog: Lưu và khôi phục vị trí con trỏ
+# set positionlog
+
+# -Q <regex>, --quotestr=<regex>: Biểu thức chính quy để bắt chuỗi trích dẫn
+# set quotestr "<regex>"
+
+# -R, --restricted: Hạn chế truy cập hệ thống file
+# set restricted
+
+# -S, --softwrap: Hiển thị dòng dài trên nhiều hàng
+# set softwrap
+
+# -T <number>, --tabsize=<number>: Kích thước tab (số lượng cột)
+# set tabsize <số_cột>
+
+# -U, --quickblank: Xóa thanh trạng thái sau khi nhấn phím bất kỳ
+# set quickblank
+
+# -V, --version: Hiển thị thông tin phiên bản và thoát
+# set version
+
+# -W, --wordbounds: Nhận diện ranh giới từ chính xác hơn
+# set wordbounds
+
+# -X <string>, --wordchars=<string>: Các ký tự khác thuộc về từ
+# set wordchars "<ký tự>"
+
+# -Y <name>, --syntax=<name>: Định nghĩa cú pháp để tô màu
+# set syntax "<ngôn_ngữ>"
+
+# -Z, --zap: Cho phép phím Backspace và Delete xóa vùng đã đánh dấu
+# set zap
+
+# -a, --atblanks: Khi gói mềm, thực hiện ở khoảng trắng
+# set atblanks
+
+# -b, --breaklonglines: Tự động gói cứng các dòng dài
+# set breaklonglines
+
+# -c, --constantshow: Luôn hiển thị vị trí con trỏ
+# set constantshow
+
+# -d, --rebinddelete: Sửa lỗi nhầm lẫn giữa phím Backspace và Delete
+# set rebinddelete
+
+# -e, --emptyline: Giữ dòng trống bên dưới thanh tiêu đề
+# set emptyline
+
+# -f <file>, --rcfile=<file>: Chỉ sử dụng file cấu hình này cho nano
+# set rcfile "<đường_dẫn_đến_file>"
+
+# -g, --showcursor: Hiển thị con trỏ trong trình duyệt file và văn bản trợ giúp
+# set showcursor
+
+# -h, --help: Hiển thị văn bản trợ giúp và thoát
+# set help
+
+# -i, --autoindent: Tự động thụt lề cho các dòng mới
+# set autoindent
+
+# -j, --jumpyscrolling: Cuộn từng nửa màn hình thay vì từng dòng
+# set jumpyscrolling
+
+# -k, --cutfromcursor: Cắt từ vị trí con trỏ đến hết dòng
+# set cutfromcursor
+
+# -l, --linenumbers: Hiển thị số dòng phía trước văn bản
+# set linenumbers
+
+# -m, --mouse: Cho phép sử dụng chuột
+set mouse
+
+# -n, --noread: Không đọc file (chỉ ghi file)
+# set noread
+
+# -o <dir>, --operatingdir=<dir>: Thiết lập thư mục làm việc
+# set operatingdir "<đường_dẫn_đến_thư_mục>"
+
+# -p, --preserve: Giữ các phím XON (^Q) và XOFF (^S)
+# set preserve
+
+# -q, --indicator: Hiển thị chỉ báo vị trí
+# set indicator
+
+# -r <number>, --fill=<number>: Đặt chiều rộng để gói cứng và căn chỉnh
+# set fill <số_cột>
+
+# -s <program>, --speller=<program>: Sử dụng chương trình kiểm tra chính tả thay thế
+# set speller "<chương_trình>"
+
+# -t, --saveonexit: Tự động lưu thay đổi khi thoát mà không nhắc nhở
+# set saveonexit
+
+# -u, --unix: Lưu file mặc định ở định dạng Unix
+set unix
+
+# -v, --view: Chế độ chỉ đọc (không thể chỉnh sửa)
+# set view
+
+# -w, --nowrap: Không gói cứng dòng dài
+# set nowrap
+
+# -x, --nohelp: Không hiển thị hai dòng trợ giúp
+# set nohelp
+
+# -y, --afterends: Cho Ctrl+Phải dừng ở cuối từ
+set afterends
+
+# -z, --listsyntaxes: Liệt kê các cú pháp có sẵn
+set listsyntaxes
+
+# -@, --colonparsing: Chấp nhận ký hiệu 'filename:số_dòng'
+set colonparsing
+
+# -%, --stateflags: Hiển thị một số trạng thái trên thanh tiêu đề
+set stateflags
+
+# -_, --minibar: Hiển thị thanh phản hồi ở dưới cùng
+# set minibar
+
+# -0, --zero: Ẩn tất cả thanh, sử dụng toàn bộ terminal
+# set zero
+
+# -/, --modernbindings: Sử dụng các phím tắt phổ biến hơn
+set modernbindings
+

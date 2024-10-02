@@ -1,0 +1,50 @@
+#!/usr/bin/env zsh
+
+# Hàm để thực hiện chmod cho thư mục và các tập tin bên trong
+chmod_all() {
+  local perms=$1
+  local dir=$2
+
+  if [[ -z $perms || -z $dir ]]; then
+    echo "Usage: chmod_all <permissions> <directory>"
+    return 1
+  fi
+
+  if [[ $dir == '~' || $dir == '$HOME' ]]; then
+    dir=$HOME
+  fi
+
+  echo "Applying chmod $perms to $dir..."
+  sudo chmod -R $perms "$dir"
+  # Thêm quyền thực thi cho tất cả các tập tin trong thư mục
+  sudo find "$dir" -type f -exec chmod +x {} +
+}
+
+# Hàm để thực hiện chown cho thư mục và các tập tin bên trong
+chown_all() {
+  local owner=$1
+  local dir=$2
+
+  if [[ -z $owner || -z $dir ]]; then
+    echo "Usage: chown_all <user:group> <directory>"
+    return 1
+  fi
+
+  if [[ $dir == '~' || $dir == '$HOME' ]]; then
+    dir=$HOME
+  fi
+
+  echo "Applying chown $owner to $dir..."
+  sudo chown -R $owner "$dir"
+}
+
+# Chạy hàm tương ứng nếu script được gọi trực tiếp với tham số hợp lệ
+if [[ "${(%):-%n}" == "${(%):-%x}" && ( $1 == "chmod" || $1 == "chown" ) ]]; then
+  if [[ $1 == "chmod" ]]; then
+    chmod_all $2 $3
+  elif [[ $1 == "chown" ]]; then
+    chown_all $2 $3
+  else
+    echo "Usage: $0 <chmod|chown> <permissions|user:group> <directory>"
+  fi
+fi

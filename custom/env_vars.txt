@@ -1,0 +1,74 @@
+
+Name                           Value
+----                           -----
+__PSLockDownPolicy             0
+addon                          E:\config\zsh\addon
+ALLUSERSPROFILE                C:\ProgramData
+APPDATA                        C:\Users\boybh\AppData\Roaming
+apps                           E:\Apps
+AZURE_CLI_PATH                 E:\cmder\bin\scoop\apps\azure-cli\current\bin
+AzureCLIPath                   E:\cmder\bin\scoop\apps\azure-cli\current\bin
+bin                            E:\cmder\bin
+boybh                          C:\User\boybh
+ChocolateyInstall              E:\cmder\bin\chocolatey
+ChocolateyLastPathUpdate       133671442946291185
+ChocolateyToolsLocation        E:\cmder\bin\chocolatey\tools
+CMDER_ROOT                     E:\cmder
+CommonProgramFiles             C:\Program Files\Common Files
+CommonProgramFiles(x86)        C:\Program Files (x86)\Common Files
+CommonProgramW6432             C:\Program Files\Common Files
+COMPUTERNAME                   ACER
+ComSpec                        C:\WINDOWS\system32\cmd.exe
+config                         E:\config
+DriverData                     C:\Windows\System32\Drivers\DriverData
+git_install_root               E:\cmder\vendor\git-for-windows
+GIT_INSTALL_TYPE               USER
+HOMEDRIVE                      C:
+HOMEPATH                       \Users\boybh
+IntelliJ IDEA                  E:\cmder\bin\IntelliJ IDEA 2024.2.0.2\bin;
+JAVA_HOME                      C:\Program Files\Java\jre1.8.0_421
+LOCALAPPDATA                   C:\Users\boybh\AppData\Local
+LOGONSERVER                    \\ACER
+MAGICK_CODER_MODULE_PATH       E:\cmder\bin\scoop\apps\ImageMagick\current\modules\coders
+MAGICK_CONFIGURE_PATH          E:\cmder\bin\scoop\apps\ImageMagick\current
+MAGICK_HOME                    E:\cmder\bin\scoop\apps\ImageMagick\current
+NUMBER_OF_PROCESSORS           4
+NVM_HOME                       C:\Users\boybh\AppData\Roaming\nvm
+NVM_SYMLINK                    C:\Program Files\nodejs
+oe                             E:\
+OneDrive                       C:\Users\boybh\OneDrive
+OPENAI_API_KEY                 sk-proj-eQ_JzFe9-63VGLhqDulLOQGyCU9whv2naw6W4FmnXeQ0Itdf773-VOAaALT3BlbkFJboK0CEi8v6P5gR…
+OS                             Windows_NT
+Path                           E:\cmder\bin;E:\cmder\vendor\bin;E:\cmder\bin\7-preview;C:\Program Files\ImageMagick-7.1…
+PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW,PS1;.CPL
+PHP_INI_SCAN_DIR               E:\cmder\bin\scoop\apps\php\current\cli;E:\cmder\bin\scoop\apps\php\current\cli\conf.d;
+POWERSHELL_DISTRIBUTION_CHANN… MSI:Windows 10 Pro
+POWERSHELL_TELEMETRY_OPTOUT    1
+PROCESSOR_ARCHITECTURE         AMD64
+PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL                6
+PROCESSOR_REVISION             8e09
+ProgramData                    C:\ProgramData
+ProgramFiles                   C:\Program Files
+ProgramFiles(x86)              C:\Program Files (x86)
+ProgramW6432                   C:\Program Files
+PSExecutionPolicyPreference    Bypass
+PSModulePath                   C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Mo…
+PUBLIC                         C:\Users\Public
+pwsh                           E:\cmder\bin\7-preview\
+SystemDrive                    C:
+SystemRoot                     C:\WINDOWS
+TEMP                           C:\Users\boybh\AppData\Local\Temp
+TMP                            C:\Users\boybh\AppData\Local\Temp
+USERDOMAIN                     ACER
+USERDOMAIN_ROAMINGPROFILE      ACER
+USERNAME                       boybh
+USERPROFILE                    C:\Users\boybh
+VBOX_MSI_INSTALL_PATH          C:\Program Files\Oracle\VirtualBox\
+windir                         C:\WINDOWS
+WSLENV                         WT_SESSION:WT_PROFILE_ID:oe/p;bin/p;config/p;boybh/p;apps/p;z/p;
+WT_PROFILE_ID                  {c5225c3e-8619-4145-8182-2800814eeb17}
+WT_SESSION                     b4adc216-a4bb-45c2-b672-84b3e17011d6
+z                              E:\config\zsh
+ZES_ENABLE_SYSMAN              1
+
