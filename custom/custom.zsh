@@ -8,7 +8,7 @@ export oc="/mnt/c"
 export apps="$oe/apps"
 export addon="$config/zsh/addon"
 export z="$config/zsh"
-export cauhinh="$config/cauhinh"
+export cauhinh="/mnt/e/config/cauhinh"
 export FPATH="$ZSH/custom/plugins/eza/completions/zsh:$FPATH"
 export FZF_BASE="/root/.fzf/bin/fzf"
 export PATH="$HOME/usr/bin/zsh:$PATH"
@@ -23,11 +23,13 @@ export vpsaddon="/mnt/file/addon"
 
 
 
-#enable-fzf-tab
+enable-fzf-tab
 #SOURCE ADDION
 #source $addon/fzf-tab.zsh
 #source $addon/hoanthanh.zsh
 #source $addon/zstyle.zsh
+
+
 
 #alias sửa addon
 alias ezstyle='nano $addon/zstyle.zsh'
@@ -76,3 +78,7 @@ fi
 #source ~/.fzf/shell/completion.zsh
 #source ~/.fzf/shell/key-bindings.zsh
 #source /mnt/e/.boybh/addon/zplug.zsh
+zstyle ':omz:plugins:alias-finder' autoload yes # disabled by default
+zstyle ':omz:plugins:alias-finder' longer yes # disabled by default
+zstyle ':omz:plugins:alias-finder' exact yes # disabled by default
+zstyle ':omz:plugins:alias-finder' cheaper yes # disabled by default
