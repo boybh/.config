@@ -1,10 +1,10 @@
 #!/usr/bin/env zsh
 
 # Hiển thị thông tin dòng lệnh cơ bản
-PROMPT='%n@%m %~ %# '
+#PROMPT='%n@%m %~ %# '
 
 # Hiển thị thời gian hiện tại ở bên phải
-RPROMPT='%D{%L:%M:%S}'
+#RPROMPT='%D{%L:%M:%S}'
 
 # Kích hoạt hoàn thành .....
 autoload -Uz compinit; compinit
@@ -12,9 +12,10 @@ compinit -d ~/.cache/zcompdump
 
 # Customize completion styles
 zstyle ':completion:*' use-cache on
-zstyle ':completion:*' cache-path ~/.zsh/cache
+zstyle ':completion:*' cache-path ~/.cache
 zstyle ':completion:*:history-words' users "${USER}"
-
+zstyle ':fzf-tab:*' list-colors ''
+zstyle ':completion:*' list-colors ''
 zstyle ':completion:*:*:*:*:*' menu select=1
 zstyle ':completion:*' auto-description 'specify: %d'
 zstyle ':completion:*' auto-list yes
@@ -79,13 +80,13 @@ zstyle ':omz:lib:*' aliases yes
 zstyle ':omz:plugins:*' aliases yes
 
 # Bỏ qua các alias từ directories.zsh
-zstyle ':omz:lib:directories' aliases yes
+#zstyle ':omz:lib:directories' aliases yes
 
 # Tắt tính năng correction cho alias
-zstyle ':omz:lib:correction' aliases no
+#zstyle ':omz:lib:correction' aliases no
 
 # Bỏ qua alias từ plugin git
-zstyle ':omz:plugins:git' aliases yes
+#zstyle ':omz:plugins:git' aliases yes
 
 # Sử dụng async-prompt cho plugin git
 zstyle ':omz:alpha:lib:git' async-prompt yes
@@ -93,4 +94,4 @@ zstyle ':omz:alpha:lib:git' async-prompt yes
 # Cập nhật tự động cho Oh My Zsh
 zstyle ':omz:update' mode auto
 # Cấu hình màu sắc cho hoàn thành lệnh
-ZSH_HIGHLIGHT_HIGHLIGHTERS=(builtin)
+#ZSH_HIGHLIGHT_HIGHLIGHTERS=(builtin)
