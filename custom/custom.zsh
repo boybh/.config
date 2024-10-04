@@ -1,4 +1,3 @@
-#!/usr/bin/env zsh 
 # BIẾN MÔI TRƯỜNG
 export ZSH_CUSTOM="$HOME/.config/custom"
 export klbk="$config/kali-backup"
@@ -15,7 +14,6 @@ export PATH="$HOME/usr/bin/zsh:$PATH"
 export fzf="/root/.fzf/bin/fzf"
 export cs=$ZSH/custom
 export uboybh="/mnt/c/user/boybh"
-export file="/mnt/file"
 #export ZSH=$HOME/.oh-my-zsh/
 #export ZSH_CUSTOM=$ZSH/custom
 
@@ -58,8 +56,8 @@ if [ -f /etc/zsh_command_not_found ]; then
     . /etc/zsh_command_not_found
 fi
 
-if [ -f /mnt/e/config/cauhinh/aliases.zsh ]; then
-    source /mnt/e/config/cauhinh/aliases.zsh
+if [ -f /mnt/e/BACKUP/alias/aliases.zsh ]; then
+    source /mnt/e/BACKUP/alias/aliases.zsh
 fi
 
 #fpath+=(~/.oh-my-zsh/custom/plugins/fzf-tab)
