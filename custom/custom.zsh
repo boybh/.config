@@ -56,9 +56,9 @@ if [ -f /etc/zsh_command_not_found ]; then
     . /etc/zsh_command_not_found
 fi
 
-if [ -f /mnt/e/BACKUP/alias/aliases.zsh ]; then
-    source /mnt/e/BACKUP/alias/aliases.zsh
-fi
+#if [ -f /mnt/e/BACKUP/alias/aliases.zsh ]; then
+#    source /mnt/e/BACKUP/alias/aliases.zsh
+#fi
 
 #fpath+=(~/.oh-my-zsh/custom/plugins/fzf-tab)
 
