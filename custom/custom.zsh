@@ -21,7 +21,7 @@ export file="/mnt/file"
 
 
 
-enable-fzf-tab
+#enable-fzf-tab
 #SOURCE ADDION
 #source $addon/fzf-tab.zsh
 #source $addon/hoanthanh.zsh
