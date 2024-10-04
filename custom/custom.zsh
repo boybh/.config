@@ -6,7 +6,7 @@ export oe="/mnt/e"
 export od="/mnt/d"
 export oc="/mnt/c"
 export apps="$oe/apps"
-export addon="$config/zsh/addon"
+export addon="/mnt/e/config/zsh/addon"
 export z="$config/zsh"
 export cauhinh="/mnt/e/config/cauhinh"
 export FPATH="$ZSH/custom/plugins/eza/completions/zsh:$FPATH"
@@ -14,10 +14,8 @@ export FZF_BASE="/root/.fzf/bin/fzf"
 export PATH="$HOME/usr/bin/zsh:$PATH"
 export fzf="/root/.fzf/bin/fzf"
 export cs=$ZSH/custom
-export user="/mnt/c/user"
 export uboybh="/mnt/c/user/boybh"
 export file="/mnt/file"
-export vpsaddon="/mnt/file/addon"
 #export ZSH=$HOME/.oh-my-zsh/
 #export ZSH_CUSTOM=$ZSH/custom
 
@@ -60,8 +58,8 @@ if [ -f /etc/zsh_command_not_found ]; then
     . /etc/zsh_command_not_found
 fi
 
-if [ -f /mnt/e/.boybh/.aliases ]; then
-    source /mnt/e/.boybh/.aliases
+if [ -f /mnt/e/config/cauhinh/aliases.zsh ]; then
+    source /mnt/e/config/cauhinh/aliases.zsh
 fi
 
 #fpath+=(~/.oh-my-zsh/custom/plugins/fzf-tab)
