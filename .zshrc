@@ -95,10 +95,23 @@ plugins=(
     history-substring-search
     history
     emacs
-    F-Sy-H
     fancy-ctrl-z
     cdwin
-    alias-maker)
+    alias-maker
+    F-Sy-H
+    alias-tips
+    git-lfs
+    gnu-utils
+    heroku-alias
+    lighthouse
+    localstack
+    lpass
+    multipass
+    please
+    profiles
+    rails
+    urltools
+ terminitor autopep8 aws colemak git-escape-magic operator-sdk snap vim-interaction virtualenv)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -122,15 +135,18 @@ export LANGUAGE="vi_VN.UTF-8"
 # 2. Thiết lập thư mục custom cho các cấu hình
 # --------------------------------------------
 export config="~/.config"
-#export ZSH_CUSTOM="$HOME/.config/custom"
+export ZSH_CUSTOM="$HOME/.config/custom"
+zstyle ':fzf-tab:*' list-colors ''
+zstyle ':completion:*' list-colors ''
 
 
 # 3. Cấu hình alias (bí danh) cho các lệnh thường dùng
 # ----------------------------------------------------
 alias c='clear'
 alias h='history'
-if [ -f /mnt/e/.boybh/.aliases ]; then
-    source /mnt/e/.boybh/.aliases
+
+if [ -f /mnt/e/config/cauhinh/aliases.zsh ]; then
+    source /mnt/e/config/cauhinh/aliases.zsh
 fi
 
 # 5. Đường dẫn cho các công cụ (path)
@@ -148,5 +164,14 @@ alias naplai='source ~/.zshrc'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 enable-fzf-tab
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
+
+source ~/.config/custom/plugins/zsh_extended_plugin.zsh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+source ~/gitstatus/gitstatus.prompt.zsh
