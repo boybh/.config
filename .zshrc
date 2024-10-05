@@ -1,8 +1,10 @@
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
-
+export LANG=vi_VN.UTF-8
+export LC_ALL=vi_VN.UTF-8
 export ZSH="$HOME/.oh-my-zsh"
+export ZSH_CUSTOM="$HOME/.config/custom"
 
 ZSH_THEME="powerlevel10k/powerlevel9k" # set by `omz`
 
@@ -96,10 +98,7 @@ plugins=(
     history
     emacs
     fancy-ctrl-z
-    cdwin
-    alias-maker
     F-Sy-H
-    alias-tips
     git-lfs
     gnu-utils
     heroku-alias
@@ -111,7 +110,17 @@ plugins=(
     profiles
     rails
     urltools
- terminitor autopep8 aws colemak git-escape-magic operator-sdk snap vim-interaction virtualenv)
+    terminitor
+    autopep8
+    aws
+    colemak
+    git-escape-magic
+    operator-sdk
+    snap
+    vim-interaction
+    alias-maker
+    zsh-bat
+    vundle runbat)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -170,8 +179,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
-
-source ~/.config/custom/plugins/zsh_extended_plugin.zsh
+source ~/gitstatus/gitstatus.prompt.zsh
+#source ~/.config/custom/plugins/zsh_extended_plugin.zsh
+#unsetopt zle
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-source ~/gitstatus/gitstatus.prompt.zsh
