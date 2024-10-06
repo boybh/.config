@@ -144,7 +144,6 @@ bindkey "^[m" copy-prev-shell-word
 #bindkey '^I' complete-word
 ## Sửa chuỗi kỳ lạ mà rxvt tạo ra
 #bindkey -s '^[[Z' '\t'
-#!/usr/bin/env zsh
 
 # Kích hoạt chế độ phím điều khiển kiểu Emacs
 bindkey -e
