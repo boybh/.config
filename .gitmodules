@@ -7,9 +7,12 @@
 [submodule "custom/plugins/alt-and-select"]
 	path = ~/.config/custom/plugins/alt-and-select
 	url = https://github.com/rastislavcore/alt-and-select
-[submodule "custom/F-Sy-H"]
+[suybmodule "custom/F-Sy-H"]
          path = ~/.config/custom/F-Sy-H
          url = https://github.com/z-shell/F-Sy-H
 [submodule "fzf-tab"]
 	path = fzf-tab
 	url = https://github.com/Aloxaf/fzf-tab
+[submodule "custom/auto-py-to-exe"]
+	path = custom/auto-py-to-exe
+	url = https://github.com/brentvollebregt/auto-py-to-exe.git
