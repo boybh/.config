@@ -1,11 +1,12 @@
 # BIẾN MÔI TRƯỜNG
+
 export ZSH_CUSTOM="$HOME/.config/custom"
 export klbk="$config/kali-backup"
 export oe="/mnt/e"
 export od="/mnt/d"
 export oc="/mnt/c"
 export apps="$oe/apps"
-export addon="/mnt/e/config/zsh/addon"
+export addon="$HOME/.config/addon"
 export z="$config/zsh"
 export cauhinh="/mnt/e/config/cauhinh"
 export FPATH="$ZSH/custom/plugins/eza/completions/zsh:$FPATH"
