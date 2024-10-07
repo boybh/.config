@@ -1,5 +1,6 @@
-#!/usr/bin/env zsh
-
+#!/usr/bin/env zsh 
+# OPTs to enable
+autoload -Uz compinit && compinit
 setopt SHARE_HISTORY		# Tùy chọn để chia sẻ lịch sử lệnh giữa các phiên làm việc của Zsh.
 setopt INC_APPEND_HISTORY
 setopt HASH_LIST_ALL		# Tùy chọn để hiển thị tất cả các lệnh trong danh sách hash.
@@ -29,7 +30,4 @@ setopt INTERACTIVE_COMMENTS 	# Cho phép sử dụng chú thích trong các lệ
 setopt BANG_HIST 		# Cho phép sử dụng ký tự ! (bang) trong lệnh lịch sử để thực thi lệnh từ lịch sử.
 setopt hist_verify		# Zsh giúp bạn kiểm tra và xác nhận lệnh trước khi thực thi khi bạn sử dụng mở rộng lịch sử lệnh. 
 setopt prompt_subst		# Cho phép biến trong prompt được xử lý khi nhiều dòng được nhập
-
-# Tùy chọn không phân biệt chữ hoa và chữ thường
-setopt NO_CASE_GLOB
-setopt NO_CASE_MATCH
+setopt interactive
