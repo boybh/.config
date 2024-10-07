@@ -1,4 +1,4 @@
-
+#!/usr/bin/env zsh
 alias suacus="sudo nano /root/.oh-my-zsh/custom/custom.zsh"
 alias xc='$ZSH_CUSTOM'
 alias excus="$zsh_custom/example.zsh"
@@ -64,7 +64,7 @@ alias dev="yarn dev"
 alias gs="git status"
 alias gb="git branch"
 alias gr="git remote -v"
-alias ga="git add ."
+alias ga="cd ~/.config && git add ."
 alias gc="git commit --no-verify -m"
 alias gca="git commit --no-verify --amend -m"
 alias gp="git push origin"
@@ -261,3 +261,4 @@ alias copyf="xsel --clipboard <"
 alias lld="eza --icons --group-directories-first --color=auto -axliF -a --sort=modified"
 alias ali="/mnt/e/config/cauhinh/aliases.zsh"
 alias upali="cp /mnt/e/config/cauhinh/aliases.zsh ~/.config/aliases.zsh"
+alias gc.="gc "Cập nhật""
