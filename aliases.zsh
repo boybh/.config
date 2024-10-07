@@ -261,4 +261,5 @@ alias copyf="xsel --clipboard <"
 alias lld="eza --icons --group-directories-first --color=auto -axliF -a --sort=modified"
 alias ali="/mnt/e/config/cauhinh/aliases.zsh"
 alias upali="cp /mnt/e/config/cauhinh/aliases.zsh ~/.config/aliases.zsh"
-alias gc.="gc "Cập nhật""
+alias gc.='gc "Cập nhật"'
+alias gc-a="git commit -a"
