@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh 
+
 alias suacus="sudo nano /root/.oh-my-zsh/custom/custom.zsh"
 alias xc='$ZSH_CUSTOM'
 alias excus="$zsh_custom/example.zsh"
@@ -254,3 +254,9 @@ alias capnhat_zshrc="sudo cp -rf /root/.zshrc /root/.config/.zshrc"
 alias curlw="/mnt/c/WINDOWS/system32/curl.exe"
 alias gpc="git push origin config"
 alias zsh_custom="$ZSH_CUSTOM"
+alias vi~="svi $HOME/.zshrc"
+alias .c="/root/.config"
+alias xclip="xclip -selection clipboard <"
+alias copyf="xsel --clipboard <"
+alias lld="eza --icons --group-directories-first --color=auto -axliF -a --sort=modified"
+alias ali="/mnt/e/config/cauhinh/aliases.zsh"
