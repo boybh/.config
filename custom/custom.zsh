@@ -1,5 +1,5 @@
+#!/usr/bin/env zsh 
 # BIẾN MÔI TRƯỜNG
-
 export ZSH_CUSTOM="$HOME/.config/custom"
 export klbk="$config/kali-backup"
 export oe="/mnt/e"
@@ -10,11 +10,13 @@ export addon="$HOME/.config/addon"
 export z="$config/zsh"
 export cauhinh="/mnt/e/config/cauhinh"
 export FPATH="$ZSH/custom/plugins/eza/completions/zsh:$FPATH"
-export FZF_BASE="/root/.fzf/bin/fzf"
+export FZF_BASE="~/.fzf/bin/fzf"
 export PATH="$HOME/usr/bin/zsh:$PATH"
-export fzf="/root/.fzf/bin/fzf"
+export fzf="$HOME/.fzf/bin/fzf"
 export cs=$ZSH/custom
 export uboybh="/mnt/c/user/boybh"
+export DISPLAY=:0
+#export ali="$cauhinh/aliases.zsh"
 #export ZSH=$HOME/.oh-my-zsh/
 #export ZSH_CUSTOM=$ZSH/custom
 
@@ -72,8 +74,8 @@ fi
 #fi
 
 # Thêm đường dẫn đến fzf vào ~/.zshrc
-#source ~/.fzf/shell/completion.zsh
-#source ~/.fzf/shell/key-bindings.zsh
+source ~/.fzf/shell/completion.zsh
+source ~/.fzf/shell/key-bindings.zsh
 #source /mnt/e/.boybh/addon/zplug.zsh
 zstyle ':omz:plugins:alias-finder' autoload yes # disabled by default
 zstyle ':omz:plugins:alias-finder' longer yes # disabled by default
@@ -84,4 +86,4 @@ zstyle ':omz:plugins:alias-finder' cheaper yes # disabled by default
 source $addon/opt.zsh
 source $addon/bindkey.zsh
 source $addon/tmux_custom.zsh
-source ~/.config/addon/hoanthanh_zstyle.zsh
+#source ~/.config/addon/hoanthanh_zstyle.zsh
