@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh 
+#!/usr/bin/zsh
 # BIẾN MÔI TRƯỜNG
 export ZSH_CUSTOM="$HOME/.config/custom"
 export klbk="$config/kali-backup"
@@ -13,22 +13,21 @@ export FPATH="$ZSH/custom/plugins/eza/completions/zsh:$FPATH"
 export FZF_BASE="~/.fzf/bin/fzf"
 export PATH="$HOME/usr/bin/zsh:$PATH"
 export fzf="$HOME/.fzf/bin/fzf"
-export cs=$ZSH/custom
-export uboybh="/mnt/c/user/boybh"
+export cso=$ZSH/custom
+export cs="~/.config/custom"
+
 
 #export ali="$cauhinh/aliases.zsh"
 #export ZSH=$HOME/.oh-my-zsh/
 #export ZSH_CUSTOM=$ZSH/custom
 
-
-
 #enable-fzf-tab
 #SOURCE ADDION
+source $addon/eza.zsh
+source $addon/fzf_widget.zsh
 #source $addon/fzf-tab.zsh
 #source $addon/hoanthanh.zsh
 #source $addon/zstyle.zsh
-
-
 
 #alias sửa addon
 alias ezstyle='nano $addon/zstyle.zsh'
@@ -38,7 +37,7 @@ WORDCHARS=${WORDCHARS//\/} # Don't consider certain characters part of the word
 PROMPT_ALTERNATIVE=twoline
 NEWLINE_BEFORE_PROMPT=yes
 # hide EOL sign ('%')
-PROMPT_EOL_MARK=""
+#PROMPT_EOL_MARK="%"
 
 # Đường dẫn và biến môi trường khác
 #export PATH="$PATH:/root/.cargo/bin"
@@ -66,7 +65,7 @@ fi
 #fpath+=(~/.oh-my-zsh/custom/plugins/fzf-tab)
 
 
-#FZF_ALT_C_COMMAND= source <(fzf --zsh)
+FZF_ALT_C_COMMAND= source <(fzf --zsh)
 # Khởi động SSH agent và thêm khóa vào mỗi lần mở shell
 #if [ -z "$SSH_AUTH_SOCK" ]; then
 #    eval "$(ssh-agent -s)"
@@ -75,7 +74,7 @@ fi
 
 # Thêm đường dẫn đến fzf vào ~/.zshrc
 #source ~/.fzf/shell/completion.zsh
-source ~/.fzf/shell/key-bindings.zsh
+#source ~/.fzf/shell/key-bindings.zsh
 #source /mnt/e/.boybh/addon/zplug.zsh
 zstyle ':omz:plugins:alias-finder' autoload yes # disabled by default
 zstyle ':omz:plugins:alias-finder' longer yes # disabled by default
@@ -85,5 +84,8 @@ zstyle ':omz:plugins:alias-finder' cheaper yes # disabled by default
 # SOURCE CUSTOM
 source $addon/opt.zsh
 source $addon/bindkey.zsh
-source $addon/tmux_custom.zsh
+#source $addon/tmux_custom.zsh
 source $addon/hoanthanh_zstyle.zsh
+
+# Download Znap, if it's not there yet.
+source ~/.config/znap_custom.zsh
