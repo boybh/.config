@@ -1,0 +1,14 @@
+{
+    "blocks": [
+        {
+            "type": "text",
+            "style": "powerline",
+            "properties": {
+                "text": "My Custom Prompt",
+                "foreground": "white",
+                "background": "blue"
+            }
+        }
+        // Thêm các block khác nếu cần
+    ]
+}
