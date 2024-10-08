@@ -15,7 +15,7 @@ export PATH="$HOME/usr/bin/zsh:$PATH"
 export fzf="$HOME/.fzf/bin/fzf"
 export cs=$ZSH/custom
 export uboybh="/mnt/c/user/boybh"
-export DISPLAY=:0
+
 #export ali="$cauhinh/aliases.zsh"
 #export ZSH=$HOME/.oh-my-zsh/
 #export ZSH_CUSTOM=$ZSH/custom

@@ -5,3 +5,4 @@ config=~/.config
 
 # Alias để nhanh chóng chuyển đến thư mục dự án
 alias cdc="cd $config"
+
