@@ -1,10 +1,13 @@
-#!/usr/bin/zsh
+# Cấu hình znap
 zstyle ':znap:*' repos-dir ~/.config/znap
-zstyle ':znap:*' auto-compile no
+zstyle ':znap:*' auto-compile yes
+zstyle '*:compinit' arguments -D -i -u -C -w
 # Kiểm tra và tải znap
 [[ -r ~/.config/znap/znap.zsh ]] ||
     git clone --depth 1 -- https://github.com/marlonrichert/zsh-snap.git ~/.config/znap
 source ~/.config/znap/znap.zsh
+
+#source ~/.config/znap_plugin.zsh
 
 # Cấu hình prompt
 # `znap prompt` giúp hiển thị prompt nhanh chóng trong khoảng 15-40ms!
@@ -13,11 +16,26 @@ znap prompt romkatv/powerlevel10k
 # Khởi động các plugin
 # `znap source` bắt đầu các plugin.
 znap source marlonrichert/zsh-autocomplete
-znap source ohmyzsh/ohmyzsh
-znap source ytet5uy4/fzf-widgets
+#znap source ytet5uy4/fzf-widgets
 znap source Aloxaf/fzf-tab
 znap source marlonrichert/zcolors
+znap source MefitHp/alias-maker
+znap source marlonrichert/zsh-edit
+znap source boybh/.config
+# Plugins boybh
+znap source boybh/.config custom/plugins/selectall
+znap source boybh/.config custom/plugins/alias-maker
+
 znap eval zcolors "zcolors ${(q)LS_COLORS}"
+znap eval selectall
+
+# Plugin oh-my-zsh
+znap source sorin-ionescu/prezto modules/{environment,history}
+znap source ohmyzsh/ohmyzsh \
+    'lib/(*~(git|theme-and-appearance).zsh)' plugins/git plugins/alias-finder
+
+# Bỏ Qua Các Kho Không Đồng Bộ
+zstyle ':znap:pull:*' exclude MefitHp/alias-maker boybh/.config
 
 # Tối ưu hóa hiệu suất
 # `znap eval` giúp việc đánh giá đầu ra của lệnh được nhanh hơn gấp 10 lần.
@@ -27,12 +45,14 @@ znap eval iterm2 'curl -fsSL https://iterm2.com/shell_integration/zsh'
 # các tệp riêng lẻ:
 znap eval omz-git 'curl -fsSL \
 	https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/plugins/git/git.plugin.zsh'
-znap eval omz-git 'curl -fsSL \
+znap eval omz-alias-finder 'curl -fsSL \
 	https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/plugins/alias-finder/alias-finder.plugin.zsh'
-znap eval omz-git 'curl -fsSL \
+znap eval omz-aliases 'curl -fsSL \
 	https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/plugins/aliases/aliases.plugin.zsh'
-znap eval omz-git 'curl -fsSL \
+znap eval omz-eza 'curl -fsSL \
 	 https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/plugins/eza/eza.plugin.zsh'
+
+
 # Lazy-loading (tải khi cần)
 # `znap function` cho phép bạn tải các tính năng mà bạn không luôn cần.
 znap function _pyenv pyenv "znap eval pyenv 'pyenv init - --no-rehash'"
@@ -53,4 +73,4 @@ compdef       _pipenv pipenv
 
 # Cài đặt các lệnh và hoàn thành
 # `znap install` thêm các lệnh mới và hoàn thành.
-znap install zsh-users/zsh-completions
+znap install zsh-users/zsh-completions Aloxaf/fzf-tab
