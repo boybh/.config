@@ -16,3 +16,6 @@
 [submodule "custom/auto-py-to-exe"]
 	path = custom/auto-py-to-exe
 	url = https://github.com/brentvollebregt/auto-py-to-exe.git
+[submodule "F-Sy-H"]
+	path = F-Sy-H
+	url = https://github.com/z-shell/F-Sy-H.git
