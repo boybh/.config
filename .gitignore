@@ -9,7 +9,7 @@
 .vim/plugged/
 .ssh/
 .oh-my-zsh/
-
+gh/
 
 # Bỏ qua các tập tin
 *Zone.Identifier
