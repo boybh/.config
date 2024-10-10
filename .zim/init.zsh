@@ -2,8 +2,8 @@
 # EDIT THE SOURCE FILE AND THEN RUN zimfw build. DO NOT DIRECTLY EDIT THIS FILE!
 
 if [[ -e ${ZIM_CONFIG_FILE:-${ZDOTDIR:-${HOME}}/.zimrc} ]] zimfw() { source "${HOME}/.config/.zim/zimfw.zsh" "${@}" }
-fpath=("${HOME}/.config/.zim/modules/git/functions" "${HOME}/.config/.zim/modules/utility/functions" "${HOME}/.config/.zim/modules/archive/functions" "${HOME}/.config/.zim/modules/duration-info/functions" "${HOME}/.config/.zim/modules/git-info/functions" "${HOME}/.config/.zim/modules/zsh-completions/src" "${HOME}/.config/.zim/modules/F-Sy-H/functions" ${fpath})
-autoload -Uz -- git-alias-lookup git-branch-current git-branch-delete-interactive git-branch-remote-tracking git-dir git-ignore-add git-root git-stash-clear-interactive git-stash-recover git-submodule-move git-submodule-remove mkcd mkpw archive lsarchive unarchive duration-info-precmd duration-info-preexec coalesce git-action git-info fast-highlight fast-string-highlight fast-theme
+fpath=("${HOME}/.config/.zim/modules/git/functions" "${HOME}/.config/.zim/modules/utility/functions" "${HOME}/.config/.zim/modules/archive/functions" "${HOME}/.config/.zim/modules/duration-info/functions" "${HOME}/.config/.zim/modules/git-info/functions" "${HOME}/.config/.zim/modules/zsh-completions/src" ${fpath})
+autoload -Uz -- git-alias-lookup git-branch-current git-branch-delete-interactive git-branch-remote-tracking git-dir git-ignore-add git-root git-stash-clear-interactive git-stash-recover git-submodule-move git-submodule-remove mkcd mkpw archive lsarchive unarchive duration-info-precmd duration-info-preexec coalesce git-action git-info
 source "${HOME}/.config/.zim/modules/environment/init.zsh"
 source "${HOME}/.config/.zim/modules/git/init.zsh"
 source "${HOME}/.config/.zim/modules/input/init.zsh"
@@ -12,19 +12,19 @@ source "${HOME}/.config/.zim/modules/utility/init.zsh"
 source "${HOME}/.config/.zim/modules/archive/init.zsh"
 source "${HOME}/.config/.zim/modules/duration-info/init.zsh"
 source "${HOME}/.config/.zim/modules/asciiship/asciiship.zsh-theme"
-source "${HOME}/.config/.zim/modules/completion/init.zsh"
 source "${HOME}/.config/.zim/modules/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 source "${HOME}/.config/.zim/modules/zsh-history-substring-search/zsh-history-substring-search.zsh"
 source "${HOME}/.config/.zim/modules/zsh-autosuggestions/zsh-autosuggestions.zsh"
+source "${HOME}/.config/.zim/modules/zim-zoxide/init.zsh"
 source "${HOME}/.config/.zim/modules/fzf-tab/fzf-tab.zsh"
 source "${HOME}/.config/.zim/modules/ohmyzsh/plugins/perl/perl.plugin.zsh"
 source "${HOME}/.config/.zim/modules/ohmyzsh/plugins/aliases/aliases.plugin.zsh"
+source "${HOME}/.config/.zim/modules/ohmyzsh/plugins/alias-finder/alias-finder.plugin.zsh"
 source "${HOME}/.config/.zim/modules/ohmyzsh/plugins/ansible/ansible.plugin.zsh"
 source "${HOME}/.config/.zim/modules/ohmyzsh/plugins/apache2-macports/apache2-macports.plugin.zsh"
+source "${HOME}/.config/custom/plugins/alias-maker/alias-maker.plugin.zsh"
 source "${HOME}/.config/.zim/modules/ohmyzsh/plugins/bundler/bundler.plugin.zsh"
 source "${HOME}/.config/.zim/modules/ohmyzsh/plugins/branch/branch.plugin.zsh"
-source "${HOME}/.config/.zim/modules/ohmyzsh/plugins/cake/cake.plugin.zsh"
-source "${HOME}/.config/.zim/modules/ohmyzsh/plugins/cakephp3/cakephp3.plugin.zsh"
 source "${HOME}/.config/.zim/modules/ohmyzsh/plugins/colored-man-pages/colored-man-pages.plugin.zsh"
 source "${HOME}/.config/.zim/modules/ohmyzsh/plugins/common-aliases/common-aliases.plugin.zsh"
 source "${HOME}/.config/.zim/modules/ohmyzsh/plugins/command-not-found/command-not-found.plugin.zsh"
@@ -41,6 +41,7 @@ source "${HOME}/.config/.zim/modules/ohmyzsh/plugins/eza/eza.plugin.zsh"
 source "${HOME}/.config/.zim/modules/ohmyzsh/plugins/extract/extract.plugin.zsh"
 source "${HOME}/.config/.zim/modules/ohmyzsh/plugins/fasd/fasd.plugin.zsh"
 source "${HOME}/.config/.zim/modules/ohmyzsh/plugins/fastfile/fastfile.plugin.zsh"
+source "${HOME}/.config/.zim/modules/ohmyzsh/plugins/fzf/fzf.plugin.zsh"
 source "${HOME}/.config/.zim/modules/ohmyzsh/plugins/fnm/fnm.plugin.zsh"
 source "${HOME}/.config/.zim/modules/ohmyzsh/plugins/frontend-search/frontend-search.plugin.zsh"
 source "${HOME}/.config/.zim/modules/ohmyzsh/plugins/gcloud/gcloud.plugin.zsh"
@@ -89,4 +90,3 @@ source "${HOME}/.config/.zim/modules/ohmyzsh/plugins/colorize/colorize.plugin.zs
 source "${HOME}/.config/.zim/modules/ohmyzsh/plugins/compleat/compleat.plugin.zsh"
 source "${HOME}/.config/.zim/modules/ohmyzsh/plugins/history-substring-search/history-substring-search.zsh"
 source "${HOME}/.config/.zim/modules/ohmyzsh/plugins/history/history.plugin.zsh"
-source "${HOME}/.config/.zim/modules/F-Sy-H/F-Sy-H.plugin.zsh"
