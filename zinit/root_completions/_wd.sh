@@ -1,0 +1,1 @@
+/root/.config/zinit/plugins/ohmyzsh---ohmyzsh/plugins/wd/_wd.sh
