@@ -1168,3 +1168,53 @@ sudo apt install -y eza
 : 1733517919:0;cd .config/
 : 1733517928:0;cd ~/.config/
 : 1733517934:0;git add .
+: 1733517940:0;git add sudo apt-get install -y
+: 1733517991:0;git add /root/.config/custom/plugins/find-file/find-file.plugin.zsh
+: 1733518009:0;gmm "plugins update"
+: 1733518020:0;git push config config --force
+: 1733518023:0;gr
+: 1733518043:0;gh branch
+: 1733518051:0;gh completion -s zsh > /usr/local/share/zsh/site-functions/_gh
+: 1733518059:0;gh
+: 1733518071:0;gh --help
+: 1733518087:0;git checkout kali
+: 1733518129:0;git branch --list
+: 1733518159:0;git remote remove origin
+: 1733518168:0;git remote add config git@github.com:boybh/.config
+: 1733518175:0;git add /root/.config/custom/plugins/find-file/find-file.plugin.zsh
+: 1733518179:0;gmm "plugins update"
+: 1733518217:0;git config --global user.signingkey
+: 1733518221:0;gmm "plugins update"
+: 1733518227:0;gpg --list-secret-keys --keyid-format LONG
+: 1733518249:0;git config --global user.signingkey 38D2340D6C04DD3B64FAAC7D37748AC7B56C5D5A
+: 1733518260:0;gpgconf --kill gpg-agent\
+gpg --list-keys\
+
+: 1733518276:0;git config --global commit.gpgSign false
+: 1733518281:0;git push config config --force
+: 1733518304:0;gh auth status
+: 1733518316:0;gh auth login -h github.com
+: 1733518359:0;gh auth login
+: 1733518405:0;gh auth status
+: 1733518418:0;git push config config --force
+: 1733518433:0;gr
+: 1733518439:0;l
+: 1733518467:0;ls -al ~/.ssh
+: 1733518483:0;ssh -T git@github.com
+: 1733518510:0;cat ~/.ssh/id_ed25519.pub
+: 1733518514:0;ssh -T git@github.com
+: 1733518551:0;eval "$(ssh-agent -s)"\
+ssh-add ~/.ssh/id_rsa\
+
+: 1733518569:0;eval "$(ssh-agent -s)"\
+ssh-add ~/.ssh/id_ed25519
+: 1733518581:0;ssh -T git@github.com
+: 1733518614:0;gh auth login
+: 1733518696:0;cat /root/.config/gh/hosts.yml
+: 1733518707:0;gh auth login
+: 1733518821:0;gh auth status
+: 1733518834:0;git push config config --force
+: 1733518843:0;git add /root/.config/custom/plugins/find-file/find-file.plugin.zsh
+: 1733518852:0;gmm "plugins updates"
+: 1733518857:0;git push config config --force
+: 1733518891:0;git commit -a

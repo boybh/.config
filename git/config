@@ -117,7 +117,7 @@
 [fetch "fsck"]
 	badTimezone = warn
 [commit]
-	gpgsign = true
+	gpgSign = false
 [tag]
 	# after git 2.23
 	gpgSign = true
