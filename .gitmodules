@@ -1,3 +1,0 @@
-[submodule "custom/plugins/zsh-autopair"]
-	path = custom/plugins/zsh-autopair
-	url = https://github.com/hlissner/zsh-autopair

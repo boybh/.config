@@ -1002,3 +1002,8 @@ echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | sudo tee /etc/apt/
 : 1733476425:0;l
 : 1733476433:0;cd ~/.config/
 : 1733476439:0;git add .
+: 1733476446:0;gmm "plugins all"
+: 1733476450:0;git push config config --force
+: 1733476486:0;nn .gitmodules
+: 1733476498:0;d .gitmodules
+: 1733476502:0;git add .
