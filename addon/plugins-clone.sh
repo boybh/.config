@@ -1,15 +1,21 @@
 #!/bin/zsh
+source $HOME/.config/addon/plugin-all.zsh
+plugin-clone hlissner/zsh-autopair
 #plc ohmyzsh/ohmyzsh
 #plc wfxr/forgit
 #plc zdharma-continuum/zinit-annex-rust
 #plc zdharma-continuum/zinit-annex-patch-dl
 #plc Aloxaf/fzf-tab
-plc kutsan/zsh-system-clipboard
+plugin-clone kutsan/zsh-system-clipboard
 #git clone https://github.com/TamCore/autoupdate-oh-my-zsh-plugins $ZSH_CUSTOM/plugins/autoupdate
-plc Freed-Wu/fzf-tab-source
+plugin-clone Freed-Wu/fzf-tab-source
 #plc fdellwing/zsh-bat
-plc zimfw/zimfw
-
+plugin-clone zimfw/zimfw
+plugin-clone MenkeTechnologies/zsh-expand
+plugin-clone zsh-users/zsh-history-substring-search
+plugin-clone kutsan/zsh-system-clipboard
+plugin-clone zdharma-continuum/fast-syntax-highlighting
+plugin-clone Tarrasch/zsh-autoenv
 # Install On-My-Zsh
 if [ ! -d $HOME/.oh-my-zsh ]; then
     sh -c "$(curl https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" --unattended
@@ -19,7 +25,7 @@ fi
 
 # Set ZSH_CUSTOM if it's not already (used by our PLUGINS_PATH below)
 if [ -z $ZSH_CUSTOM ]; then
-    ZSH_CUSTOM="$HOME/.config/custom"
+    export ZSH_CUSTOM="$HOME/.config/custom"
 fi
 
 # Install additional plugins to this path
@@ -38,12 +44,12 @@ function install-plugin() {
     plugin_list="${plugin_list}$plugin_name "
 }
 
-echo "Installing Plugins..."
-install-plugin https://github.com/djui/alias-tips alias-tips
+#echo "Installing Plugins..."
+#install-plugin https://github.com/djui/alias-tips alias-tips
 #install-plugin https://github.com/wting/autojump autojump
-install-plugin https://github.com/TamCore/autoupdate-oh-my-zsh-plugins autoupdate
-install-plugin https://github.com/zsh-users/zsh-autosuggestions autosuggestions
-install-plugin https://github.com/Aloxaf/fzf-tab fzf-tab
-echo "Plugins Installed. Add them by copying th following into your ~/.config/.zshrc
-    plugins=( $plugin_list )
-"
+#install-plugin https://github.com/TamCore/autoupdate-oh-my-zsh-plugins autoupdate
+#install-plugin https://github.com/zsh-users/zsh-autosuggestions autosuggestions
+#install-plugin https://github.com/Aloxaf/fzf-tab fzf-tab
+#echo "Plugins Installed. Add them by copying th following into your ~/.config/.zshrc
+#    plugins=( $plugin_list )
+#"

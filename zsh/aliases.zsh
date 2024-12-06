@@ -4,7 +4,6 @@ alias xc='$ZSH_CUSTOM'
 alias excus="$zsh_custom/example.zsh"
 alias add="python3 /mnt/e/config/zsh/addon/add.py"
 alias aio="/mnt/e/config/zsh/addon/aio.sh"
-alias beef="/home/beef/"
 alias suabien="nano /mnt/e/config/zsh/bien.zsh"
 alias runkali='python3 "/mnt/e/config/zsh/addon/kali.py"'
 
@@ -365,7 +364,6 @@ alias opl='omz plugin load'
 alias opd='omz plugin disable'
 #alias --help='--help 2>&1 | batcat --language=help --style=Fusion | trans -b vi'
 alias scut='sudo mv -if'
-alias xoa='sudo rm -rf'
 alias caighex='/home/kali/.config/addon/gh_ex.sh'
 alias dich='trans -b :vi'
 alias -g -- --help="--help ... 2>&1 | bat --language=help --style=plain"
@@ -390,3 +388,5 @@ alias caioh='sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyz
 alias .z='nano ~/.config/.zshrc'
 alias f5='source ~/.config/.zshrc'
 alias caiplugin='install-plugin'
+alias d='sudo rm -rf'
+alias cut='sudo mv -if'

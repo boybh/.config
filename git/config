@@ -134,3 +134,25 @@
 	user = Freed-Wu
 [oh-my-zsh]
 	git-commit-alias = 69a6359f7cf8978d464573fb7b023ee3cd00181a
+[maintenance]
+	repo = /root/.config/custom/plugins/alias-tips
+	repo = /root/.config/custom/plugins/autosuggestions
+	repo = /root/.config/custom/plugins/autoupdate
+	repo = /root/.config/custom/plugins/fast-syntax-highlighting
+	repo = /root/.config/custom/plugins/fzf-tab
+	repo = /root/.config/custom/plugins/fzf-tab-source
+	repo = /root/.config/custom/plugins/zcolors
+	repo = /root/.config/custom/plugins/zimfw
+	repo = /root/.config/custom/plugins/zinit
+	repo = /root/.config/custom/plugins/zinit-annex-patch-dl
+	repo = /root/.config/custom/plugins/zinit-annex-rust
+	repo = /root/.config/custom/plugins/zsh-autocomplete
+	repo = /root/.config/custom/plugins/zsh-autopair
+	repo = /root/.config/custom/plugins/zsh-autosuggestions
+	repo = /root/.config/custom/plugins/zsh-bat
+	repo = /root/.config/custom/plugins/zsh-defer
+	repo = /root/.config/custom/plugins/zsh-expand
+	repo = /root/.config/custom/plugins/zsh-history-substring-search
+	repo = /root/.config/custom/plugins/zsh-snap
+	repo = /root/.config/custom/plugins/zsh-system-clipboard
+	repo = /root/.config/custom/plugins/zsh_unplugged
