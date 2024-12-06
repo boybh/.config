@@ -1,0 +1,136 @@
+[user]
+	name = boybh
+	email = lygiaquan@icloud.com
+	signingkey = 38D2340D6C04DD3B64FAAC7D37748AC7B56C5D5A
+[feature]
+	manyFiles = true
+	experimental = true
+[pull]
+	rebase = true
+[push]
+	tags = true
+	autoSetupRemote = true
+[receive]
+	denyCurrentBranch = ignore
+[merge]
+	conflictstyle = diff3
+	tool = vi -d
+[mergetool]
+	keepBackup = false
+	hideResolved = true
+[rerere]
+	enabled = true
+[diff]
+	submodule = log
+	colorMoved = default
+	tool = vi -d
+[color]
+	ui = auto
+[status]
+	submodulesummary = true
+[submodule]
+	recurse = true
+[core]
+	symlink = true
+	quotepath = false
+[pager]
+	tag = sort -V
+	format-patch = cat
+	diff = delta
+	blame = delta
+# https://github.com/mrowa44/emojify/pull/57
+	log = emojify | perl -pe' '$([ -f ~/.gitmoji/gitmojis.json ] && jq -j '.[] | \"s=\\(.code)=\\(.emoji)=g";"\"' ~/.gitmoji/gitmojis.json || :) | less
+	reflog = emojify | perl -pe' '$([ -f ~/.gitmoji/gitmojis.json ] && jq -j '.[] | \"s=\\(.code)=\\(.emoji)=g";"\"' ~/.gitmoji/gitmojis.json || :) | less
+	config = bat -pplproperties
+	remote = bat -ppltsv
+	ls-files = parallel eza --color=always --icons
+	check-ignore = parallel eza --color=always --icons
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+	line-numbers = true
+	side-by-side = true
+	paging = always
+[tig]
+	mailmap = true
+	mouse = true
+[tig "bind"]
+	generic = g move-first-line
+	generic = G move-last-line
+	generic = <Ctrl-B> move-page-up
+	generic = <Ctrl-F> move-page-down
+	generic = <Ctrl-G> view-grep
+	main = T :toggle commit-title-graph
+	main = G move-last-line
+	generic = x view-diff
+	status = u move-half-page-up
+	stage = u move-half-page-up
+	generic = u move-half-page-up
+	generic = d move-half-page-down
+[difftool]
+	prompt = true
+[init]
+	defaultBranch = main
+[fetch]
+	prune = true
+	pruneTags = true
+[grep]
+	lineNumber = true
+	extendedRegexp = true
+[blame]
+	showEmail = true
+	ignoreRevsFile =
+[rebase]
+	autoSquash = true
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[diff "daff-csv"]
+	command = daff diff --git
+[merge "daff-csv"]
+	name = daff tabular csv merge
+	driver = daff merge --output %A %O %A %B
+[credential]
+	helper = store
+[alias]
+	change-commits = "!f() { VAR=$1; OLD=$2; NEW=$3; shift 3; git filter-branch --env-filter \"if [[ \\\"$`echo $VAR`\\\" = '$OLD' ]]; then export $VAR='$NEW'; fi\" $@; }; f"
+	build = "!a() {\nlocal _scope _attention _message\nwhile [ $# -ne 0 ]; do\ncase $1 in\n  -s | --scope )\n    if [ -z $2 ]; then\n      echo \"Missing scope!\"\n      return 1\n    fi\n    _scope=\"$2\"\n    shift 2\n    ;;\n  -a | --attention )\n    _attention=\"!\"\n    shift 1\n    ;;\n  * )\n    _message=\"${_message} $1\"\n    shift 1\n    ;;\nesac\ndone\ngit commit -m \"build${_scope:+(${_scope})}${_attention}:${_message}\"\n}; a"
+	chore = "!a() {\nlocal _scope _attention _message\nwhile [ $# -ne 0 ]; do\ncase $1 in\n  -s | --scope )\n    if [ -z $2 ]; then\n      echo \"Missing scope!\"\n      return 1\n    fi\n    _scope=\"$2\"\n    shift 2\n    ;;\n  -a | --attention )\n    _attention=\"!\"\n    shift 1\n    ;;\n  * )\n    _message=\"${_message} $1\"\n    shift 1\n    ;;\nesac\ndone\ngit commit -m \"chore${_scope:+(${_scope})}${_attention}:${_message}\"\n}; a"
+	ci = "!a() {\nlocal _scope _attention _message\nwhile [ $# -ne 0 ]; do\ncase $1 in\n  -s | --scope )\n    if [ -z $2 ]; then\n      echo \"Missing scope!\"\n      return 1\n    fi\n    _scope=\"$2\"\n    shift 2\n    ;;\n  -a | --attention )\n    _attention=\"!\"\n    shift 1\n    ;;\n  * )\n    _message=\"${_message} $1\"\n    shift 1\n    ;;\nesac\ndone\ngit commit -m \"ci${_scope:+(${_scope})}${_attention}:${_message}\"\n}; a"
+	docs = "!a() {\nlocal _scope _attention _message\nwhile [ $# -ne 0 ]; do\ncase $1 in\n  -s | --scope )\n    if [ -z $2 ]; then\n      echo \"Missing scope!\"\n      return 1\n    fi\n    _scope=\"$2\"\n    shift 2\n    ;;\n  -a | --attention )\n    _attention=\"!\"\n    shift 1\n    ;;\n  * )\n    _message=\"${_message} $1\"\n    shift 1\n    ;;\nesac\ndone\ngit commit -m \"docs${_scope:+(${_scope})}${_attention}:${_message}\"\n}; a"
+	feat = "!a() {\nlocal _scope _attention _message\nwhile [ $# -ne 0 ]; do\ncase $1 in\n  -s | --scope )\n    if [ -z $2 ]; then\n      echo \"Missing scope!\"\n      return 1\n    fi\n    _scope=\"$2\"\n    shift 2\n    ;;\n  -a | --attention )\n    _attention=\"!\"\n    shift 1\n    ;;\n  * )\n    _message=\"${_message} $1\"\n    shift 1\n    ;;\nesac\ndone\ngit commit -m \"feat${_scope:+(${_scope})}${_attention}:${_message}\"\n}; a"
+	fix = "!a() {\nlocal _scope _attention _message\nwhile [ $# -ne 0 ]; do\ncase $1 in\n  -s | --scope )\n    if [ -z $2 ]; then\n      echo \"Missing scope!\"\n      return 1\n    fi\n    _scope=\"$2\"\n    shift 2\n    ;;\n  -a | --attention )\n    _attention=\"!\"\n    shift 1\n    ;;\n  * )\n    _message=\"${_message} $1\"\n    shift 1\n    ;;\nesac\ndone\ngit commit -m \"fix${_scope:+(${_scope})}${_attention}:${_message}\"\n}; a"
+	perf = "!a() {\nlocal _scope _attention _message\nwhile [ $# -ne 0 ]; do\ncase $1 in\n  -s | --scope )\n    if [ -z $2 ]; then\n      echo \"Missing scope!\"\n      return 1\n    fi\n    _scope=\"$2\"\n    shift 2\n    ;;\n  -a | --attention )\n    _attention=\"!\"\n    shift 1\n    ;;\n  * )\n    _message=\"${_message} $1\"\n    shift 1\n    ;;\nesac\ndone\ngit commit -m \"perf${_scope:+(${_scope})}${_attention}:${_message}\"\n}; a"
+	refactor = "!a() {\nlocal _scope _attention _message\nwhile [ $# -ne 0 ]; do\ncase $1 in\n  -s | --scope )\n    if [ -z $2 ]; then\n      echo \"Missing scope!\"\n      return 1\n    fi\n    _scope=\"$2\"\n    shift 2\n    ;;\n  -a | --attention )\n    _attention=\"!\"\n    shift 1\n    ;;\n  * )\n    _message=\"${_message} $1\"\n    shift 1\n    ;;\nesac\ndone\ngit commit -m \"refactor${_scope:+(${_scope})}${_attention}:${_message}\"\n}; a"
+	rev = "!a() {\nlocal _scope _attention _message\nwhile [ $# -ne 0 ]; do\ncase $1 in\n  -s | --scope )\n    if [ -z $2 ]; then\n      echo \"Missing scope!\"\n      return 1\n    fi\n    _scope=\"$2\"\n    shift 2\n    ;;\n  -a | --attention )\n    _attention=\"!\"\n    shift 1\n    ;;\n  * )\n    _message=\"${_message} $1\"\n    shift 1\n    ;;\nesac\ndone\ngit commit -m \"revert${_scope:+(${_scope})}${_attention}:${_message}\"\n}; a"
+	style = "!a() {\nlocal _scope _attention _message\nwhile [ $# -ne 0 ]; do\ncase $1 in\n  -s | --scope )\n    if [ -z $2 ]; then\n      echo \"Missing scope!\"\n      return 1\n    fi\n    _scope=\"$2\"\n    shift 2\n    ;;\n  -a | --attention )\n    _attention=\"!\"\n    shift 1\n    ;;\n  * )\n    _message=\"${_message} $1\"\n    shift 1\n    ;;\nesac\ndone\ngit commit -m \"style${_scope:+(${_scope})}${_attention}:${_message}\"\n}; a"
+	test = "!a() {\nlocal _scope _attention _message\nwhile [ $# -ne 0 ]; do\ncase $1 in\n  -s | --scope )\n    if [ -z $2 ]; then\n      echo \"Missing scope!\"\n      return 1\n    fi\n    _scope=\"$2\"\n    shift 2\n    ;;\n  -a | --attention )\n    _attention=\"!\"\n    shift 1\n    ;;\n  * )\n    _message=\"${_message} $1\"\n    shift 1\n    ;;\nesac\ndone\ngit commit -m \"test${_scope:+(${_scope})}${_attention}:${_message}\"\n}; a"
+	wip = "!a() {\nlocal _scope _attention _message\nwhile [ $# -ne 0 ]; do\ncase $1 in\n  -s | --scope )\n    if [ -z $2 ]; then\n      echo \"Missing scope!\"\n      return 1\n    fi\n    _scope=\"$2\"\n    shift 2\n    ;;\n  -a | --attention )\n    _attention=\"!\"\n    shift 1\n    ;;\n  * )\n    _message=\"${_message} $1\"\n    shift 1\n    ;;\nesac\ndone\ngit commit -m \"wip${_scope:+(${_scope})}${_attention}:${_message}\"\n}; a"
+[safe]
+	directory = *
+[sendemail]
+	suppresscc = author
+	sendmailCmd = neomutt
+[fetch "fsck"]
+	badTimezone = warn
+[commit]
+	gpgsign = true
+[tag]
+	# after git 2.23
+	gpgSign = true
+[url "https://mirrors.bfsu.edu.cn/git/AOSP/"]
+	insteadof = https://android.googlesource.com
+# ManifestInvalidRevisionError
+# [url "https://mirrors.bfsu.edu.cn/git/LineageOS/LineageOS"]
+	# insteadof = https://github.com/LineageOS
+# https://github.com/romkatv/powerlevel10k/issues/2232
+[index]
+	skipHash = false
+# https://github.com/ghedo/p5-Dist-Zilla-Plugin-GitHub
+[github]
+	user = Freed-Wu
+[oh-my-zsh]
+	git-commit-alias = 69a6359f7cf8978d464573fb7b023ee3cd00181a

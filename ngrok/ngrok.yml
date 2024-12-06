@@ -1,0 +1,10 @@
+#region: us
+version: 3
+agent:
+  authtoken: 2keUqgyNsZAWWgp2d4o3UOtMWwv_6qRWxRzxti8FhdUj1MkUD
+endpoints:
+  - name: boybh
+    url: evolving-clever-gannet.ngrok-free.app
+    upstream:
+      url: 8000 
+

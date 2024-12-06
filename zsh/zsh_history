@@ -1,0 +1,643 @@
+: 1733378967:0;cd /root/.config/custom/
+: 1733379002:0;dpkg-reconfigure tzdata
+: 1733379041:0;caidat gh
+: 1733379054:0;cd $ADDON
+: 1733379121:0;git clone https://github.com/eza-community/eza.git
+: 1733379230:0;caidat curl wget
+: 1733379335:0;. "$HOME/.cargo/env"
+: 1733379423:0;cargo install eza --locked
+: 1733379695:0;gh auth login
+: 1733379759:0;gh auth statú
+: 1733379762:0;gh auth status
+: 1733379792:0;sudo chmod 600 /root/.ssh/id_ed25519
+: 1733379793:0;gh repo clone ohmyzsh/ohmyzsh .oh-my-zsh  
+: 1733379839:0;pla
+: 1733379847:0;pla z
+: 1733379868:0;cd $addon
+: 1733379883:0;eza --version
+: 1733379887:0;caidat eza
+: 1733379899:0;cd apps
+: 1733379904:0;cd eza
+: 1733379917:0;cargo install eza
+: 1733379929:0;ls -a
+: 1733379945:0;rustup update
+: 1733379977:0;cd apps/eza
+: 1733379979:0;sudo apt-get install build-essential
+: 1733380035:0;curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh\
+source $HOME/.cargo/env\
+
+: 1733380045:0;cargo build --release\
+sudo cp target/release/eza /usr/local/bin/\
+
+: 1733380285:0;caivi
+: 1733380331:0;/mnt/e/config/cauhinh/cai_vi.sh
+: 1733380554:0;chx -R ~/.config/
+: 1733380575:0;caidat pygmentize
+: 1733380592:0;caidat pup
+: 1733380600:0;caidat pip
+: 1733380622:0;pip install Pygments
+: 1733380636:0;caidat pipx
+: 1733380682:0;pipx install Pygments
+: 1733380731:0;s $P10K_CONFIG_PATH
+: 1733380736:0;p10k c
+: 1733380759:0;batcat
+: 1733380766:0;which bat
+: 1733380768:0;which batcat
+: 1733380778:0;ala bat "batcat"
+: 1733380780:0;bat
+: 1733380823:0;source .zshrc
+: 1733380930:0;mv ~/.config/custom/plugins/fzf ~/.fzf
+: 1733381015:0;xoa /root/.config/custom/plugin.zsh
+: 1733381071:0;plugin-clone plugin-update
+: 1733381084:0;p10k
+: 1733381160:0;xoa ~/.fzf
+: 1733381162:0;gh repo clone junegunn/fzf ~/.fzf
+: 1733381173:0;cd ~/.fzf
+: 1733381212:0;omz theme
+: 1733381225:0;omz theme list
+: 1733381244:0;caidat theme
+: 1733381245:0;caidat themes
+: 1733381251:0;caidat zsh-themes
+: 1733381252:0;caidat zsh-theme
+: 1733381282:0;eza
+: 1733381353:0;cd $ZPLUGINDIR/zinit
+: 1733381395:0;cd $ZSH_CUSTOM
+: 1733381420:0;echo $ZPLUGINDIR
+: 1733381430:0;echo $ZPLUGINDIR/zinit
+: 1733381500:0;cd /
+: 1733381520:0;mv plugins/zinit
+: 1733381539:0;mv plugins/zinit /root/.config/custom/plugins
+: 1733381568:0;.pl
+: 1733381579:0;cd $ZPLUGINDIR
+: 1733381588:0;cd zinit
+: 1733381598:0;mv -f plugins/zinit /root/.config/custom/plugins
+: 1733381614:0;xoa plugins
+: 1733381621:0;xoa ~/.config/custom/plugins/zinit/
+: 1733381653:0;gh repo clone 
+: 1733381690:0;gh repo clone zdharma-continuum/zinit $ZPLUGINDIR/zinit
+: 1733381729:0;zinit t
+: 1733381799:0;nn $ADDON/zinit_theme.zsh
+: 1733381839:0;chx $ADDON/zinit_theme.zsh
+: 1733381847:0;. $ADDON/zinit_theme.zsh
+: 1733381913:0;chx $P10K_CONFIG_PATH
+: 1733381915:0;echo $P10K_CONFIG_PATH
+: 1733381917:0;. $P10K_CONFIG_PATH
+: 1733381920:0;git
+: 1733381930:0;sudo
+: 1733381975:0;ope fzf-tab
+: 1733382006:0;bat --help
+: 1733382038:0;upft
+: 1733382127:0;setopt
+: 1733382181:0;~
+: 1733382213:0;alía
+: 1733382215:0;alias
+: 1733382433:0;zinit compile --all
+: 1733382447:0;zinit completions _zsh
+: 1733382465:0;zinit completions Aloxaf/fzf-tab
+: 1733382473:0;zinit completions fzf-tab
+: 1733382478:0;zinit load Aloxaf/fzf-tab
+: 1733382516:0;xoa /root/kaligit
+: 1733382626:0;ala f5 "source $HOME/.zshrc"
+: 1733382645:0;ala f5 "source ~/.zshrc"
+: 1733382663:0;ala f5 'source ~/.zshrc'
+: 1733382700:0;caidat tmux
+: 1733382720:0;caidat fzf
+: 1733382731:0;a
+: 1733382853:0;xoazcom
+: 1733383682:0;pld zsh-history-substring-search
+: 1733383700:0;pld fast-syntax-highlighting
+: 1733383750:0;pld zsh-completions
+: 1733383816:0;which fzf-tab
+: 1733383819:0;which fzf
+: 1733391378:0;zinit self-update
+: 1733391389:0;zinit module
+: 1733391394:0;zinit debug
+: 1733391400:0;zinit debug start
+: 1733391408:0;zinit debug statú
+: 1733391411:0;zinit debug status
+: 1733391685:0;ls
+: 1733391690:0;l -x
+: 1733391699:0;l -F
+: 1733391711:0;l -G
+: 1733391714:0;l -D
+: 1733391737:0;systemctl status
+: 1733391763:0;caidat fd-find
+: 1733391794:0;als fd
+: 1733391806:0;ald fd
+: 1733391846:0;fdfind
+: 1733391864:0;ala fd "fdfind"
+: 1733391984:0;ld ~/.config/custom/
+: 1733391993:0;ld ~/.config/custom/plugins
+: 1733392065:0;cd fzf-tab/
+: 1733392086:0;chx fzf-tab.plugin.zsh
+: 1733392131:0;complete
+: 1733392226:0;caidat zsh-common
+: 1733392244:0;caidat zsh-completions
+: 1733392249:0;caidat zsh-completion
+: 1733392263:0;echo $SHELL
+: 1733392268:0;zsh
+: 1733392387:0;cd .config/zsh
+: 1733392411:0;xoa .zcompdump*
+: 1733392460:0;autoload -U fzf.plugin.zsh
+: 1733392510:0;chx /root/.config/zsh/zsh_unplugged.zsh
+: 1733392527:0;sudo chmod +x /root/.config/zsh/zsh_unplugged.zsh
+: 1733392539:0;/root/.config/zsh/
+: 1733392568:0;.c
+: 1733392604:0;cp zsh_unplugged.zsh cai_vi.sh namesever.zsh /root/.config/zsh
+: 1733392679:0;cd /root/.config/custom/plugins
+: 1733392720:0;cd fzf-tab
+: 1733392804:0;caidat zstyle
+: 1733392855:0;nn cauhinh_fzf.zsh
+: 1733392918:0;s cauhinh_fzf.zsh
+: 1733393082:0;sudo rm -rf ~/.oh-my-zsh/plugins
+: 1733393085:0;ln -s $ZSH_CUSTOM/plugins ~/.oh-my-zsh/plugins
+: 1733393150:0;apt-get update
+: 1733393189:0;xoa ~/.oh-my-zsh
+: 1733393226:0;sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+: 1733393494:0;. /root/.config/zsh/zinit_theme.zsh
+: 1733393500:0;ld /root/.config/zsh/zinit_theme.zsh
+: 1733393511:0;ld ~/.config/zsh/zinit_theme.zsh
+: 1733393536:0;ls /root/.config/zsh/
+: 1733393601:0;cp zinit_theme.zsh /root/.config/zsh/
+: 1733394000:0;. /root/.config/zsh/zsh_unplugged.zsh
+: 1733394045:0;cd plugins/
+: 1733394058:0;git clone https://github.com/romkatv/zsh-defer zsh-defer
+: 1733394066:0;exec zsh
+: 1733394233:0;nn /root/.config/zsh/zinit_theme.zsh
+: 1733394299:0;xoa zsh-defer
+: 1733394301:0;gh repo clone romkatv/zsh-defer zsh-defer
+: 1733394325:0;pla zsh-defer
+: 1733394358:0;nn /root/.config/zsh/zsh_unplugged.zsh
+: 1733394376:0;git clone --quiet https://github.com/mattmc3/zsh_unplugged $ZPLUGINDIR/zsh_unplugged
+: 1733394397:0;cd zsh_unplugged
+: 1733394475:0;gh repo clone zimfw/zimfw zimfw
+: 1733394519:0;ope zimfw
+: 1733394525:0;opl zimfw
+: 1733394568:0;xoa ~/.config/custom/plugins/zsh_unplugged/zimfw
+: 1733394580:0;~/.config/custom/plugins/zsh_unplugged
+: 1733394603:0;gh repo clone zimfw/zimfw ~/.config/custom/plugins/zimfw
+: 1733394613:0;cd ~/.config/custom/plugins/zimfw
+: 1733394618:0;make
+: 1733394661:0;chx ~/.config/custom/plugins/zimfw/zimfw.zsh
+: 1733394685:0;echo "source ~/.config/custom/plugins/zimfw/zimfw.zsh" >> ~/.zshrc
+: 1733394924:0;xoa
+: 1733394926:0;xoa ~/.config/custom/plugins/zimfw
+: 1733394939:0;plugin-clone zimfw/zimfw
+: 1733394966:0;cd zimfw
+: 1733395051:0;xoa ~/.config/custom/plugins/fzf-tab
+: 1733395056:0;plugin-clone Aloxaf/fzf-tab 
+: 1733395124:0;ala plc "plugin-clone"
+: 1733395129:0;plc marlonrichert/zsh-snap
+: 1733395142:0;pld zsh-snap
+: 1733395149:0;pla zsh-snap
+: 1733395154:0;pla fzf
+: 1733395235:0;plc marlonrichert/zcolors
+: 1733395258:0;cd zsh-autocomplete/
+: 1733395628:0;cd /root/.config/addon/
+: 1733395741:0;chx plugins-clone.sh
+: 1733395781:0;./plugins-clone.sh
+: 1733395979:0;nn /root/.oh-my-zsh/lib/diagnostics.zsh
+: 1733396267:0;bat ~/.config/bat/bat.conf
+: 1733396275:0;-h
+: 1733396283:0;nano --help
+: 1733396296:0;zsh --help
+: 1733396387:0;zimfw install
+: 1733396407:0;nfd /root/.config/custom/plugins/zim
+: 1733396415:0;quyen /root/.config/custom/plugins/zim
+: 1733396420:0;ld /root/.config/custom/plugins/zim
+: 1733396436:0;zimfw 
+: 1733396470:0;touch /root/.zimrc
+: 1733396472:0;zimfw compile
+: 1733396574:0;zimfw -h
+: 1733396585:0;zimfw --help
+: 1733396605:0;$CAUHINH
+: 1733396615:0;cat zimfw_custom.zsh
+: 1733396647:0;echo $ZIM_HOME
+: 1733396707:0;$ZIM_HOME
+: 1733396812:0;cp $CAUHINH/zimfw_custom.zsh ~/.config/addon
+: 1733396879:0;nn $ALIAS_FILE
+: 1733396925:0;zimfw clean-compiled
+: 1733396932:0;zimfw upgrade
+: 1733397152:0;/root/.config/addon/plugins-clone.sh
+: 1733397367:0;s /root/.config/addon/plugins-clone.sh
+: 1733397426:0;nn $ZSH_CUSTOM/plugin.zsh
+: 1733397466:0;compfiles
+: 1733397492:0;compfiles /root/.config/zsh/zsh_unplugged.zsh
+: 1733397499:0;compfile /root/.config/zsh/zsh_unplugged.zsh
+: 1733397513:0;copyf /root/.config/zsh/zsh_unplugged.zsh
+: 1733397524:0;caidat xclip
+: 1733397564:0;export ZIM_HOME=$HOME/.config/.zim && curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
+: 1733397734:0;nn $ZS/zsh_unplugged.zsh
+: 1733397853:0;cp $ZS/zsh_unplugged.zsh zsh-unplugged.sh
+: 1733397884:0;cp $ZS/zsh_unplugged.zsh $ZSH_CUSTOM/plugin.sh
+: 1733397902:0;omz 
+: 1733397908:0;omz reload
+: 1733398016:0;x fzf
+: 1733398028:0;xoa /usr/share/doc/fzf/examples
+: 1733398159:0;mv plugin.sh plugin.zsh
+: 1733398190:0;pld z-a-readurl z-a-rust
+: 1733398239:0;pld z-a-bin-gem-node z-a-patch-dl F-Sy-H zsh-autopair zsh-autosuggestions fd-zsh
+: 1733398264:0;cz
+: 1733398338:0;pld zsh-autocomplete
+: 1733398408:0;./plugin.zsh
+: 1733398415:0;s plugin.zsh
+: 1733398565:0;z
+: 1733398588:0;ala q "fg"
+: 1733398604:0;als q
+: 1733398630:0;als fg
+: 1733398643:0;nn
+: 1733398680:0;sudo nano /etc/apt/sources.list
+: 1733398690:0;sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-key ED444FF07D8D0BF6
+: 1733398699:0;sudo apt-get update
+: 1733398717:0;sudo apt-get install kali-tools-top10
+: 1733398757:0;caidat kali-tweaks
+: 1733399343:0;gr -v
+: 1733399373:0;ll
+: 1733399389:0;update
+: 1733399405:0;upgrade
+: 1733399945:0;als cloneplugin
+: 1733400138:0;q
+: 1733400148:0;ald fg
+: 1733400150:0;fg
+: 1733400310:0;pld copyzshell
+: 1733400348:0;als plc
+: 1733400414:0;plc Freed-Wu/fzf-tab-source
+: 1733400443:0;pld copyzshell 
+: 1733400454:0;cd environment
+: 1733400463:0;xoa environment
+: 1733400493:0;xoa zsh-bat
+: 1733400499:0;nn /root/.config/addon/plugins-clone.sh
+: 1733400542:0;cloneplugin
+: 1733400560:0;pld zsh-bat
+: 1733400577:0;pld zsh-bat zsh-system-clipboard environmentcopyzshell
+: 1733400581:0;pld zsh-bat zsh-system-clipboard environment copyzshell
+: 1733400614:0;xoa plugin.zsh plugin.zsh.zwc
+: 1733400633:0;nn plugin.zsh
+: 1733400682:0;cd addon
+: 1733400757:0;chx ~/.config/addon/plugin-all.zsh
+: 1733400800:0;pld zsh-system-clipboard
+: 1733400817:0;opd zsh-system-clipboard
+: 1733400827:0;opd forgit
+: 1733400834:0;pld dropbox
+: 1733400837:0;opd dropbox
+: 1733400895:0;bat 
+: 1733400965:0;cp ~/.oh-my-zsh/plugins/aliases/cheatsheet.py /root/.local/share/zinit/snippets/OMZP::aliases/cheatsheet.py
+: 1733400978:0;pip install termcolor
+: 1733400983:0;pipx install termcolor
+: 1733401007:0;c
+: 1733401105:0;zinit snippet OMZP::aliases
+: 1733401154:0;sudo bash -c 'echo "nameserver 8.8.8.8" > /etc/resolv.conf'
+: 1733401156:0;zinit snippet OMZP::fzf-tab
+: 1733401270:0;which zsh
+: 1733401276:0;chsh
+: 1733401330:0;plugin_delete ohmyzsh
+: 1733401368:0;zinit upload
+: 1733401390:0;zinit compile
+: 1733401403:0;zinit compile --all --quiet
+: 1733401460:0;~``
+: 1733402236:0;~~
+: 1733402269:0;curl -fsSL https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc\
+echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | sudo tee /etc/apt/sources.list.d/ngrok.list\
+
+: 1733402274:0;sudo apt update
+: 1733402283:0;sudo apt install ngrok
+: 1733402296:0;apt list --upgradable
+: 1733402305:0;ngrok version
+: 1733402351:0;mkdir -p ~/.config/ngrok
+: 1733402531:0;zinit snippet OMZP::copyfile ~/.config/ngrok/ngrok.yml
+: 1733402539:0;zinit snippet OMZP::copyfile
+: 1733402547:0;copyfile ~/.config/zsh/zsh_unplugged.zsh
+: 1733402588:0;omz plugin enable copyfile
+: 1733402605:0;copyfile
+: 1733402718:0;omz plugin load copyfile
+: 1733402720:0;copyfile ~/.config/ngrok/ngrok.yml
+: 1733402729:0;copyf
+: 1733402749:0;nano ~/.config/ngrok/ngrok.yml
+: 1733402773:0;ngrok config check
+: 1733402787:0;ngrok --help
+: 1733402805:0;ngrok --start all
+: 1733402811:0;ngrok start 
+: 1733402815:0;ngrok start --all
+: 1733402886:0;caidat openssh-server
+: 1733402903:0;systemctl enable sshd
+: 1733402905:0;systemctl enable ssh
+: 1733402911:0;systemctl start ssh
+: 1733402917:0;systemctl status ssh
+: 1733402927:0;systemctl status 
+: 1733402937:0;systemctl status sshd
+: 1733402976:0;xoa fzf-tab-source
+: 1733403010:0;git clone https://github.com/Aloxaf/fzf-tab ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-tab
+: 1733403081:0;caidat zsh
+: 1733403107:0;sudo apt-get dist-upgrade
+: 1733403629:0;nmap
+: 1733403632:0;cai namp
+: 1733403636:0;cai nmap
+: 1733403690:0;nmap 192.168.1.237
+: 1733403704:0;nmap boybh.ddns.net
+: 1733403722:0;nmap 118.71.47.213
+: 1733445874:0;source $HOME/.zshrc 
+: 1733446052:0;git remote add git@github.com:boybh/.config
+: 1733446082:0;mv ~/.zshrc ~/.config
+: 1733446104:0;cd .oh-my-zsh
+: 1733446115:0;cd tools
+: 1733446123:0;./install
+: 1733446137:0;install.sh
+: 1733446147:0;./install.zsh
+: 1733446160:0;xoa .oh-my-zsh 
+: 1733446215:0;ala caioh 'sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"'
+: 1733446219:0;caioh
+: 1733446310:0;echo $ZDOTDIR
+: 1733446350:0;rm .zshrc
+: 1733446388:0;ala .z "nano ~/.config/.zshrc"
+: 1733446450:0;omz update
+: 1733446474:0;nano .zshrc.original
+: 1733446494:0;xoa .zshrc.original
+: 1733446516:0;cp ~/.config/.zshrc .zshrc.original
+: 1733446522:0;source .zshrc.original
+: 1733446564:0;omz plugin enable alias
+: 1733446635:0;xoa .zimrc .zcomp* .zshrc.zwc .zshrc.bck
+: 1733446640:0;nn .zshenv
+: 1733446674:0;mv .zshenv .zshenv.bk
+: 1733446688:0;nn .profile
+: 1733446813:0;s .profile
+: 1733446848:0;chx .zshrc
+: 1733446907:0;autoload fzf-tab
+: 1733446965:0;zinit snippet $ZSH_CUSTOM/plugins/fzf-tab/
+: 1733447035:0;fzf-tab-complete
+: 1733447106:0;plc
+: 1733447121:0;al
+: 1733447122:0;all
+: 1733447142:0;opl fzf-tab
+: 1733447162:0;chx -R $ZPLUGINDIR
+: 1733447190:0;ald f5
+: 1733447194:0;ala f5 'source ~/.config/.zshrc'
+: 1733447274:0;alsm
+: 1733447305:0;omz plugin
+: 1733447309:0;omz plugin list
+: 1733447335:0;opl aliases
+: 1733447340:0;ope aliases
+: 1733447488:0;zinit
+: 1733447611:0;source $HOME/.zshrc
+: 1733447833:0;als
+: 1733447854:0;copyfile $HOME/.zimrc
+: 1733447897:0;fd --type file --color=always
+: 1733447903:0;fzf
+: 1733447908:0;als fzf
+: 1733447924:0;upfzf
+: 1733447979:0;plugin-clone
+: 1733448000:0;$ZS/plugin-all.zsh
+: 1733448006:0;$ZS
+: 1733448507:0;xoa zsh-autosuggestions
+: 1733448510:0;plc zsh-users/zsh-autosuggestions
+: 1733448522:0;pla zsh-autosuggestions
+: 1733448577:0;pla zsh-autocomplete
+: 1733448582:0;è5
+: 1733448773:0;zinit 
+: 1733448778:0;zinit update
+: 1733448882:0;$ZSH_CUSTOM/
+: 1733448884:0;$ZSH_CUSTOM
+: 1733448896:0;nn fzf.zsh
+: 1733448916:0;mv fzf.zsh $ADDON
+: 1733448935:0;zinit --help
+: 1733448951:0;zinit cdclear -q
+: 1733448975:0;mv autopath.zsh $ADDON
+: 1733448995:0;mv cauhinh_fzf.zsh $ADDON
+: 1733449001:0;xoa autopath.zsh.zwc
+: 1733449005:0;xoa trans.zsh
+: 1733449018:0;xoa all.zsh.zwc
+: 1733449029:0;xoa fzf.zsh.zwc
+: 1733449033:0;xoa trans.zsh.zwc
+: 1733449059:0;mv OPT.zsh $ADDON
+: 1733449081:0;pld autojump
+: 1733449091:0;opd autojump
+: 1733449107:0;find autojump
+: 1733449112:0;fd autojump
+: 1733449115:0;fd
+: 1733449121:0;nn zsh-unplugged.sh
+: 1733449129:0;del zsh-unplugged.sh
+: 1733449142:0;cat .zshrc.original
+: 1733449159:0;del .zshrc.original
+: 1733449183:0;del .bashrc.original
+: 1733449187:0;omz
+: 1733449228:0;cus
+: 1733449279:0;cd plugins
+: 1733449286:0;xoa fzf-tab
+: 1733449308:0;gh repo clone Aloxaf/fzf-tab $HOME/.config/custom/plugins/fzf-tab
+: 1733449375:0;fzf-completion
+: 1733449398:0;autoload
+: 1733449400:0;set
+: 1733449421:0;plugin-update
+: 1733449475:0;cd ~/./apps/l
+: 1733449484:0;cd .config
+: 1733449487:0;gr
+: 1733449489:0;als gr
+: 1733449528:0;caidat bat
+: 1733449534:0;sudo apt autoremove
+: 1733449674:0;/root/.config/addon/plugin-all.zsh
+: 1733449679:0;nn /root/.config/addon/plugin-all.zsh
+: 1733449756:0;plugin-compile
+: 1733449764:0;plugin-compile fzf-tab
+: 1733449880:0;$ZPLUGINDIR
+: 1733449921:0;plc marlonrichert/zsh-autocomplete
+: 1733449950:0;xoa zsh-completions
+: 1733449955:0;plc zimfw/zsh-completions
+: 1733450214:0;plc zimfw/zimfw
+: 1733450221:0;pla zimfw
+: 1733450232:0;zim
+: 1733450234:0;zi
+: 1733450256:0;gh repo edit
+: 1733450264:0;gh repo list
+: 1733450390:0;znap
+: 1733450412:0;pld zinit
+: 1733450490:0;plugin-source fzf-tab
+: 1733450533:0;fzf-tab
+: 1733450555:0;FZF_TAB_ALWAYS_COMPLETE=1
+: 1733450559:0;FZF_TAB_ALWAYS_COMPLETE=true
+: 1733450623:0;$ADDON
+: 1733450838:0;ala caiplugin "install-plugin"
+: 1733451016:0;del /root/.oh-my-zsh/.config/
+: 1733451027:0;nn plugin-all.zsh
+: 1733451106:0;plc https://github.com/Aloxaf/fzf-tab
+: 1733451149:0;s plugins-clone.sh
+: 1733451268:0;cd
+: 1733451271:0;l
+: 1733451359:0;echo $ZSH_CUSTOM
+: 1733451363:0;nn plugins-clone.sh
+: 1733451435:0;del /root/.config/custom/plugins/autoupdate
+: 1733451491:0;nn $ADDON/plugins-clone.sh
+: 1733451545:0;del /root/.config/custom/plugins/autoupdate 
+: 1733451547:0;del /root/.config/custom/plugins/alias-tips
+: 1733451549:0;del /root/.config/custom/plugins/fzf-tab
+: 1733451552:0;s $ADDON/plugins-clone.sh
+: 1733451584:0;pla fzf-tab
+: 1733451588:0;pld fzf-tab
+: 1733451591:0;pll
+: 1733451610:0;enable-fzf-tab
+: 1733451616:0;zimfw
+: 1733451621:0;sua~
+: 1733451625:0;.z
+: 1733451680:0;f5
+: 1733451710:0;exec $SHELL
+: 1733451726:0;enable-fzf-tab
+: 1733451737:0;exec zsh
+: 1733451741:0;f5
+: 1733451755:0;source ~/.config/.zshrc
+: 1733451764:0;source $HOME/.config/.zshrc
+: 1733451769:0;nn $HOME/.config/.zshrc
+: 1733451816:0;f5
+: 1733451837:0;cd /root/.config/custom/fzf-tab/
+: 1733451850:0;cd /root/.config/custom/
+: 1733451852:0;l
+: 1733451861:0;.z
+: 1733451883:0;f5
+: 1733451895:0;/root/.config/custom/plugins/zimfw/init.zsh
+: 1733451913:0;zimfw
+: 1733451915:0;zimfw build
+: 1733451955:0;touch /root/.config/zsh/zimrc
+: 1733451979:0;enable-fzf-tab
+: 1733452007:0;cd plugins/
+: 1733452009:0;cd
+: 1733452037:0;fzf-tab-debug
+: 1733452038:0;cd
+: 1733452156:0;cd $ADDON
+: 1733452183:0;nn zimfw_key.zsh
+: 1733452664:0;chx zimfw_key.zsh
+: 1733452673:0;.z
+: 1733452692:0;q
+: 1733452694:0;fg
+: 1733452705:0;als fg
+: 1733452722:0;ald fg
+: 1733452734:0;q
+: 1733452755:0;f5
+: 1733452792:0;nn zimfw_key.zsh
+: 1733452846:0;f5
+: 1733452873:0;nn zimfw_key.zsh
+: 1733452882:0;f5
+: 1733452902:0;nn zimfw_key.zsh
+: 1733452919:0;f5
+: 1733453088:0;nn zimfw_key.zsh
+: 1733453114:0;enable-fzf-tab
+: 1733453136:0;pll
+: 1733453219:0;pla zsh-completions
+: 1733453224:0;pla fzf-tab
+: 1733453233:0;nn $PLUGIN_FILE
+: 1733453257:0;pla fzf-tab
+: 1733453264:0;enable-fzf-tab
+: 1733453270:0;f5
+: 1733453302:0;cut
+: 1733453322:0;.z
+: 1733453334:0;f5
+: 1733453348:0;.z
+: 1733453383:0;f5
+: 1733453388:0;cd
+: 1733453408:0;pld zsh-autocomplete
+: 1733453412:0;acd
+: 1733453413:0;cd
+: 1733453416:0;f5
+: 1733453459:0;enable-fzf-tab
+: 1733453479:0;compfile
+: 1733453494:0;f5
+: 1733453518:0;pld forgit
+: 1733453663:0;cd
+: 1733453666:0;exec zsh
+: 1733453676:0;enable-fzf-tab
+: 1733453708:0;pld zsh-completions
+: 1733453712:0;pld zimfw
+: 1733453715:0;exec zsh
+: 1733453723:0;enable-fzf-tab
+: 1733453734:0;cd $ADDON
+: 1733453735:0;l
+: 1733453768:0;copypath cauhinh_fzf.zsh
+: 1733453775:0;.z
+: 1733453810:0;f5
+: 1733453821:0;.z
+: 1733453836:0;f5
+: 1733453850:0;.e
+: 1733453851:0;.z
+: 1733453882:0;f5
+: 1733453898:0;.z
+: 1733453921:0;f5
+: 1733453933:0;enable-fzf-tab
+: 1733453965:0;nn cauhinh_fzf.zsh
+: 1733454166:0;f5
+: 1733454197:0;enable-fzf-tab
+: 1733454209:0;sua~
+: 1733454213:0;.z
+: 1733454223:0;f5
+: 1733454231:0;exec zsh
+: 1733454249:0;cd
+: 1733454281:0;update
+: 1733454293:0;upgrade
+: 1733454308:0;dpkg-reconfigure tzdata
+: 1733454336:0;l
+: 1733454346:0;cd .config
+: 1733454349:0;fr
+: 1733454351:0;gr
+: 1733454365:0;which bat
+: 1733454374:0;ald bat
+: 1733454377:0;which bat
+: 1733454386:0;x bat
+: 1733454397:0;caibat
+: 1733454451:0;sudo bash -c 'echo "nameserver 8.8.8.8" > /etc/resolv.conf' 
+: 1733454468:0;caibat
+: 1733454724:0;source $HOME/.zshrc
+: 1733454728:1;f5
+: 1733454743:1;f4
+: 1733454758:0;source ~/.config/.zshrc
+: 1733454773:0;cd
+: 1733454793:0;nano .zshrc.original
+: 1733454797:0;l
+: 1733454813:0;cd .config/
+: 1733454814:0;l
+: 1733454822:0;cd
+: 1733454854:0;cp ~/.config/.zshrc .zshrc.original
+: 1733454857:0;l
+: 1733454859:0;cd
+: 1733454872:0;which bat
+: 1733454876:0;gr
+: 1733454895:0;gh branch 
+: 1733454907:0;$ADDON/gh_ex.sh
+: 1733454917:0;gh branch 
+: 1733454927:0;gh completion --help
+: 1733454950:0;gh completion -s zsh > /usr/local/share/zsh/site-functions/_gh
+: 1733454982:0;gh branch
+: 1733455020:0;cd .config/
+: 1733455023:0;gr
+: 1733455034:0;git remote add git@github.com:boybh/.config
+: 1733455060:0;git remote add config git@github.com:boybh/.config
+: 1733455064:0;gr
+: 1733455072:0;git add .
+: 1733455087:0;gmm "ok"
+: 1733455104:0;git push config .config
+: 1733455108:0;git push config config
+: 1733455118:0;git push config config --force
+: 1733455129:0;gr
+: 1733455145:0;git remote remove config
+: 1733455172:0;git remote add config https://github.com/boybh/.config
+: 1733455174:0;gr
+: 1733455179:0;git add .
+: 1733455187:0;git commit "Ok"
+: 1733455193:0;git commit -m "Ok"
+: 1733455199:0;git commit -a
+: 1733455257:0;git push config config --force
+: 1733455308:0;git remote remove origin
+: 1733455310:0;gr
+: 1733455315:0;git push config config --force
+: 1733455388:0;git branch -a
+: 1733455406:0;git checkout config
+: 1733455411:0;git checkout kali
+: 1733455415:0;l
+: 1733455424:0;git branch -a
+: 1733455456:0;l
+: 1733455462:0;git init
+: 1733455468:0;git branch -a
+: 1733455478:0;git branch --list
+: 1733455497:0;git branch -m main config
+: 1733455499:0;k
+: 1733455502:0;git branch -a
+: 1733455507:0;gr
+: 1733455517:0;git remote add config https://github.com/boybh/.config
+: 1733455521:0;git branch -a
+: 1733455526:0;gr
+: 1733455533:0;git add .
+: 1733455550:0;git commit -a
