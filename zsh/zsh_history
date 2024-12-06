@@ -641,3 +641,11 @@ echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | sudo tee /etc/apt/
 : 1733455526:0;gr
 : 1733455533:0;git add .
 : 1733455550:0;git commit -a
+: 1733455568:0;git push config config --force
+: 1733455593:0;gh auth status
+: 1733455635:0;git remote add config git@github.com:boybh/.config
+: 1733455638:0;gr
+: 1733455657:0;git remote remove config
+: 1733455663:0;git remote add config git@github.com:boybh/.config
+: 1733455671:0;git add .
+: 1733455675:0;git commit -a
