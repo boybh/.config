@@ -5,17 +5,22 @@ plugin-clone hlissner/zsh-autopair
 #plc wfxr/forgit
 #plc zdharma-continuum/zinit-annex-rust
 #plc zdharma-continuum/zinit-annex-patch-dl
-#plc Aloxaf/fzf-tab
+plugin-clone djui/alias-tips && plugin-source alias-tips && plugin-load alias-tips
+plugin-clone Aloxaf/fzf-tab && plugin-source fzf-tab && plugin-load fzf-tab
+plugin-clone zsh-users/zsh-autosuggestions && plugin-source zsh-autosuggestions && plugin-load zsh-autosuggestions
 plugin-clone kutsan/zsh-system-clipboard
 #git clone https://github.com/TamCore/autoupdate-oh-my-zsh-plugins $ZSH_CUSTOM/plugins/autoupdate
 plugin-clone Freed-Wu/fzf-tab-source
 #plc fdellwing/zsh-bat
-plugin-clone zimfw/zimfw
+#plugin-clone zimfw/zimfw
 plugin-clone MenkeTechnologies/zsh-expand
 plugin-clone zsh-users/zsh-history-substring-search
 plugin-clone kutsan/zsh-system-clipboard
 plugin-clone zdharma-continuum/fast-syntax-highlighting
 plugin-clone Tarrasch/zsh-autoenv
+plugin-clone zdharma-continuum/zinit
+git clone https://github.com/pygments/pygments.git ~/.config/pygments
+
 # Install On-My-Zsh
 if [ ! -d $HOME/.oh-my-zsh ]; then
     sh -c "$(curl https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" --unattended

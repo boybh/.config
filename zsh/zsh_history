@@ -1007,3 +1007,164 @@ echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | sudo tee /etc/apt/
 : 1733476486:0;nn .gitmodules
 : 1733476498:0;d .gitmodules
 : 1733476502:0;git add .
+: 1733513601:0;als
+: 1733513605:0;alias
+: 1733513615:0;del ~/.zshrc
+: 1733513626:0;cd addon
+: 1733513629:0;caivi
+: 1733513647:0;l
+: 1733513650:0;ls -a
+: 1733513661:0;caidat eza
+: 1733513737:0;sudo mkdir -p /etc/apt/keyrings\
+wget -qO- https://raw.githubusercontent.com/eza-community/eza/main/deb.asc | sudo gpg --dearmor -o /etc/apt/keyrings/gierens.gpg\
+echo "deb [signed-by=/etc/apt/keyrings/gierens.gpg] http://deb.gierens.de stable main" | sudo tee /etc/apt/sources.list.d/gierens.list\
+sudo chmod 644 /etc/apt/keyrings/gierens.gpg /etc/apt/sources.list.d/gierens.list\
+sudo apt update\
+sudo apt install -y eza
+: 1733513756:0;sudo apt update\
+sudo apt install -y gpg
+: 1733513761:0;sudo mkdir -p /etc/apt/keyrings\
+wget -qO- https://raw.githubusercontent.com/eza-community/eza/main/deb.asc | sudo gpg --dearmor -o /etc/apt/keyrings/gierens.gpg\
+echo "deb [signed-by=/etc/apt/keyrings/gierens.gpg] http://deb.gierens.de stable main" | sudo tee /etc/apt/sources.list.d/gierens.list\
+sudo chmod 644 /etc/apt/keyrings/gierens.gpg /etc/apt/sources.list.d/gierens.list\
+sudo apt update\
+sudo apt install -y eza
+: 1733513785:0;sudo apt install wget\
+sudo apt install -y gpg
+: 1733513800:0;apt full-upgrade
+: 1733513813:0;dpkg-reconfigure tzdata
+: 1733513867:0;cd addon/
+: 1733513875:0;ls -a
+: 1733513891:0;dir
+: 1733513920:0;/mnt/e/config/cauhinh/cai_vi.sh
+: 1733514054:0;cd
+: 1733514086:0;sudo mkdir -p /etc/apt/keyrings\
+wget -qO- https://raw.githubusercontent.com/eza-community/eza/main/deb.asc | sudo gpg --dearmor -o /etc/apt/keyrings/gierens.gpg\
+echo "deb [signed-by=/etc/apt/keyrings/gierens.gpg] http://deb.gierens.de stable main" | sudo tee /etc/apt/sources.list.d/gierens.list\
+sudo chmod 644 /etc/apt/keyrings/gierens.gpg /etc/apt/sources.list.d/gierens.list\
+sudo apt update\
+sudo apt install -y eza
+: 1733514104:0;l
+: 1733514129:0;pip install Pygments
+: 1733514205:0;nn /root/.config/addon/plugins-clone.sh
+: 1733514276:0;. /root/.config/addon/plugins-clone.sh
+: 1733514307:0;nn /root/.config/addon/plugins-clone.sh
+: 1733514320:0;. /root/.config/addon/plugins-clone.sh
+: 1733514344:0;py
+: 1733514363:0;caidat python3
+: 1733514378:0;nn /root/.config/addon/plugins-clone.sh
+: 1733514407:0;. /root/.config/addon/plugins-clone.sh
+: 1733514463:0;sudo python3 setup.py install
+: 1733514473:0;cd /root/.config/pygments/
+: 1733514477:0;l
+: 1733514500:0;cd pygments
+: 1733514502:0;l
+: 1733514575:0;ll
+: 1733514606:0;pip3 install .
+: 1733514612:0;pip install .
+: 1733514619:0;caidat pip
+: 1733514691:0;pip install .
+: 1733514712:0;caidat pipx
+: 1733514763:0;pipx install .
+: 1733514804:0;pygmentize -h
+: 1733514813:0;exec zsh
+: 1733514839:0;cloneplugin
+: 1733514854:0;nn /root/.config/addon/plugins-clone.sh
+: 1733514893:0;caibat
+: 1733515129:0;nn /root/.config/addon/plugins-clone.sh
+: 1733515185:0;. /root/.config/addon/plugins-clone.sh
+: 1733515200:0;exec zsh
+: 1733515229:0;pla
+: 1733515236:0;pla zinit
+: 1733515267:0;plugin-load zinit
+: 1733515291:0;plugin-compile zinit
+: 1733515296:0;plugin-load zinit
+: 1733515309:0;plugin-source zinit
+: 1733515331:0;cd /root/.config/custom/plugins/zinit/
+: 1733515334:0;l
+: 1733515347:0;d /root/.config/custom/plugins/zinit/
+: 1733515368:0;plc zdharma-continuum/zinit
+: 1733515382:0;l
+: 1733515391:0;cd zim
+: 1733515393:0;l
+: 1733515410:0;cd zinit
+: 1733515425:0;plugin-clone zdharma-continuum/zinit
+: 1733515433:0;cd zinit
+: 1733515438:0;l
+: 1733515453:0;plugin-source zinit
+: 1733515466:0;plugin-load zinit
+: 1733515477:0;plugin-compile zinit
+: 1733515485:0;zinit
+: 1733515493:0;ll
+: 1733515524:0;chx -R ~/.config
+: 1733515538:0;~/.config/custom/plugins/zinit/
+: 1733515540:0;ll
+: 1733515658:0;adp ~/.config/custom/plugins/zinit/_zinit
+: 1733515688:0;l
+: 1733515853:0;nn clean_empty_dirs.zsh
+: 1733515925:0;chx clean_empty_dirs.zsh
+: 1733515933:0;exec zsh
+: 1733516012:0;cd plugins
+: 1733516017:0;d_thumuc
+: 1733516021:0;l
+: 1733516035:0;cloneplugin
+: 1733516059:0;f5
+: 1733516094:0;caidat wl-clipboard xsel xclip
+: 1733516170:0;cd
+: 1733516182:0;$ZPLUGINDIR
+: 1733516184:0;l
+: 1733516207:0;nn /root/.config/addon/plugins-clone.sh
+: 1733516288:0;. /root/.config/addon/plugins-clone.sh
+: 1733516300:0;cd
+: 1733516332:0;f5
+: 1733516435:0;pld zsh-snap alias-tips autoupdate 
+: 1733516444:0;exec zsh
+: 1733516456:0;pld zsh-snap alias-tips autoupdate 
+: 1733516465:0;caidat tmux
+: 1733516471:0;exec zsh
+: 1733516490:0;nn /root/.config/addon/plugins-clone.sh
+: 1733516581:0;. /root/.config/addon/plugins-clone.sh
+: 1733516588:0;exec zsh
+: 1733516603:0;nn /root/.config/addon/plugins-clone.sh
+: 1733516732:0;pld zsh-bat zsh-defer
+: 1733516737:0;exec zsh
+: 1733516765:0;cloneplugin
+: 1733516782:0;pla alias-tips
+: 1733516797:0;plugin-source alias-tips
+: 1733516803:0;plugin-load alias-tips
+: 1733516808:0;exec zsh
+: 1733516848:0;als plc
+: 1733516873:0;als plugin-update
+: 1733516893:0;plugin-update
+: 1733516924:0;nn
+: 1733516942:0;z
+: 1733516975:0;eza
+: 1733517036:0;ald le
+: 1733517106:0;ala le "eza --icons=always --group-directories-first --color=always --extended -ai --group-directories-last"
+: 1733517109:0;l
+: 1733517112:0;le
+: 1733517137:0;ll
+: 1733517152:0;li .rustup
+: 1733517163:0;d .rustup
+: 1733517219:0;als caidat 
+: 1733517243:0;ald caidat
+: 1733517258:0;als cai "sudo apt-get install -y"
+: 1733517273:0;ald cai
+: 1733517284:0;ala cai "sudo apt-get install -y"
+: 1733517305:0;cai aptitude
+: 1733517318:0;apt
+: 1733517333:0;aptitude
+: 1733517482:0;l
+: 1733517494:0;echo $ZDOTDIR
+: 1733517507:0;nn /root/.config/addon/plugins-clone.sh
+: 1733517767:0;q
+: 1733517778:0;als fg
+: 1733517801:0;$ZPLUGINDIR
+: 1733517812:0;cd find-file/
+: 1733517815:0;l
+: 1733517823:0;nn find-file.plugin.zsh
+: 1733517890:0;ala cpp "copypath"
+: 1733517903:0;cpp find-file.plugin.zsh
+: 1733517919:0;cd .config/
+: 1733517928:0;cd ~/.config/
+: 1733517934:0;git add .

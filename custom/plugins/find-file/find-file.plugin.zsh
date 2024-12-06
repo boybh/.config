@@ -29,7 +29,7 @@ function tim_goi_rac() {
 }
 
 # Alias
-alias ffr="tim_file_rac"
-alias fgr="tim_goi_rac"
-alias ff="tim_file_lon"
-alias fg="tim_goi_lon"
+alias tfr="tim_file_rac"
+alias tgr="tim_goi_rac"
+alias tfl="tim_file_lon"
+alias tgl="tim_goi_lon"

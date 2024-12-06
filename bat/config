@@ -29,3 +29,13 @@
 --file-size
 # Hiển thị file ẩn
 --show-all
+# Sử dụng màu sắc để tô syntax
+--color=always
+# Tùy chọn màu sắc cho các thành phần khác nhau của cú pháp
+--theme=TwoDark
+# Hiển thị số dòng bên cạnh nội dung
+--line-numbers=always
+# Hiển thị kích thước của file
+--file-size
+# Hiển thị file ẩn
+--show-all
