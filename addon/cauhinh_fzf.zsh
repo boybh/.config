@@ -50,7 +50,7 @@ zstyle ':fzf-tab:complete:*' fzf-bindings \
 # Kích hoạt hoàn thành
 autoload -Uz compinit; compinit -C  # Tải và khởi động hệ thống hoàn thành
 compinit -d ~/.cache/zcompdump  # Sử dụng cache cho hoàn thành
-
+zstyle ':completion:*:aliases' 'true'
 # Tùy chỉnh kiểu hoàn thành
 #zstyle ':autocomplete:*' ignored-input '..##'
 zstyle ':completion:*' use-cache on  # Kích hoạt tính năng cache

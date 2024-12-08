@@ -390,3 +390,5 @@ alias le='eza --icons=always --group-directories-first --color=always --extended
 alias cai='sudo apt-get install -y'
 alias cpp='copypath'
 alias cl_androiRAT='gh repo clone karma9874/AndroRAT /root/apps/AndroRAT'
+alias cai_noip='~/.config/addon/cai_noip.zsh'
+alias cai_vi='~/.config/addon/cai_vi.sh'
