@@ -1218,3 +1218,1038 @@ ssh-add ~/.ssh/id_ed25519
 : 1733518852:0;gmm "plugins updates"
 : 1733518857:0;git push config config --force
 : 1733518891:0;git commit -a
+: 1733518920:0;git push config config --force
+: 1733518982:0;update
+: 1733518991:0;upa
+: 1733519001:0;upgrade
+: 1733519012:0;apt full-upgrade
+: 1733519022:0;cd
+: 1733519070:0;gr
+: 1733519089:0;git remote set-url git@github.com:boybh/kali.git
+: 1733519103:0;git remote add git@github.com:boybh/kali.git
+: 1733519108:0;git init
+: 1733519117:0;git remote set-url git@github.com:boybh/kali.git
+: 1733519146:0;git remote set-url --add git@github.com:boybh/kali.git
+: 1733519157:0;git remote set-url --add kali git@github.com:boybh/kali.git
+: 1733519173:0;git remote set-url --add kali git@github.com:boybh/kali
+: 1733519189:0;git remote add kali git@github.com:boybh/kali
+: 1733519192:0;gr
+: 1733519200:0;cd
+: 1733519252:0;git add .ssh
+: 1733519266:0;gmm "ssh updates"
+: 1733519286:0;git push kali kali --force
+: 1733519297:0;gr
+: 1733519319:0;gh branch
+: 1733519337:0;gh extension list
+: 1733519343:0;$ADDON/gh_ex.sh
+: 1733519357:0;gh auth login
+: 1733519485:0;$ADDON/gh_ex.sh
+: 1733519552:0;cd apps
+: 1733519554:0;l
+: 1733519567:0;cd
+: 1733519587:0;git branch -m main kali
+: 1733519599:0;git push kali kali --force
+: 1733519618:0;eval "$(ssh-agent -s)"\
+ssh-add ~/.ssh/id_ed25519
+: 1733519628:0;ssh -T git@github.com
+: 1733519638:0;gh auth login
+: 1733519657:0;gh auth status
+: 1733519671:0;gh auth login
+: 1733519696:0;ssh -T git@github.com
+: 1733519704:0;git push kali kali --force
+: 1733519741:0;git pull
+: 1733519784:0;ll
+: 1733519842:0;cd apps
+: 1733519843:0;l
+: 1733519881:0;git branch --set-upstream-to=kali/kali kali
+: 1733519895:0;cd apps
+: 1733519899:0;git pull
+: 1733519905:0;l
+: 1733519916:0;cd ~/.config/
+: 1733519919:0;l
+: 1733519925:0;als fg
+: 1733519945:0;. $ALIAS_FILE
+: 1733519947:0;als fg
+: 1733519959:0;$ZPLUGINDIR
+: 1733519965:0;cd find-file/
+: 1733519983:0;l
+: 1733520008:0;./find-file.plugin.zsh
+: 1733520011:0;als fg
+: 1733520020:0;nn find-file.plugin.zsh
+: 1733520038:0;source find-file.plugin.zsh
+: 1733520042:0;als fg
+: 1733520050:0;cd
+: 1733520052:0;nn find-file.plugin.zsh
+: 1733520071:0;q
+: 1733520079:0;fg
+: 1733520083:0;als fg
+: 1733520098:0;ald fg
+: 1733520104:0;ald fgr
+: 1733520113:0;als tf
+: 1733520122:0;fg
+: 1733520135:0;cd
+: 1733568341:0;cd apps
+: 1733568345:0;l
+: 1733568488:0;ala cl_androiRAT "gh repo clone karma9874/AndroRAT $HOME/apps"
+: 1733568498:0;cl_androiRAT
+: 1733568514:0;ald cl_androiRAT "gh repo clone karma9874/AndroRAT $HOME/apps"
+: 1733568527:0;ala cl_androiRAT "gh repo clone karma9874/AndroRAT $HOME/apps/AndroRAT"
+: 1733568534:0;cl_androiRAT
+: 1733568898:0;cd
+: 1733568906:0;cd apps/AndroRAT/
+: 1733568911:0;l
+: 1733568919:0;pygmentize -h
+: 1733569116:0;pygmentize --h
+: 1733569122:0;pygmentize --help
+: 1733569167:0;l
+: 1733569315:0;.z
+: 1733569369:0;f5
+: 1733569400:0;.z
+: 1733569448:0;f5
+: 1733569628:0;exec zsh
+: 1733569692:0;.z
+: 1733569720:0;exec zsh
+: 1733569900:0;d ~/.zshrc
+: 1733569904:0;f5
+: 1733570036:0;l
+: 1733570038:0;cd
+: 1733570043:0;l
+: 1733570054:0;cd .config/
+: 1733570060:0;l
+: 1733570072:0;als cut
+: 1733570101:0;ald cut
+: 1733570115:0;l
+: 1733570127:0;cd
+: 1733570129:0;l
+: 1733570137:0;cd .config/
+: 1733570182:0;git add $ZS/aliases.zsh
+: 1733570197:0;gmm "update alias"
+: 1733570213:0;git push config config
+: 1733570284:0;cd
+: 1733570290:0;cd apps/
+: 1733570292:0;git clone https://github.com/sonvan1811/AnonyvietTrojan.git
+: 1733570301:0;cd AnonyvietTrojan\
+\
+sudo python3 setup.py
+: 1733570566:0;wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
+: 1733570579:0;chmod +x winetricks
+: 1733570586:0;sudo mv winetricks /usr/local/bin/
+: 1733570609:0;winetricks --version
+: 1733570672:0;cd /usr/local/bin
+: 1733570674:0;winetricks --version
+: 1733570682:0;winetricks -v
+: 1733570709:0;where winetricks
+: 1733571350:0;z
+: 1733571369:0;z 37603
+: 1733571377:0;z /root/.config/addon
+: 1733571403:0;cd AnonyvietTrojan
+: 1733571411:0;l
+: 1733571417:0;cd 
+: 1733571428:0;cd apps
+: 1733571441:0;cd AnonyvietTrojan/
+: 1733571449:0;sudo python3 setup.py
+: 1733571961:0;ip a
+: 1733572051:0;sudo systemctl enable ssh
+: 1733572054:0;sudo systemctl enable sshd
+: 1733572062:0;sudo systemctl disable sshd
+: 1733572094:0;cai sshd openssh-server
+: 1733572103:0;cai sshd openssh
+: 1733572111:0;sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 76F1A20FF987672F
+: 1733572119:0;sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/debian/ bullseye main'
+: 1733572133:0;sudo apt-get update
+: 1733572142:0;sudo apt-get install --install-recommends winehq-stable winetricks
+: 1733572181:0;apt autoclean
+: 1733572190:0;apt autoremove
+: 1733572195:0;update
+: 1733572217:0;upgrade
+: 1733572241:0;sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 76F1A20FF987672F
+: 1733572251:0;sudo apt-get update
+: 1733572306:0;wget -O - https://dl.winehq.org/wine-builds/winehq.key | sudo apt-key add -
+: 1733572313:0;sudo apt update
+: 1733572323:0;deb [trusted=yes] https://dl.winehq.org/wine-builds/debian bullseye main
+: 1733572352:0;nn /etc/apt/sources.list.d/winehq-bullseye.sources
+: 1733572366:0;sudo apt update
+: 1733572373:0;sudo rm /etc/apt/sources.list.d/archive_uri-https_dl_winehq_org_wine-builds_debian_-bookworm.list
+: 1733572378:0;sudo apt update
+: 1733572402:0;wget -O - https://dl.winehq.org/wine-builds/winehq.key | sudo apt-key add -
+: 1733572412:0;sudo nano /etc/apt/sources.list.d/winehq-bullseye.sources
+: 1733572428:0;sudo rm /etc/apt/sources.list.d/archive_uri-https_dl_winehq_org_wine-builds_debian_-bookworm.list
+: 1733572436:0;sudo rm -rf /etc/apt/sources.list.d/archive_uri-https_dl_winehq_org_wine-builds_debian_-bookworm.list
+: 1733572445:0;sudo apt update
+: 1733572460:0;cd /etc/apt/sources.list.d/
+: 1733572462:0;l
+: 1733572474:0;d gierens.list
+: 1733572476:0;l
+: 1733572482:0;sudo apt update
+: 1733572492:0;sudo apt full-upgrade
+: 1733572519:0;cd
+: 1733572560:0;sudo apt install openssh-server
+: 1733572584:0;sudo systemctl start ssh
+: 1733572588:0;sudo systemctl enable ssh
+: 1733572593:0;sudo nano /etc/ssh/sshd_config
+: 1733572940:0;sudo systemctl restart ssh
+: 1733572949:0;sudo systemctl enable ssh
+: 1733572962:0;sudo systemctl status ssh
+: 1733573094:0;sudo nano /etc/systemd/system/pagekite.service
+: 1733573162:0;sudo chmod 644 /etc/systemd/system/pagekite.service
+: 1733573165:0;sudo systemctl daemon-reload
+: 1733573170:0;sudo systemctl start pagekite
+: 1733573252:0;sudo systemctl status pagekite
+: 1733573276:0;sudo systemctl enable pagekite
+: 1733573287:0;sudo systemctl status pagekite
+: 1733573294:0;sudo systemctl start pagekite
+: 1733573296:0;sudo systemctl status pagekite
+: 1733573364:0;sudo apt update && sudo apt install wget
+: 1733573371:0;wget https://pagekite.net/downloads/PageKite.py
+: 1733573389:0;nano /etc/apt/sources.list
+: 1733573408:0;cai gpg
+: 1733573437:0;cd 
+: 1733573447:0;cd apps/AnonyvietTrojan/
+: 1733573450:0;l
+: 1733573459:0;nn YouCanRemoveDonotExecute.txt
+: 1733573473:0;cat README.md
+: 1733573484:0;[200~sudo python3 at.py~]
+: 1733573486:0;sudo python3 at.py
+: 1733573588:0;wget https://pagekite.net/downloads/PageKite.py
+: 1733573607:0;sudo bash -c 'echo "nameserver 8.8.8.8" > /etc/resolv.conf' 
+: 1733573609:0;wget https://pagekite.net/downloads/PageKite.py
+: 1733573701:0;sudo wget https://pagekite.net/pk/pagekite.py
+: 1733573761:0;curl -s https://pagekite.net/pk/ |sudo zsh
+: 1733573783:0;chmod +x pagekite.py
+: 1733573790:0;sudo mv -f pagekite.py /usr/local/bin
+: 1733573811:0;pagekite.py
+: 1733573832:0;which python
+: 1733573896:0;echo $HISTFILE
+: 1733573906:0;cat /root/.config/zsh/zsh_history
+: 1733573931:0;source /root/.config/zsh/zsh_history
+: 1733574083:0;ld /etc/os-release
+: 1733574089:0;nn /etc/os-release
+: 1733576039:0;
+: 1733576039:0;
+: 1733574202:0;update-alternatives --install python /usr/bin/python3 1
+: 1733574269:0;update-alternatives: --install needs /bin/python3 python /usr/bin/python 1
+: 1733574278:0;update-alternatives --install needs /bin/python3 python /usr/bin/python 1
+: 1733574289:0;update-alternatives --install /bin/python3 python /usr/bin/python 1
+: 1733574304:0;update-alternatives --install /bin/python3 python /bin/python 1
+: 1733574326:0;update-alternatives --install /bin/python python /bin/python3 1
+: 1733574343:0;which python
+: 1733574360:0;cd AnonyvietTrojan/
+: 1733574364:0;l
+: 1733574379:0;sudo py setup.py
+: 1733574387:0;py setup.py
+: 1733574443:0;enable-fzf-tab
+: 1733574462:0;cai wine64-tools
+: 1733574472:0;aac
+: 1733574477:0;aar
+: 1733574482:0;agr
+: 1733574492:0;zsh --help
+: 1733574587:0;zsh --menucomplete
+: 1733574613:0;pla eza
+: 1733574631:0;plugin-source eza
+: 1733574651:0;l
+: 1733574655:0;cd Output
+: 1733574656:0;l
+: 1733574671:0;py at
+: 1733574681:0;py at.py
+: 1733574688:0;cd
+: 1733574693:0;z
+: 1733574697:0;cd apps/AnonyvietTrojan/
+: 1733574701:0;py at.py
+: 1733574732:0;py setup.py
+: 1733574821:0;sudo mv PageKite.py /usr/local/bin/pagekite
+: 1733574826:0;cd 
+: 1733574830:0;cd apps/
+: 1733574831:0;sudo mv PageKite.py /usr/local/bin/pagekite
+: 1733574835:0;l
+: 1733574838:0;cd
+: 1733574839:0;sudo mv PageKite.py /usr/local/bin/pagekite
+: 1733574849:0;wget https://pagekite.net/downloads/PageKite.py
+: 1733574860:0;sudo wget https://pagekite.net/pk/pagekite.py
+: 1733574870:0;chmod +x pagekite.py
+: 1733574895:0;sudo mv pagekite.py /usr/local/bin/pagekite
+: 1733574904:0;sudo ln -s /usr/local/bin/pagekite /usr/bin/pagekite
+: 1733574911:0;sudo nano ~/.pagekite.rc
+: 1733575190:0;pagekite
+: 1733575224:0;pagekite.py *.html   boybh.pagekite.me
+: 1733575251:0;pagekite.py boybh.pagekite.me
+: 1733575333:0;nn ~/.pagekite.rc
+: 1733575355:0;pagekite boybh.pagekite.me
+: 1733575371:0;pagekite --frontend=http --port=8080
+: 1733575426:0;pagekite ssh://boybh.pagekite.me AND 3000 boybh.pagekite.me
+: 1733575455:0;pagekite --frontend=pagekite.net --service=http --port=80
+: 1733575479:0;d ~/.pagekite.rc
+: 1733575481:0;pagekite --frontend=pagekite.net --service=http --port=80
+: 1733575487:0;pagekite
+: 1733575663:0;systemctl show-environment
+: 1733575796:0;nano /etc/zsh/zprofile
+: 1733575841:0;copytext ~/.config/.zshrc
+: 1733575847:0;q
+: 1733575887:0;cat /root/.config/.zshrc
+: 1733575906:0;copytext /root/.config/.zshrc
+: 1733575909:0;q
+: 1733575956:0;. /etc/zsh/zprofile
+: 1733576018:0;f5
+: 1733576039:0;exec zsh
+: 1733576064:0;als
+: 1733576094:0;als vi
+: 1733576368:0;zshrc
+: 1733576405:0;vundle
+: 1733576421:0;cai vim
+: 1733576453:0;vi
+: 1733576482:0;systemctl status ssh
+: 1733576509:0;cai nmap
+: 1733576561:0;zinit debug start
+: 1733576579:0;zinit zstatus
+: 1733576601:0;zinit module
+: 1733576611:0;zinit --help
+: 1733576738:0;sudo pagekite --clean --optdir=/etc/pagekite.d
+: 1733576979:0;cd
+: 1733576986:0;python pagekite.py 80 boybh.pagekite.me
+: 1733576997:0;python pagekite 80 boybh.pagekite.me
+: 1733577005:0;pagekite 80 boybh.pagekite.me
+: 1733578152:0;cd apps/
+: 1733578157:0;cd
+: 1733578165:0;cd apps/AndroRAT/
+: 1733578171:0;l
+: 1733578179:0;py utils.py
+: 1733578187:0;py androRAT.py
+: 1733578204:0;pipx install -r requirements.txt
+: 1733578221:0;pip3 install -r requirements.txt
+: 1733578261:0;cai python3-full
+: 1733578464:0;pip3 install -r requirements.txt
+: 1733578480:0;cat /usr/share/doc/python3.11/README.venv
+: 1733578621:0;mkdir -p ~/.venvs
+: 1733578624:0;cat /usr/share/doc/python3.11/README.venv
+: 1733578666:0;python3 -m venv ~/.venvs/AndroRAT
+: 1733578677:0;cat /usr/share/doc/python3.11/README.venv
+: 1733579028:0;pip install --user root
+: 1733579049:0;cat /usr/share/doc/python3.11/README.venv
+: 1733579086:0;python3 -m venv ~/.venvs/root
+: 1733579116:0;cat /usr/share/doc/python3.11/README.venv
+: 1733579169:0;LD ~/.config/pip/pip.conf
+: 1733579174:0;ld ~/.config/pip/pip.conf
+: 1733579180:0;nn ~/.config/pip/pip.conf
+: 1733579193:0;nfd ~/.config/pip/
+: 1733579222:0;nn ~/.config/pip/pip.conf
+: 1733579265:0;pip install -r requirements.txt
+: 1733579364:0;pip root
+: 1733579443:0;~/.venvs/root/bin/python 
+: 1733579496:0;pipenv
+: 1733579500:0;autoenv
+: 1733579502:0;nano
+: 1733581004:0;update
+: 1733581183:0;apt-config shell
+: 1733581202:0;apt-key --h
+: 1733581210:0;apt-key list
+: 1733581222:0;apt-key --list
+: 1733581283:0;apt-key adv 76F1A20FF987672F
+: 1733581311:0;apt-key net-update
+: 1733581348:0;apt-key net-update apt-key del76F1A20FF987672F
+: 1733581360:0;apt-key apt-key del76F1A20FF987672F
+: 1733581374:0;apt-key del 76F1A20FF987672F
+: 1733581379:0;update
+: 1733581465:0;apt-list-packages
+: 1733593933:0;cd
+: 1733593937:0;adb
+: 1733593943:0;cai adb
+: 1733594506:0;adb 
+: 1733594511:0;adb devices
+: 1733594529:0;adb tcpip 5554
+: 1733601363:0;ip a
+: 1733605650:0;cd $ADDON
+: 1733605665:0;nn cai_noip
+: 1733605670:0;nn cai_noip.zsh
+: 1733607246:0;chx cai_noip.zsh
+: 1733607346:0;ala cai_noip "~/.config/addon/cai_noip.zsh"
+: 1733607366:0;cai_noip
+: 1733607391:0;cd
+: 1733607395:0;update
+: 1733607466:0;sudo grep -r "winehq" /etc/apt/
+: 1733607557:0;sudo rm /etc/apt/sources.list.d/winehq-bullseye.sources
+: 1733607568:0;sudo rm /etc/apt/keyrings/winehq-archive.key
+: 1733607585:0;sudo rm -rf /etc/apt/keyrings/winehq-archive.key
+: 1733607594:0;sudo apt update
+: 1733607675:0;noip-duc
+: 1733607702:0;wget --content-disposition https://www.noip.com/download/linux/latest\
+tar xf noip-duc_3.3.0.tar.gz\
+ cd /home/$USER/noip-duc_3.3.0/binaries && sudo apt install ./noip-duc_3.3.0_amd64.deb
+: 1733607769:0;cd noip-duc_3.3.0/binaries
+: 1733607778:0;udo apt install ./noip-duc_3.3.0_amd64.deb
+: 1733607784:0;sudo apt install ./noip-duc_3.3.0_amd64.deb
+: 1733607862:0;ls -l /root/noip-duc_3.3.0/binaries/noip-duc_3.3.0_amd64.deb
+: 1733607876:0;chx /root/noip-duc_3.3.0/binaries/noip-duc_3.3.0_amd64.deb
+: 1733607884:0;sudo apt install ./noip-duc_3.3.0_amd64.deb
+: 1733607893:0;noip-duc
+: 1733607930:0;d noip-duc_3.3.0/binaries/noip-duc_3.3.0_amd64.deb
+: 1733610376:0;sudo passwd sudo
+: 1733610389:0;sudo passwd root
+: 1733613991:0;cd
+: 1733614003:0;cd $ADDON
+: 1733614009:0;nano ~/wifi_config.conf
+: 1733614088:0;. ~/wifi_config.conf
+: 1733614145:0;sudo wpa_supplicant -B -i wlan0 -c $ADDON/wifi_config.conf\
+sudo dhclient wlan0\
+
+: 1733614153:0;cai wpa_supplicant
+: 1733614168:0;nano ~/wifi_config.ps1
+: 1733614282:0;netsh wlan export profile name="phuonghoang_2G" folder="C:\Users\boybh\Desktop"
+: 1733615687:0;echo "net.core.default_qdisc=fq" | sudo tee -a /etc/sysctl.conf\
+echo "net.ipv4.tcp_congestion_control=bbr" | sudo tee -a /etc/sysctl.conf\
+sudo sysctl -p\
+
+: 1733615763:0;sudo apt install nginx\
+sudo systemctl start nginx\
+
+: 1733615842:0;systemctl status networking.service
+: 1733615865:0;systemctl status nginx.service
+: 1733615951:0;systemctl status ssh
+: 1733616086:0;ip a
+: 1733618726:0;ssh root@192.168.1.199
+: 1733618767:0;ssh -o KexAlgorithms=+diffie-hellman-group1-sha1 root@192.168.1.199
+: 1733618781:0;ssh -o KexAlgorithms=+diffie-hellman-group14-sha1 root@192.168.1.199
+: 1733618791:0;nano ~/.ssh/config
+: 1733618812:0;ssh root@192.168.1.199
+: 1733618885:0;nano ~/.ssh/config
+: 1733618919:0;ssh root@192.168.1.199
+: 1733623956:0;cd
+: 1733627043:0;adb tcpip 5554
+: 1733627047:0;adb 
+: 1733627064:0;adb usb
+: 1733627107:0;adb -a
+: 1733627132:0;adb shell cmd package help
+: 1733629753:0;uname -a
+: 1733629817:0;sudo apt-get update\
+sudo apt-get install language-pack-vi -y\
+
+: 1733630439:0;sudo dpkg-reconfigure locales
+: 1733630565:0;sudo unset LC_ALL
+: 1733630576:0;unset LC_ALL
+: 1733630587:0;sudo dpkg-reconfigure locales
+: 1733630624:0;sudo nano /etc/default/locale
+: 1733630658:0;source /etc/default/locale
+: 1733630670:0;locale
+: 1733630732:0;man ls
+: 1733630738:0;sudo man ls
+: 1733630755:0;cai man
+: 1733630806:0;man ls
+: 1733630868:0;echo $LANG\
+echo $MANPATH\
+
+: 1733630929:0;.z
+: 1733630994:0;f5
+: 1733631181:0;exec zsh
+: 1733631200:0;ls /usr/share/man/vi/
+: 1733631251:0;sudo apt-get update\
+sudo apt-get install manpages-vi -y\
+
+: 1733631358:0;man ls
+: 1733631441:0;als caivi
+: 1733631445:0;als cai
+: 1733631593:0;cd .config/
+: 1733631595:0;l
+: 1733631622:0;copytext cai_vi.sh
+: 1733632519:0;nn cai_vi.sh
+: 1733632602:0;mv cai_vi.sh /root/.config/addon/cai_vi.sh
+: 1733632631:0;ala cai_vi "~/.config/addon/cai_vi.sh"
+: 1733632640:0;chx ~/.config/addon/cai_vi.sh
+: 1733632649:0;cai_vi
+: 1733632768:0;man zsh
+: 1733632974:0;exec zsh
+: 1733633437:0;man zsh
+: 1733633446:0;man ls
+: 1733633542:0;sudo apt-get install manpages-vi
+: 1733633551:0;sudo apt-get install zsh-doc-vi
+: 1733633687:0;man zsh > zsh-man.txt
+: 1733633701:0;cat zsh-man.txt
+: 1733633908:0;cat sudo nano /etc/default/locale
+: 1733633935:0;cat /etc/default/locale
+: 1733634122:0;sudo apt-get install coreutils-doc
+: 1733634135:0;sudo apt-get install vim-doc
+: 1733634164:0;sudo apt-get install zsh-doc
+: 1733634191:0;man zsh
+: 1733634206:0;zsh-doc
+: 1733634459:0;cat /usr/share/man/
+: 1733634468:0;cd /usr/share/man/
+: 1733634473:0;l
+: 1733635754:0;man zsh
+: 1733635770:0;man_trans zsh
+: 1733635783:0;.z
+: 1733637599:0;$ZSH_CUSTOM
+: 1733637606:0;l
+: 1733637621:0;cd $ADDON
+: 1733637624:0;l
+: 1733637642:0;nn cauhinh_fzf.zsh
+: 1733637815:0;.z
+: 1733637892:0;. ./zstyle ':completion:*:aliases' 'true'
+: 1733637906:0;. ./cauhinh_fzf.zsh
+: 1733638222:0;.z
+: 1733638306:0;exec zsh
+: 1733638357:0;cai_vi 
+: 1733638479:0;nn $ADDON/cai_vi.sh
+: 1733638997:0;git add .config/addon/*
+: 1733639012:0;git add ~/.config/addon/*
+: 1733639099:0;git add ~/.config/zsh/aliases.zsh
+: 1733639107:0;gmm "Cập nhật thư mục add on vÃ� cÃ�p nhật file aliases"
+: 1733639119:0;git push config config
+: 1733639692:0;cai_vi 
+: 1733641844:0;touch /root/.config/zsh/.zcompdump.zwc
+: 1733641847:0;cd
+: 1733641853:0;man zsh
+: 1733641865:0;man man
+: 1733641927:0;man ls
+: 1733641949:0;locale
+: 1733641963:0;cai locale-all
+: 1733641973:0;cai locales-all
+: 1733642109:0;$ZPLUGINDIR
+: 1733642906:0;locales-all
+: 1733643358:0;sudo apt install translate-shell
+: 1733643536:0;sudo snap install translate-shell
+: 1733643547:0;cai snap
+: 1733643570:0;sudo snap install translate-shell
+: 1733643575:0;snap install translate-shell
+: 1733643584:0;sudo snap install translate-shell
+: 1733643615:0;sudo apt update
+: 1733643636:0;sudo apt install snapd
+: 1733643678:0;sudo snap install translate-shell
+: 1733643698:0;sudo systemctl enable --now snapd.socket
+: 1733643714:0;sudo ln -s /var/lib/snapd/snap /snap
+: 1733643723:0;sudo snap install translate-shell
+: 1733643775:0;als caitrans
+: 1733643795:0;git clone https://github.com/soimort/translate-shell.git
+: 1733643805:0;cd translate-shell\
+make\
+
+: 1733643825:0;l
+: 1733643840:0;make
+: 1733643861:0;sudo apt update\
+sudo apt install gawk\
+
+: 1733643874:0;make
+: 1733643884:0;sudo make install
+: 1733643893:0;trans --version
+: 1733643988:0;nn $ZSH_CUSTOM/viman.zsh
+: 1733644014:0;chx $ZSH_CUSTOM/viman.zsh
+: 1733644021:0;. $ZSH_CUSTOM/viman.zsh
+: 1733644034:0;viman zsh
+: 1733644162:0;nn $ZSH_CUSTOM/viman.zsh
+: 1733644229:0;. $ZSH_CUSTOM/viman.zsh
+: 1733644233:0;viman zsh
+: 1733644246:0;man zsh
+: 1733644441:0;man --locale=vi_VN.UTF-8
+: 1733644450:0;"man --locale=vi_VN.UTF-8" zsh
+: 1733644461:0;man --locale=vi_VN.UTF-8 zsh
+: 1733644510:0;ala manvi "man --locale=vi_VN.UTF-8"
+: 1733644513:0;manvi zsh
+: 1733644612:0;sudo locale-gen vi_VN.UTF-8\
+sudo update-locale\
+
+: 1733644618:0;manvi zsh
+: 1733644638:0;man --locale=vi_VN.UTF-8 zsh
+: 1733644648:0;vim zsh.1
+: 1733644756:0;locale | cat
+: 1733644783:0;sudo apt-get install manpages-vi-extra
+: 1733644822:0;sudo apt update\
+sudo apt install manpages-vi\
+
+: 1733644914:0;.z
+: 1733644945:0;exec zsh
+: 1733644971:0;vim zsh.1
+: 1733644976:0;viman0
+: 1733644979:0;viman zsh
+: 1733645141:0;vim /usr/share/man/vi/man1/zsh.1
+: 1733645149:0;cai vim
+: 1733645159:0;cao nvim
+: 1733645165:0;cai nvim
+: 1733645173:0;snap install nvim
+: 1733645197:0;dich Alias tip: si nvim\
+error: This revision of snap "nvim" was published using classic confinement and thus may perform\
+       arbitrary system changes outside of the security sandbox that snaps are usually confined to,\
+       which may put your system at risk.\
+\
+       If you understand and want to proceed repeat the command including --classic.\
+\
+root@ACER ~/.config/custom/plugins/translate-shell � develop
+: 1733645204:0;dich "Alias tip: si nvim\
+error: This revision of snap "nvim" was published using classic confinement and thus may perform\
+       arbitrary system changes outside of the security sandbox that snaps are usually confined to,\
+       which may put your system at risk.\
+\
+       If you understand and want to proceed repeat the command including --classic.\
+\
+root@ACER ~/.config/custom/plugins/translate-shell � develop"
+: 1733645285:0;snap install nvim --classic
+: 1733645393:0;dich "Warning: /snap/bin was not found in your $PATH. If you've not restarted your session since you\
+         installed snapd, try doing that. Please see https://forum.snapcraft.io/t/9469 for more\
+         details.\
+\
+nvim v0.10.2 from neovim-snap (neovim-snap) installed"
+: 1733645569:0;snap version
+: 1733645622:0;exec zsh
+: 1733645639:0;cd
+: 1733645674:0;nn $ZSH_CUSTOM/viman.zsh
+: 1733645706:0;. $ZSH_CUSTOM/viman.zsh
+: 1733645713:0;viman zsh
+: 1733645736:0;nn $ZSH_CUSTOM/viman.zsh
+: 1733645823:0;viman zsh
+: 1733645830:0;. $ZSH_CUSTOM/viman.zsh
+: 1733645838:0;viman zsh
+: 1733645873:0;man bat
+: 1733645877:0;man batcat
+: 1733645890:0;bat --color=always | dich README.md
+: 1733645924:0;als cat
+: 1733645941:0;which bat
+: 1733645967:0;bat -c ~/.config/bat/bat.conf
+: 1733645984:0;bat -- -c ~/.config/bat/bat.conf
+: 1733646010:0;bat --c ~/.config/bat/bat.conf
+: 1733646032:0;bat --help
+: 1733646057:0;bat --help | dichbat
+: 1733646229:0;bat --help
+: 1733646600:0;als bat
+: 1733646642:0;nn $ALIAS_FILE
+: 1733646781:0;enable-fzf-tab
+: 1733646802:0;bat --help
+: 1733646869:0;ala bat "bat --language=help --style=plain --force-colorization --wrap=*auto*  --completion zsh"
+: 1733646912:0;man zsh | bat
+: 1733646926:0;ala bat
+: 1733646932:0;ald bat
+: 1733646945:0;ala bat "bat --language=help --style=plain --force-colorization --wrap=auto  --completion zsh"
+: 1733646947:0;man zsh | bat
+: 1733647178:0;nn $ZH/completion/_bat
+: 1733647188:0;touch $ZH/completion/_bat
+: 1733647228:0;.z
+: 1733647287:0;nfd $ZH/completion
+: 1733647293:0;touch $ZH/completion/_bat
+: 1733647297:0;nn $ZH/completion/_bat
+: 1733647343:0;chx $ZH/completion/_bat
+: 1733647363:0;.z
+: 1733647402:0;exec zsh
+: 1733647460:0;zsh --completealiases _bat
+: 1733647530:0;nfd $ZS/completion/
+: 1733647552:0;echo $ZH
+: 1733647559:0;l
+: 1733647566:0;cd /
+: 1733647568:0;l
+: 1733647572:0;cd 
+: 1733647612:0;echo $ZS
+: 1733647636:0;nn $ZS/completion/_bat
+: 1733647650:0;chx $ZS/completion/_bat
+: 1733647678:0;zsh --completealiases bat
+: 1733647693:0;which bat
+: 1733647728:0;als bat
+: 1733647763:0;ald bat
+: 1733647766:0;ald cat
+: 1733647780:0;ala cat "bat --language=help --style=plain --force-colorization --wrap=auto"
+: 1733647792:0;viman zsh | cat
+: 1733647840:0;viman zsh | dichbat
+: 1733647866:0;viman zsh | dich | bat
+: 1733647886:0;viman zsh | bat
+: 1733647902:0;which bat
+: 1733647928:0;zsh --completealiases /usr/local/bin/bat
+: 1733647957:0;bat --help
+: 1733647981:0;als bat
+: 1733648003:0;ald cat
+: 1733648051:0;ala cat "bat --language=help --style=plain --wrap=auto --color=always"
+: 1733648070:0;viman zsh | cat
+: 1733648096:0;.z
+: 1733648115:0;exec zsh
+: 1733648133:0;viman zsh | cat
+: 1733648176:0;viman zsh
+: 1733648290:0;nn $ZSH_CUSTOM/viman.zsh
+: 1733648325:0;. $ZSH_CUSTOM/viman.zsh
+: 1733648330:0;viman zsh
+: 1733648372:0;man zsh | cat
+: 1733648393:0;man zsh | dichcat
+: 1733648426:0;manvi zsh
+: 1733648440:0;als manvi
+: 1733648455:0;man man
+: 1733648464:0;manvi man
+: 1733648473:0;q
+: 1733648498:0;sudo apt install manpages-vi
+: 1733648509:0;manpages-vi
+: 1733648517:0;manpages-vi --help
+: 1733648541:0;sudo locale-gen vi_VN.UTF-8\
+sudo update-locale LANG=vi_VN.UTF-8\
+
+: 1733648615:0;sudo nano /etc/apt/sources.list
+: 1733648632:0;sudo apt-get update
+: 1733648671:0;gpg --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32 871920D1991BC93C\
+gpg --export --armor 3B4FE6ACC0B21F32 871920D1991BC93C | sudo tee /usr/share/keyrings/ubuntu-archive-keyring.gpg\
+
+: 1733648681:0;sudo apt-get update
+: 1733648692:0;sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32 871920D1991BC93C
+: 1733648697:0;sudo apt-get update
+: 1733648774:0;del /usr/share/keyrings/ubuntu-archive-keyring.gpg
+: 1733648776:0;sudo apt-get update
+: 1733648849:0;sudo apt-key list
+: 1733648857:0;sudo apt-key export 3B4FE6ACC0B21F32 | sudo tee /usr/share/keyrings/ubuntu-archive-keyring.gpg > /dev/null\
+sudo apt-key export 871920D1991BC93C | sudo tee -a /usr/share/keyrings/ubuntu-archive-keyring.gpg > /dev/null\
+
+: 1733648876:0;nn /etc/apt/sources.list
+: 1733648946:0;sudo apt-get update
+: 1733648970:0;sudo apt-get update -o Acquire::AllowInsecureRepositories=true
+: 1733648986:0;nn /etc/apt/sources.list
+: 1733649054:0;ala addkey1 "sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32 871920D1991BC93C"
+: 1733649066:0;ald appskey1
+: 1733649080:0;ald appkey1
+: 1733649097:0;ald addkey1
+: 1733649117:0;ala addkey_keyserver.ubuntu.com "sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32 871920D1991BC93C"
+: 1733649126:0;addkey_keyserver.ubuntu.com
+: 1733649140:0;sudo apt-get update
+: 1733649166:0;dich "W: http://archive.ubuntu.com/ubuntu/dists/focal/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details."
+: 1733649187:0;cai_vi
+: 1733649474:0;cd
+: 1733649484:0;man cp
+: 1733649500:0;man man
+: 1733650003:0;cd
+: 1733650012:0;nn /etc/apt/sources.list
+: 1733650033:0;sudo apt-get update
+: 1733650223:0;gpg --no-default-keyring --keyring /etc/apt/trusted.gpg --list-keys
+: 1733650350:0;gpg --no-default-keyring --keyring /etc/apt/trusted.gpg --export 790BC7277767219C42C86F933B4FE6ACC0B21F32 | sudo tee /usr/share/keyrings/ubuntu.com-archive-keyring.gpg > /dev/null
+: 1733650378:0;gpg --no-default-keyring --keyring /etc/apt/trusted.gpg --export F6ECB3762474EDA9D21B7022871920D1991BC93C | sudo tee /usr/share/keyrings/ubuntu.com-archive-keyring.gpg > /dev/null
+: 1733650404:0;nn /etc/apt/sources.list
+: 1733650529:0;sudo apt update\
+sudo apt upgrade\
+
+: 1733650597:0;addkey_keyserver.ubuntu.com
+: 1733650602:0;sudo apt update\
+sudo apt upgrade\
+
+: 1733650646:0;apt-get autoclean
+: 1733650652:0;apt-get autoremove
+: 1733650660:0;apt list --upgradable
+: 1733650667:0;upgrade
+: 1733650671:0;update
+: 1733650722:0;sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32 871920D1991BC93C
+: 1733650730:0;sudo apt update
+: 1733650753:0;gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3B4FE6ACC0B21F32 871920D1991BC93C\
+gpg --export --armor 3B4FE6ACC0B21F32 871920D1991BC93C | sudo tee /usr/share/keyrings/ubuntu-archive-keyring.gpg > /dev/null\
+
+: 1733650759:0;sudo apt update
+: 1733650792:0;sudo rm -rf /usr/share/keyrings/ubuntu-archive-keyring.gpg
+: 1733650798:0;update
+: 1733650815:0;sua~
+: 1733650826:0;nn /etc/apt/sources.list
+: 1733650870:0;q
+: 1733650916:0;update
+: 1733650933:0;nn /etc/apt/sources.list
+: 1733650950:0;update
+: 1733651029:0;upgrade
+: 1733651079:0;sudo apt-get install -y debian-reference-vi
+: 1733651156:0;sudo apt search manpages
+: 1733651212:0;sudo apt-get install -y linux-doc-vi
+: 1733651221:0;update
+: 1733651266:0;gpg --no-default-keyring --keyring /etc/apt/trusted.gpg --list-keys
+: 1733651301:0;gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3B4FE6ACC0B21F32 871920D1991BC93C\
+gpg --export --armor 3B4FE6ACC0B21F32 871920D1991BC93C | sudo tee /usr/share/keyrings/ubuntu-archive-keyring.gpg > /dev/null\
+
+: 1733651329:0;sudo apt update\
+sudo apt upgrade\
+
+: 1733651381:0;nn /etc/apt/sources.list
+: 1733651399:0;update
+: 1733651439:0;nn /etc/apt/sources.list
+: 1733651449:0;update
+: 1733651465:0;sudo apt-key list
+: 1733651509:0;sudo gpg --no-default-keyring --keyring /etc/apt/trusted.gpg --export 3B4FE6ACC0B21F32 | sudo tee /usr/share/keyrings/ubuntu-archive-keyring.gpg > /dev/null\
+sudo gpg --no-default-keyring --keyring /etc/apt/trusted.gpg --export 871920D1991BC93C | sudo tee -a /usr/share/keyrings/ubuntu-archive-keyring.gpg > /dev/null\
+
+: 1733651527:0;nn /etc/apt/sources.list
+: 1733651535:0;update
+: 1733651583:0;nn /etc/apt/sources.list
+: 1733651603:0;update
+: 1733651614:0;upgrade
+: 1733651723:0;sudo apt install -y manpages-vi manpages-posix-vi\
+sudo apt install -y linux-doc-vi manpages-vi-extra debian-reference-vi apt-transport-https-vi tzdata-vi\
+
+: 1733651751:0;language-pack-vi
+: 1733651756:0;locale
+: 1733651781:0;sudo dpkg-reconfigure locales
+: 1733651799:0;man man
+: 1733651809:0;man --locale=vi_VN.UTF-8  man
+: 1733651968:0;sudo apt update\
+sudo apt install manpages-vi manpages-vi-extra\
+
+: 1733652006:0;sudo apt install debian-reference-vi\
+sudo apt install tzdata-vi\
+
+: 1733652612:0;sudo apt-get install -y manpages-es-extra manpages-posix manpages-posix-dev
+: 1733652646:0;plugin_add man
+: 1733652669:0;omz plugin info man
+: 1733652706:0;omz plugin info man | dichcat
+: 1733652783:0;omz plugin info sudo
+: 1733652883:0;man aptitude
+: 1733652898:0;manvi aptitude
+: 1733652909:0;viman aptitude
+: 1733652969:0;man
+: 1733652981:0;man --help
+: 1733653073:0;man
+: 1733653079:0;man aptitude
+: 1733653143:0;sudo apt-get install -y aptitude-common aptitude-doc-vi
+: 1733653167:0;ls -l /dev/stdout
+: 1733653215:0;ls -l /proc/self/fd/1
+: 1733653232:0;sudo chmod +x -R /proc/self/fd/1
+: 1733653235:0;ls -l /proc/self/fd/1
+: 1733653248:0;ls -l /dev/pts/
+: 1733653273:0;chx /dev/pts/
+: 1733653276:0;ls -l /dev/pts/
+: 1733653286:0;ls -l /dev/stdout
+: 1733653291:0;ls -l /proc/self/fd/1
+: 1733653303:0;sudo chmod +x -R /proc/self/fd/
+: 1733653313:0;chmod +x -R /proc/self/fd/
+: 1733653350:0;alias_add gawk "sudo gawk"
+: 1733653496:0;cd /usr/share/man/vi/
+: 1733653498:0;l
+: 1733653518:0;als l
+: 1733653566:0;nano $ALIAS_FILE
+: 1733653636:0;alias_delete l
+: 1733653642:0;als l
+: 1733653682:0;als eza
+: 1733653701:0;l
+: 1733653784:0;als "-g -- l" "le"
+: 1733653793:0;ala "-g -- l" "le"
+: 1733653806:0;l
+: 1733653824:0;nano $ALIAS_FILE
+: 1733654045:0;l
+: 1733654068:0;man omz
+: 1733654073:0;l
+: 1733654074:0;ls
+: 1733654086:0;cd man1/
+: 1733654088:0;ls
+: 1733654130:0;cd
+: 1733654148:0;man zsh | cat
+: 1733654166:0;man zsh | dich
+: 1733654192:0;man zsh | dichbat
+: 1733654321:0;nano ~/.config/bat/config
+: 1733654402:0;man zsh | trans -b :vi | bat --color=always
+: 1733654444:0;nano ~/.config/bat/bat.zsh
+: 1733654475:0;. ~/.config/bat/bat.zsh
+: 1733654478:0;nano ~/.config/bat/bat.zsh
+: 1733654488:0;man zsh | trans -b :vi | bat --color=always
+: 1733654527:0;bat --help
+: 1733654547:0;man bat
+: 1733654561:0;which bat
+: 1733654567:0;man bat
+: 1733654575:0;man --locale=vi_VN.UTF-8 bat
+: 1733654587:0;man bat
+: 1733654600:0;bat --help ... 2>&1 | bat --language=help --style=plain 
+: 1733654614:0;bat --help 2>&1 | bat --language=help --style=plain 
+: 1733654640:0;bat --help | dich
+: 1733654688:0;chx ~/.config/bat/bat.zsh
+: 1733654703:0;cat ~/.config/bat/bat.conf
+: 1733654738:0;bat --help
+: 1733654842:0;nano ~/.config/bat/bat.conf
+: 1733654867:0;q
+: 1733655111:0;nano ~/.config/bat/bat.conf
+: 1733655156:0;copytext ~/.config/bat/bat.conf
+: 1733655164:0;nano ~/.config/bat/config
+: 1733655267:0;d ~/.config/bat/bat.conf
+: 1733655276:0;. ~/.config/bat/config
+: 1733655292:0;bat ~/.config/bat/config
+: 1733655308:0;bat -c ~/.config/bat/bat.conf
+: 1733655338:0;bat -- -c ~/.config/bat/bat.conf
+: 1733655349:0;bat -- -c ~/.config/bat/config
+: 1733655396:0;nano $ALIAS_FILE
+: 1733655507:0;alias_delete cat
+: 1733655516:0;als cat "bat"
+: 1733655526:0;cat $ALIAS_FILE
+: 1733655542:0;als cat
+: 1733655560:0;ala cat "bat"
+: 1733655563:0;cat $ALIAS_FILE
+: 1733655594:0;bat -h
+: 1733655604:0;catman
+: 1733655862:0;man bat
+: 1733655867:0;man catman
+: 1733655972:0;sudo apt-get install -y bat batctl batmand
+: 1733656118:0;sudo apt install doc-debian-vi
+: 1733656147:0;sudo apt install vim-doc-vi
+: 1733656173:0;apt-cache search doc-vi
+: 1733656191:0;apt-cache search *doc-vi
+: 1733656244:0;apt-cache search vi
+: 1733656327:0;man eza
+: 1733656338:0;man --locale=vi_VN.UTF-8 eza
+: 1733656363:0;man --locale=vi_VN eza
+: 1733656379:0;eza --help
+: 1733656427:0;zsh --help
+: 1733656457:0;zsh --help | dichbat
+: 1733656515:0;cd -h
+: 1733656520:0;cd --help
+: 1733656528:0;man cd
+: 1733656543:0;man --locale=vi_VN.UTF-8 cp
+: 1733656568:0;als man
+: 1733656727:0;als '-g man' "man --locale=vi_VN.UTF-8"
+: 1733656737:0;ala '-g man' "man --locale=vi_VN.UTF-8"
+: 1733656748:0;man wget
+: 1733656760:0;manvi wget
+: 1733656775:0;\mv -i --help
+: 1733656797:0;nano ~/.config/bat/config
+: 1733656895:0;which bat
+: 1733657073:0;sudo mkdir -p /etc/bat\
+sudo touch /etc/bat/config\
+sudo cp /root/.config/bat/config /etc/bat/config
+: 1733657082:0;bat /etc/bat/config
+: 1733657105:0;nn /etc/bat/config
+: 1733657122:0;bat /etc/bat/config
+: 1733657156:0;nn /etc/bat/config
+: 1733657188:0;bat /etc/bat/config
+: 1733657201:0;bat --help
+: 1733657290:0;nn /etc/bat/config
+: 1733657321:0;bat --help
+: 1733657330:0;nn /etc/bat/config
+: 1733657348:0;bat /etc/bat/config
+: 1733657368:0;bat /etc/bat/config 
+: 1733657400:0;nano ~/.config/bat/config
+: 1733657446:0;bat ~/.config/bat/config
+: 1733657455:0;chx ~/.config/bat/config
+: 1733657456:0;bat ~/.config/bat/config
+: 1733657463:0;bat --help
+: 1733657494:0;bat --man
+: 1733657507:0;als bat
+: 1733657528:0;bat /etc/bat/config 
+: 1733657537:0;nn /etc/bat/config 
+: 1733657690:0;nano ~/.config/bat/config
+: 1733657757:0;bat ~/.config/bat/config
+: 1733657813:0;cat ~/.config/bat/config
+: 1733657820:0;alias_delete cat
+: 1733657822:0;cat ~/.config/bat/config
+: 1733657847:0;bat --help
+: 1733657918:0;d /etc/bat/config 
+: 1733657923:0;bat --help
+: 1733657943:0;bat ~/.config/bat/config
+: 1733657974:0;cd
+: 1733657979:0;exec zsh
+: 1733658021:0;pld --locale=vi_VN.UTF-8
+: 1733658030:0;pll
+: 1733658044:0;.z
+: 1733658174:0;bat ~/.config/bat/config
+: 1733658239:0;zsh --help | dichbat
+: 1733658281:0;bat -- -c ~/.config/bat/config
+: 1733658301:0;zsh --help | dichbat
+: 1733658382:0;mgawk --version
+: 1733658383:0;wk --version
+: 1733658386:0;gawk --version
+: 1733658442:0;ls -l /dev/stdout
+: 1733658468:0;sudo ln -s /proc/self/fd/1 /dev/stdout
+: 1733658506:0;ln --help
+: 1733658567:0;nano ~/.config/bat/config
+: 1733658637:0;bat --help
+: 1733658759:0;nano ~/.config/bat/config
+: 1733658879:0;bat ~/.config/bat/config
+: 1733658920:0;which _bat
+: 1733658944:0;bat --completion zsh
+: 1733658950:0;cd
+: 1733658967:0;zsh --help | dich
+: 1733658972:0;zsh --help | dichbat
+: 1733659013:0;man zsh 
+: 1733659107:0;zshall
+: 1733659111:0;man zsh 
+: 1733659134:0;zsh zsh
+: 1733659137:0;zsh --zsh
+: 1733659144:0;zsh zshall
+: 1733659175:0;zsh --vi
+: 1733659241:0;zsh --completealiases bat
+: 1733659248:0;zsh --completealiases /usr/local/bin/bat
+: 1733659267:0;where bat
+: 1733659298:0;zsh --vi --help
+: 1733659349:0;zsh --help --vi
+: 1733659433:0;enable-fzf-tab
+: 1733659454:0;man fzf-tab
+: 1733659461:0;fzf-tab --help
+: 1733659468:0;fzf-tab --help ... 2>&1 | bat --language=help --style=plain 
+: 1733659487:0;nano $ALIAS_FILE
+: 1733667385:0;cd
+: 1733667415:0;where ----locale=vi_VN.UTF-8
+: 1733667426:0;where --locale=vi_VN.UTF-8
+: 1733667444:0;where "--locale=vi_VN.UTF-8"
+: 1733667458:0;nano $ALIAS_FILE
+: 1733668627:0;omz plugin enable locale -a | grep vi_VN
+: 1733668647:1;omz plugin disable locale -a | grep vi_VN
+: 1733668658:0;omz plugin disable "locale -a | grep vi_VN"
+: 1733668667:0;exec zsh
+: 1733668727:0;sudo locale-gen vi_VN.UTF-8\
+sudo update-locale LANG=vi_VN.UTF-8
+: 1733668752:0;omz upgrade
+: 1733668757:0;source $HOME/.zshrc
+: 1733668820:0;.z
+: 1733668823:0;.z 
+: 1733668874:0;npm install --global pure-prompt
+: 1733668896:0;pld "--locale=vi_VN.UTF-8"
+: 1733668901:0;pll
+: 1733668917:0;cd
+: 1733668929:0;find --locale=vi_VN.UTF-8
+: 1733668940:0;find '--locale=vi_VN.UTF-8'
+: 1733668952:0;.z
+: 1733669187:0;man 7z
+: 1733669195:0;man omz
+: 1733669225:0;man --path
+: 1733669251:0;man --all
+: 1733669262:0;man man --all
+: 1733669293:0;als man
+: 1733669304:0;als "man"
+: 1733669317:0;ald man
+: 1733669347:0;manv omz
+: 1733669353:0;omz --help
+: 1733669367:0;omz --help | dichbat
+: 1733669382:0;omz --help | dich
+: 1733669610:0;omz --help | dich | export LESS='-R'
+: 1733669678:0;ls -l /dev/stdout\
+# Nó nên liên kết tể�i /proc/self/fd/1\
+
+: 1733669737:0;omz --help | dich | less -r
+: 1733669754:0;omz --help | dichcat
+: 1733669813:0;sudo nano /etc/environment
+: 1733669823:0;source /etc/environment
+: 1733669859:0;.z
+: 1733669897:0;exec zsh
+: 1733669915:0;nano $ALIAS_FILE
+: 1733669938:0;. $ALIAS_FILE
+: 1733669941:0;source $HOME/.zshrc
+: 1733669945:0;f5
+: 1733670609:0;man man
+: 1733671245:0;cd
+: 1733671275:0;cus
+: 1733671300:0;dich "No such widget `vi-editing-mode'"\
+
+: 1733671318:0;dich ''No such widget `vi-editing-mode''\
+
+: 1733671346:0;dich "No such widget vi-editing-mode"
+: 1733671368:0;nn all.zsh
+: 1733671425:0;vi-editing-mode
+: 1733672463:0;als man
+: 1733672498:0;als "man"
+: 1733672508:0;ald "man"
+: 1733672510:0;als "man"
+: 1733672519:0;als man 
+: 1733672539:0;manv zsh
+: 1733672569:0;manv zsh >> less
+: 1733672595:0;manv zsh | less
+: 1733672603:0;manv zsh | less -r
+: 1733672895:0;man zsh > zsh-man.txt
+: 1733672899:0;l
+: 1733672904:0;cat zsh-man.txt
+: 1733672958:0;man zsh | bat > zsh-vi.zsh
+: 1733672965:0;bat zsh-vi.zsh
+: 1733673001:0;catman zsh-vi.zsh
+: 1733673009:0;cat zsh-man.txt
+: 1733673018:0;cat zsh-vi.zsh
+: 1733673024:0;cd
+: 1733673028:0;bat zsh-vi.zsh
+: 1733673033:0;bat zsh-vi.zsh 
+: 1733673043:0;l
+: 1733673076:0;where zsh-vi.zsh
+: 1733673082:0;fd zsh-vi.zsh
+: 1733673098:0;cai fd-find
+: 1733673130:0;fd zsh-vi.zsh
+: 1733673136:0;fd zsh-vi.zsh ~
+: 1733673157:0;fd --type zsh-vi.zsh --color=always
+: 1733673167:0;fd --help
+: 1733673217:0;cat .config/custom/zsh-vi.zsh 
+: 1733673243:0;man trans
+: 1733673253:0;manvi trans
+: 1733673263:0;viman trans
+: 1733673288:0;viman trans > bat
+: 1733673368:0;bat
+: 1733673398:0;cd
+: 1733677246:0;ip a
+: 1733677331:0;cd .config/
+: 1733677345:0;git add .config/*
+: 1733677353:0;git add ~/.config/*

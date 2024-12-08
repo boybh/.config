@@ -1,41 +1,25 @@
-# Sử dụng màu sắc để tô syntax
 --color=always
-# Tùy chọn màu sắc cho các thành phần khác nhau của cú pháp
---theme=TwoDark
-# Hiển thị số dòng bên cạnh nội dung
---line-numbers=always
-# Hiển thị kích thước của file
---file-size
-# Hiển thị file ẩn
+#--line-numbers=always
+#--file-size
 --show-all
 --pager="less --RAW-CONTROL-CHARS --quit-if-one-screen --mouse"
-# Sử dụng màu sắc để tô syntax
---color=always
-# Tùy chọn màu sắc cho các thành phần khác nhau của cú pháp
---theme=TwoDark
-# Hiển thị số dòng bên cạnh nội dung
---line-numbers=always
-# Hiển thị kích thước của file
---file-size
-# Hiển thị file ẩn
---show-all
-# Sử dụng màu sắc để tô syntax
---color=always
-# Tùy chọn màu sắc cho các thành phần khác nhau của cú pháp
---theme=TwoDark
-# Hiển thị số dòng bên cạnh nội dung
---line-numbers=always
-# Hiển thị kích thước của file
---file-size
-# Hiển thị file ẩn
---show-all
-# Sử dụng màu sắc để tô syntax
---color=always
-# Tùy chọn màu sắc cho các thành phần khác nhau của cú pháp
---theme=TwoDark
-# Hiển thị số dòng bên cạnh nội dung
---line-numbers=always
-# Hiển thị kích thước của file
---file-size
-# Hiển thị file ẩn
---show-all
+--highlight-line 30:40
+--line-range 30:40
+--theme=OneHalfDark
+
+# Không wrap nội dung dài
+--wrap=auto
+
+# Hiển thị dấu phân cách cho dễ nhìn
+--border=horizontal
+
+# Sử dụng icon cho file
+--icons=always
+
+# Cấu hình pager cho file dài
+--pager=less
+
+# Tùy chọn hiển thị đánh dấu cú pháp
+--style=full
+
+--completion zsh

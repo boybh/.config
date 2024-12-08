@@ -1,0 +1,104 @@
+ZSH(1) Hướng dẫn sử dụng lệnh chung ZSH(1)
+
+TÊN
+zsh - vỏ Z
+
+TỔNG QUAN
+Vì zsh chứa nhiều tính năng nên hướng dẫn sử dụng zsh đã được chia thành
+một số phần:
+
+tổng quan về zsh Zsh (phần này)
+zshroadmap Giới thiệu không chính thức về hướng dẫn sử dụng
+zshmisc Bất cứ điều gì không phù hợp với các phần khác
+lệnh zshexpn Zsh và mở rộng tham số
+tham số zshparam Zsh
+zshoptions Tùy chọn Zsh
+zshbuildins Các hàm tích hợp Zsh
+zshzle Chỉnh sửa dòng lệnh Zsh
+zshcompwid Tiện ích hoàn thành Zsh
+zshcompsys Hệ thống hoàn thiện Zsh
+zshcompctl Kiểm soát hoàn thành Zsh
+zshmodules Các mô-đun có thể tải Zsh
+zshcalsys Các chức năng lịch tích hợp của Zsh
+zshtcpsys Các hàm TCP tích hợp Zsh
+zshzftpsys Máy khách FTP tích hợp Zsh
+zshcontrib Các chức năng và tiện ích zsh bổ sung
+trang zshall Meta-man chứa tất cả những điều trên
+
+SỰ MIÊU TẢ
+Zsh là trình thông dịch lệnh UNIX (shell) có thể sử dụng như một lo-
+gin shell và làm bộ xử lý lệnh shell script.  Của tiêu chuẩn
+shell, zsh gần giống với ksh nhất nhưng có nhiều cải tiến.
+Nó không cung cấp khả năng tương thích với POSIX hoặc các shell khác trong thiết kế của nó.
+chế độ vận hành lỗi: xem phần `Khả năng tương thích' bên dưới.
+
+Zsh có tính năng chỉnh sửa dòng lệnh, sửa lỗi chính tả tích hợp, có thể lập trình
+hoàn thành lệnh, các chức năng shell (với tính năng tự động tải), cơ chế lịch sử
+chủ nghĩa vô thần và một loạt các tính năng khác.
+
+TÁC GIẢ
+Zsh ban đầu được viết bởi Paul Falstad.  Zsh hiện được duy trì bởi
+các thành viên của danh sách gửi thư zsh-workers <zsh-workers@zsh.org>.  các
+sự phát triển hiện được điều phối bởi Peter Stephenson <pws@zsh.org>.
+Bạn có thể liên hệ với điều phối viên tại <coorder@zsh.org>, nhưng có vấn đề
+liên quan đến mã thường được đưa vào danh sách gửi thư.
+
+SẴN CÓ
+Zsh có sẵn từ trang HTTP và FTP ẩn danh sau đây.
+
+ftp://ftp.zsh.org/pub/
+https://www.zsh.org/pub/
+
+Mã nguồn cập nhật có sẵn thông qua Git từ Sourceforge.   Nhìn thấy
+https://sourceforge.net/projects/zsh/ để biết chi tiết.   Một bản tóm tắt trong
+bạn có thể tìm thấy cấu trúc cho kho lưu trữ tại https://zsh.sourceforge.io/.
+
+DANH SÁCH GỬI THƯ
+Zsh có một số danh sách gửi thư:
+
+<zsh-announce@zsh.org>
+Thông báo về các bản phát hành, những thay đổi lớn trong shell và
+đăng câu hỏi thường gặp về Zsh hàng tháng.  (đã được kiểm duyệt)
+
+<zsh-users@zsh.org>
+Người dùng thảo luận.
+
+<zsh-workers@zsh.org>
+Hack, phát triển, báo cáo lỗi và bản vá.
+
+<zsh-security@zsh.org>
+Danh sách gửi thư riêng tư (công chúng không thể đăng ký vào nó)
+để thảo luận về các báo cáo lỗi có liên quan đến bảo mật, ví dụ: po-
+những lỗ hổng tiềm ẩn.
+
+Nếu bạn tìm thấy vấn đề bảo mật trong chính zsh, vui lòng gửi thư này
+Địa chỉ.
+
+Để đăng ký hoặc hủy đăng ký, hãy gửi thư đến bộ phận quản trị liên quan
+địa chỉ cho danh sách gửi thư.
+
+<zsh-announce-subscribe@zsh.org>
+<zsh-users-subscribe@zsh.org>
+<zsh-workers-subscribe@zsh.org>
+<zsh-announce-unsubscribe@zsh.org>
+<zsh-users-unsubscribe@zsh.org>
+<zsh-workers-unsubscribe@zsh.org>
+
+BẠN CHỈ CẦN THAM GIA MỘT TRONG CÁC DANH SÁCH GỬI THƯ NHƯ CHÚNG ĐƯỢC LỒNG LỒNG.  Tất cả
+các bài gửi tới zsh-announce sẽ tự động được chuyển tiếp đến người dùng zsh.
+Tất cả nội dung gửi tới người dùng zsh sẽ tự động được chuyển tiếp đến zsh-work‐
+ờ.
+
+Nếu bạn gặp vấn đề khi đăng ký/hủy đăng ký bất kỳ dịch vụ gửi thư nào
+danh sách, hãy gửi thư đến <listmaster@zsh.org>.
+
+Danh sách gửi thư được lưu trữ; các kho lưu trữ có thể được truy cập thông qua
+địa chỉ hành chính được liệt kê ở trên.  Ngoài ra còn có một siêu văn bản
+hẹ có sẵn tại https://www.zsh.org/mla/.
+
+Câu hỏi thường gặp về ZSH
+Zsh có một danh sách Các câu hỏi thường gặp (FAQ), được duy trì bởi Peter
+Stephenson <pws@zsh.org>.  Nó thường xuyên được đăng lên nhóm tin
+comp.unix.shell và danh sách gửi thư thông báo zsh.  Phiên bản mới nhất
+có thể được tìm thấy tại bất kỳ trang FTP Zsh nào hoặc tại
+https://www.zsh.org/FAQ/.   Địa chỉ liên hệ cho các vấn đề liên quan đến Câu hỏi thường gặp
