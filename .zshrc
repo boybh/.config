@@ -7,7 +7,7 @@
 #export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 # Loại bỏ các đường dẫn Windows từ PATH
-export PATH=$(echo $PATH | tr ':' '\n' | grep -v '/mnt/c' | tr '\n' ':')
+#export PATH=$(echo $PATH | tr ':' '\n' | grep -v '/mnt/c' | tr '\n' ':')
 export ZDOTDIR="$HOME/.config"
 export ADDON="$HOME/.config/addon"
 export ZS="$HOME/.config/zsh"
@@ -21,17 +21,26 @@ export LC_NUMERIC="vi_VN.UTF-8"     # Định dạng số
 export LC_TIME="vi_VN.UTF-8"        # Định dạng thời gian
 export LC_COLLATE="vi_VN.UTF-8"     # Cách sắp xếp chuỗi
 export LC_MONETARY="vi_VN.UTF-8"     # Định dạng tiền tệ
+export MANWIDTH=80
+export MANPAGER="less -s"
 export CAUHINH="/mnt/e/config/cauhinh"
 export ZSH="$HOME/.oh-my-zsh"
 export ZIM_HOME="$HOME/.config/custom/plugins/zimfw"
 export ZIM_MODULES_DIR="$HOME/.config/custom/plugins"
 export ZIM_CONFIG_FILE=~/.config/zsh/zimrc
+export GAWK_ENCODING='UTF-8'
+export GAWK_OPTIONS='--option=value'
+export GAWK_OPTIONS='--gnu'
+export LESSOPEN="| bat --style=full --color=always --paging=always %s"
+export LESS='-R -M -S --mouse --quit-if-one-screen'
+export BAT_CONFIG_PATH="$HOME/.config/bat"
 #export FZF_BASE=~/.fzf
 export ZPLUGINDIR="$HOME/.config/custom/plugins"
 export ZPFX="$HOME/.config/custom/plugins/zinit"
 export ZSH_CUSTOM="$HOME/.config/custom"
 export GH_BINPATH=$ZPLUGINDIR
 export GPG_TTY=$(tty)
+export GITHUB_TOKEN=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
 #export GH_TOKEN="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"
 #export YOUR_AUTHTOKEN="2keUqgyNsZAWWgp2d4o3UOtMWwv_6qRWxRzxti8FhdUj1MkUD"
 #export GH_TOKEN="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"
@@ -54,7 +63,7 @@ WORDCHARS=${WORDCHARS//[\/]}
 # Bỏ dấu comment dòng dưới đây để tắt màu trong lệnh ls.
 # DISABLE_LS_COLORS="true"
 # Bỏ dấu comment dòng dưới đây để tắt tự động đặt tiêu đề terminal.
-#DISABLE_AUTO_TITLE="true"
+DISABLE_AUTO_TITLE="true"
 # Bỏ dấu comment dòng dưới đây để kích hoạt sửa lỗi lệnh tự động.
 #ENABLE_CORRECTION="true"
 # Bỏ dấu comment dòng dưới đây để hiển thị dấu chấm đỏ trong khi chờ hoàn thành lệnh.
@@ -88,7 +97,7 @@ source "$ZSH/oh-my-zsh.sh"
 #ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Cấu hình người dùng
-export MANPATH="/usr/local/man:$MANPATH"
+export MANPATH=/usr/share/man:$MANPATH
 
 #--------------------------------------------------------------------
 
@@ -140,6 +149,7 @@ setopt no_beep           	# Tắt âm thanh beep
 setopt prompt_subst       	# Cho phép thay thế trong prompt
 setopt +o nomatch
 setopt monitor
+setopt NO_HUP
 # 6. Nạp cấu hình tùy chỉnh
 # --------------------------
 for config_file in "$ZSH_CUSTOM"/*.zsh; do
@@ -229,3 +239,5 @@ export FZF_BASE=~/.fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 #. $ADDON/zimfw_key.zsh
 enable-fzf-tab
+
+
