@@ -1,25 +1,14 @@
+--theme="Dracula"
+--style="full"
+--paging=always
+--wrap=never
 --color=always
-#--line-numbers=always
-#--file-size
 --show-all
---pager="less --RAW-CONTROL-CHARS --quit-if-one-screen --mouse"
---highlight-line 30:40
---line-range 30:40
---theme=OneHalfDark
-
-# Không wrap nội dung dài
---wrap=auto
-
-# Hiển thị dấu phân cách cho dễ nhìn
+--pager="less --quit-if-one-screen --mouse"
+--line-range 1:1000
 --border=horizontal
-
-# Sử dụng icon cho file
 --icons=always
-
-# Cấu hình pager cho file dài
---pager=less
-
-# Tùy chọn hiển thị đánh dấu cú pháp
---style=full
-
 --completion zsh
+--line-numbers
+--decorations=always
+--file-name

@@ -19,6 +19,8 @@ plugin-clone kutsan/zsh-system-clipboard
 plugin-clone zdharma-continuum/fast-syntax-highlighting
 plugin-clone Tarrasch/zsh-autoenv
 plugin-clone zdharma-continuum/zinit
+plugin-clone zshzoo/cd-ls
+
 git clone https://github.com/pygments/pygments.git ~/.config/pygments
 
 # Install On-My-Zsh

@@ -47,3 +47,4 @@ zshrc-backup_12-09-2024.txt
 .local/state/pipx/log/cmd_2024-12-04_03.25.35.log
 .config/zsh/zsh_history
 /home/kali/.gnupg
+.env

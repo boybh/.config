@@ -2253,3 +2253,1161 @@ sudo update-locale LANG=vi_VN.UTF-8
 : 1733677331:0;cd .config/
 : 1733677345:0;git add .config/*
 : 1733677353:0;git add ~/.config/*
+: 1733677377:0;gmm "cap nhat ~/.config/"
+: 1733677383:0;git push config config --force
+: 1733677571:0;aio
+: 1733679153:0;nn .gitignore
+: 1733679161:0;echo ".env" >> .gitignore
+: 1733679219:0;pre-commit install
+: 1733679329:0;.z
+: 1733679452:0;git secrets --install\
+git secrets --register-aws\
+
+: 1733679500:0;cai git-secrets
+: 1733679513:0;git secrets --install\
+git secrets --register-aws\
+
+: 1733679576:0;git secrets --add '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'
+: 1733679614:0;git add hook
+: 1733679659:0;git secrets --scan
+: 1733679692:0;git secrets --install
+: 1733679700:0;git secrets --add 'ghp_[a-zA-Z0-9]{36}'
+: 1733679740:0;man git-secret
+: 1733679829:0;git secrets --scan
+: 1733679863:0;ala gsc "git secrets --scan"
+: 1733679877:0;gsc | bat
+: 1733679890:0;gsc | cat
+: 1733679896:0;gsc | bat --c
+: 1733679937:0;bat 
+: 1733679946:0;manvi bat
+: 1733679958:0;man bat
+: 1733679964:0;bat -h
+: 1733679969:0;bat --help
+: 1733680002:0;bat --help | dichbat
+: 1733680064:0;man gawk
+: 1733680085:0;viman gawk
+: 1733680098:0;manvi gawk
+: 1733680115:0;gawk --help
+: 1733680169:0;mv /root/.config/custom/zsh-vi.zsh $ADDON
+: 1733680172:0;source $HOME/.zshrc
+: 1733680176:0;f5
+: 1733680214:0;.z
+: 1733680232:0;cd
+: 1733680243:0;bat --help
+: 1733680554:0;bat --help > dichbat
+: 1733680572:0;bat --help | dich
+: 1733680590:0;man trans
+: 1733680712:0;sudo apt install lolcat
+: 1733680822:0;als dich
+: 1733680833:0;ald dich
+: 1733680850:0;ala dich "trans b :vi --color=always | bat --paging=always"
+: 1733680857:0;bat --help | dich
+: 1733680881:0;. $ALIAS_FILE
+: 1733680882:0;bat --help | dich
+: 1733680969:0;bat --help | trans b :vi --color=always | lolcat
+: 1733681022:0;copypath ~/.config/bat/config
+: 1733681031:0;copyfile ~/.config/bat/config
+: 1733681039:0;copytext ~/.config/bat/config
+: 1733681353:0;nn ~/.config/bat/config
+: 1733681530:0;cd
+: 1733681534:0;als bat
+: 1733681712:0;sudo apt-get install source-highlight
+: 1733681743:0;.z
+: 1733682023:0;chx 644 ~/.config/bat/config
+: 1733682036:0;chmod 644 ~/.config/bat/config
+: 1733682127:0;bat -h
+: 1733682132:0;bat -help
+: 1733682135:0;bat --help
+: 1733682172:0;bat --config-file
+: 1733682290:0;man trans 
+: 1733682305:0;als manvi
+: 1733682328:0;als dich
+: 1733682350:0;ald dich
+: 1733682399:0;ala dich "trans -b :vi | bat %s"
+: 1733682410:0;zsh --help
+: 1733682440:0;man zsh | dich
+: 1733682461:0;ald dich
+: 1733682469:0;ala dich "trans -b :vi | bat"
+: 1733682475:0;man zsh | dich
+: 1733682551:0;ls -l /dev/stdout
+: 1733682559:0;free -h
+: 1733682581:0;sudo apt-get update\
+sudo apt-get install --reinstall gawk\
+
+: 1733682640:0;ls -l /dev/stdout
+: 1733682654:0;ld /proc/self/fd/
+: 1733682660:0;ls /proc/self/fd/
+: 1733682668:0;li /proc/self/fd/
+: 1733682697:0;als "ls -l"
+: 1733682706:0;ld /proc/self/fd/
+: 1733682727:0;chx -R /proc/self/fd/
+: 1733682742:0;chx /proc/self/fd/
+: 1733682767:0;chx /proc/38146/fd
+: 1733682770:0;cd
+: 1733682795:0;bat 
+: 1733682810:0;l
+: 1733682852:0;manv zsh | less -r
+: 1733682888:0;manv zsh >> zsh_vi.txt | bat
+: 1733682926:0;bat zsh_vi.txt
+: 1733682975:0;bat --theme=OneHalfDark --style=full --color=always zsh_vi.txt
+: 1733683087:0;echo $LESS_TERMCAP
+: 1733683108:0;echo $TERM
+: 1733683120:0;bat $ALIAS_FILE
+: 1733683144:0;le
+: 1733683146:0;l
+: 1733683154:0;cd
+: 1733683168:0;cat zsh-vi.zsh
+: 1733683174:0;cat zsh_vi.txt
+: 1733683211:0;bat 
+: 1733683225:0;zsh --help
+: 1733683242:0;nn ~/.config/bat/config
+: 1733683283:0;zsh --help
+: 1733683290:0;zsh --help bat
+: 1733683308:0;zsh --help
+: 1733683314:0;zsh --help bat
+: 1733683338:0;als bat
+: 1733683354:0;ala cat "bat"
+: 1733683360:0;zsh --help cat
+: 1733683365:0;zsh --help bat
+: 1733683415:0;opi bat
+: 1733683420:0;opi zsh-bat
+: 1733683437:0;opi zsh_bat
+: 1733683442:0;opi zsh-bat
+: 1733683462:0;fzf-tab --help
+: 1733683479:0;fzf-tab --help bat
+: 1733683516:0;fzf-tab --help
+: 1733683531:0;fzf-tab-complete --help
+: 1733683552:0;zsh --help
+: 1733683571:0;nn $ALIAS_FILE
+: 1733683627:0;. $ALIAS_FILE
+: 1733683634:0;nn $ALIAS_FILE
+: 1733683696:0;. $ALIAS_FILE
+: 1733683701:0;zsh --help
+: 1733683733:0;zsh -h
+: 1733683745:0;exec zsh
+: 1733683762:0;nn $ALIAS_FILE
+: 1733683794:0;. $ALIAS_FILE
+: 1733683802:0;zsh --help
+: 1733683833:0;nn ~/.config/bat/config
+: 1733683902:0;zsh --help
+: 1733683922:0;bat --config-file
+: 1733683925:0;zsh --help
+: 1733683952:0;nn $ALIAS_FILE
+: 1733683995:0;. $ALIAS_FILE
+: 1733684001:0;nn $ALIAS_FILE
+: 1733684029:0;. $ALIAS_FILE
+: 1733684049:0;bat
+: 1733684058:0;bat --config-file
+: 1733684078:0;bat --help
+: 1733684286:0;mv ~/.config/bat/config /usr/share/bat/config
+: 1733684299:0;mv ~/.config/bat/config /usr/share/bat/
+: 1733684322:0;nfd -p /usr/share/bat/
+: 1733684326:0;mv ~/.config/bat/config /usr/share/bat/config
+: 1733684332:0;bat --help
+: 1733684348:0;which bat
+: 1733684414:0;mv ~/.config/bat/config /sudo bash -c 'echo "nameserver 8.8.8.8" > /etc/resolv.conf'/bat/config
+: 1733684434:0;mv ~/.config/bat/config /etc/bat/config
+: 1733684482:0;sudo mkdir -p /etc/bat\
+sudo touch /etc/bat/config\
+sudo cp /root/.config/bat/config /etc/bat/config
+: 1733684542:0;sudo mv /usr/share/bat/config /etc/bat/config
+: 1733684551:0;bat --config-file
+: 1733684575:0;nn ~/.config/bat/bat.zsh
+: 1733684607:0;bat --config-file
+: 1733684617:0;nn ~/.config/bat/bat.zsh
+: 1733684668:0;cp /etc/bat/config ~/.config/bat/
+: 1733684670:0;bat --config-file
+: 1733684676:0;nn ~/.config/bat/bat.zsh
+: 1733684685:0;. ~/.config/bat/bat.zsh
+: 1733684687:0;bat --config-file
+: 1733684714:0;cd .config/bat/
+: 1733684715:0;l
+: 1733684720:0;ll
+: 1733684726:0;chx config
+: 1733684730:0;bat --config-file
+: 1733684760:0;bat
+: 1733684765:0;which bat
+: 1733684774:0;nn ~/.config/bat/bat.zsh
+: 1733684793:0;source ~/.config/bat/bat.zsh
+: 1733684799:0;bat --config-file
+: 1733684834:0;d /usr/share/bat/
+: 1733684835:0;bat --config-file
+: 1733684848:0;bat --config-file --help
+: 1733684858:0;bat --help
+: 1733684878:0;dich "error: a value is required for '--file-name <name>' but none was supplied\
+\
+For more information, try '--help'."
+: 1733684894:0;als dich
+: 1733685017:0;chmod 644 ~/.config/bat/config
+: 1733685023:0;bat --config-file
+: 1733685033:0;sudo apt update\
+sudo apt upgrade bat\
+
+: 1733685056:0;bat --version
+: 1733685104:0;nn ~/.config/bat/config
+: 1733685114:0;bat --version
+: 1733685146:0;del /etc/bat/config
+: 1733685149:0;bat --version
+: 1733685161:0;bat --help
+: 1733685203:0;nn $ALIAS_FILE
+: 1733685291:0;bat --help
+: 1733685303:0;. $ALIAS_FILE
+: 1733685307:0;nn $ALIAS_FILE
+: 1733685347:0;. $ALIAS_FILE
+: 1733685351:0;bat --help
+: 1733685395:0;als dich
+: 1733685410:0;nn $ALIAS_FILE
+: 1733685445:0;. $ALIAS_FILE
+: 1733685449:0;bat --help
+: 1733685508:0;nn $ALIAS_FILE
+: 1733685555:0;. $ALIAS_FILE
+: 1733685558:0;bat --help
+: 1733685569:0;zsh --help
+: 1733685581:0;cd
+: 1733685673:0;manvi zsh
+: 1733685726:0;cai zsh-doc 
+: 1733685740:0;zsh --help bat
+: 1733685802:0;man less
+: 1733685821:0;less --help
+: 1733685857:0;less --help --use-color
+: 1733685865:0;less --use-color
+: 1733685880:0;less --help
+: 1733685913:0;less --help a
+: 1733685938:0;less --use-color
+: 1733685983:0;less --version
+: 1733686013:0;nn ~/.config/bat/config
+: 1733686043:0;less --version
+: 1733686084:0;nn ~/.config/bat/config
+: 1733686253:0;less --version
+: 1733686272:0;dich "‚ÉΩØ less --version\
+Invalid color specifier 'a'\
+less 590 (GNU regular expressions)\
+Copyright (C) 1984-2021  Mark Nudelman\
+\
+less comes with NO WARRANTY, to the extent permitted by law.\
+For information about the terms of redistribution,\
+see the file named README in the less distribution.\
+Home page: https://greenwoodsoftware.com/less"
+: 1733686299:0;als dich
+: 1733686317:0;ald dich
+: 1733686379:0;nn $ZSH_CUSTOM/trans.zsh
+: 1733686529:0;als v "trans -b :vi"
+: 1733686540:0;zsh --help v
+: 1733686546:0;zsh --help
+: 1733686560:0;als man
+: 1733686679:0;sudo catman -n
+: 1733686699:0;catman --usage
+: 1733687017:0;ala viman "man $1 | trans -b :vi -no-ansi | bat --paging=always --wrap=auto --style=full --theme="Dracula""
+: 1733687025:0;viman zsh
+: 1733687050:0;zsh --help vi
+: 1733687059:0;zsh --help viman
+: 1733687074:0;zsh man --help
+: 1733687080:0;zsh --help
+: 1733687107:0;man zsh
+: 1733687125:0;man_trans zsh
+: 1733687234:0;ala dich "trans -b :vi -no-ansi | bat --paging=always --wrap=auto --style=full --theme="Dracula""
+: 1733687241:0;zsh --help dich
+: 1733687287:0;locale
+: 1733687371:0;ald dich
+: 1733687492:0;la dich "trans -b :vi --color --print-table"
+: 1733687503:0;ala dich "trans -b :vi --color --print-table"
+: 1733687523:0;nn $ZSH_CUSTOM/trans.zsh
+: 1733687562:0;zsh --help dich
+: 1733687581:0;zsh --help dichbat
+: 1733687614:0;als dich
+: 1733687664:0;dich zsh --help
+: 1733687863:0;ald dich
+: 1733687885:0;ala dich 'function _dich(){ if [ -f "$1" ]; then cat "$1" | trans -b :vi --color=always | lolcat; else echo "$1" | trans -b :vi --color=always | lolcat; fi }; _dich'
+: 1733687894:0;dich zsh --help
+: 1733687931:0;zsh --help 
+: 1733687942:0;zsh --help manv
+: 1733687954:0;zsh --help v
+: 1733687958:0;zsh --help viman
+: 1733688130:0;ala dichbat
+: 1733688140:0;ald dichbat
+: 1733688209:0;nn $ALIAS_FILE
+: 1733688624:0;ala manvi "man $1 | trans -b :vi -no-ansi | bat --paging=always --wrap=auto --style=full --theme="Dracula""
+: 1733688634:0;als man
+: 1733688673:0;ald viman
+: 1733688706:0;ala viman "man $1 | trans -b :vi -no-ansi | bat --paging=always --wrap=auto --style=full"
+: 1733688721:0;man zsh viman 
+: 1733688732:0;viman zsh  
+: 1733688743:0;zsh viman
+: 1733688757:0;manvi zsh
+: 1733688806:0;man man
+: 1733688819:0;manvi man
+: 1733688846:0;cai manpages-vi
+: 1733688877:0;man manpages-vi 
+: 1733689005:0;man ls | bat --paging=always --wrap=auto --style=numbers --language=man
+: 1733689036:0;man ls | bat
+: 1733689048:0;man ls
+: 1733689293:0;.Z
+: 1733689295:0;.z
+: 1733689546:0;exec zsh
+: 1733689560:17;.z
+: 1733689578:0;exec zsh
+: 1733689604:0;bat --help
+: 1733689621:0;.z
+: 1733689661:0;exec zsh
+: 1733689677:0;man ls
+: 1733689703:0;zsh --help
+: 1733689990:0;nn $ALIAS_FILE
+: 1733690421:0;. $ALIAS_FILE
+: 1733690425:0;zsh --help
+: 1733690526:0;als bat
+: 1733690541:0;nn $ALIAS_FILE
+: 1733691199:0;cus
+: 1733691211:0;nn help.zsh
+: 1733691264:0;chx help
+: 1733691267:0;chx help.zsh
+: 1733691279:0;ls --help
+: 1733691302:0;q
+: 1733691321:0;man ls
+: 1733691346:0;man --help
+: 1733691396:0;nn help.zsh
+: 1733691423:0;nn ~/.config/bat/config
+: 1733691638:0;bat --help
+: 1733691689:0;sua~
+: 1733691702:0;nn help.zsh
+: 1733691749:0;ls -h
+: 1733691765:0;ls -help
+: 1733691777:0;ls --help
+: 1733691801:0;als bat
+: 1733691823:0;nano $ALIAS_FILE
+: 1733692010:0;. $ALIAS_FILE
+: 1733692015:0;ls --help
+: 1733692031:0;ls --h
+: 1733692048:0;ls -h
+: 1733692057:0;als bat
+: 1733692076:0;ls h
+: 1733692109:0;nn $ALIAS_FILE
+: 1733692238:0;. $ALIAS_FILE
+: 1733692245:0;nn help.zsh
+: 1733692308:0;bat --help
+: 1733692342:0;bat --help | trans b :vi --color=always | lolcat
+: 1733692356:0;bat --help | trans b :vi --color=always | lolcat bat
+: 1733692368:0;bat --help | trans b :vi --color=always | bat lolcat 
+: 1733692425:0;bat --help | trans b :vi --color=always --no-auto  | lolcat bat
+: 1733692430:0;bat --help | trans b :vi --color=always --no-auto  | lolcat
+: 1733692466:0;bat --help | trans b :vi --no-auto  | lolcat
+: 1733692479:0;bat --help trans b :vi --no-auto  | lolcat
+: 1733692490:0;bat --help > trans b :vi --no-auto  | lolcat
+: 1733692505:0;als bat
+: 1733692531:0;als trans
+: 1733692570:0;bat h
+: 1733692582:0;bat -- h
+: 1733692589:0;bat -- -h
+: 1733692624:0;nn help.zsh
+: 1733692632:0;q
+: 1733693264:0;l
+: 1733693273:0;ll
+: 1733693310:0;./help
+: 1733693319:0;./help.zsh
+: 1733693324:0;als bat
+: 1733693338:0;als h
+: 1733693359:0;als transs
+: 1733693361:0;als trans
+: 1733693402:0;nn $ALIAS_FILE
+: 1733693485:0;nn help.zsh
+: 1733693522:0;ls --help
+: 1733693539:0;nn ~/.config/bat/config
+: 1733693560:0;ls --help
+: 1733693567:0;bat --help
+: 1733693592:0;nn ~/.config/bat/config
+: 1733693600:0;bat --help
+: 1733693611:0;ls --help
+: 1733693622:0;bat --help
+: 1733693635:0;bat -h
+: 1733693645:0;nn help.zsh
+: 1733693693:0;bat --h
+: 1733693701:0;nn help.zsh
+: 1733693814:0;ls -h
+: 1733693829:0;ls --help
+: 1733693841:0;bat zsh
+: 1733693852:0;bat all.zsh
+: 1733693894:0;nn help.zsh
+: 1733694031:0;ls --h
+: 1733694039:0;nn help.zsh
+: 1733694066:0;./help.zsh
+: 1733694073:0;ls --h
+: 1733694076:0;ls -h
+: 1733694102:0;ls dich --help
+: 1733694127:0;ls --help
+: 1733694143:0;ls --help dich
+: 1733694147:0;ls --help trans
+: 1733694160:0;ls --help trans -b :vi
+: 1733694172:0;als bat
+: 1733694205:0;nn $ALIAS_FILE
+: 1733694335:0;. $ALIAS_FILE
+: 1733694341:0;als -h
+: 1733694361:0;als --help
+: 1733694367:0;als --h
+: 1733694381:0;nn help.zsh
+: 1733694420:0;./help.zsh
+: 1733694429:0;als --h
+: 1733694435:0;nn help.zsh
+: 1733694494:0;./help.zsh
+: 1733694503:0;ls --h
+: 1733694507:0;ls h
+: 1733694520:0;ald h
+: 1733694538:0;ald h"
+: 1733694541:0;ald "h"
+: 1733694548:0;als "h"
+: 1733694552:0;als bat
+: 1733694576:0;ald "-h"
+: 1733694585:0;ald -h
+: 1733694595:0;ald --j
+: 1733694600:0;ald --h
+: 1733694612:0;als trans
+: 1733694641:0;dich zsh --help
+: 1733694646:0;dich zsh
+: 1733694661:0;bat --h
+: 1733694668:0;bat --help
+: 1733694713:0;ald dich
+: 1733694730:0;ald -h
+: 1733694739:0;-h
+: 1733694748:0;h
+: 1733694751:0;help
+: 1733694779:0;man --help
+: 1733694794:0;man man
+: 1733694802:0;zsh --help
+: 1733694813:0;omz --help
+: 1733694822:0;omz --h
+: 1733694829:0;nn help.zsh
+: 1733694879:0;bat --help
+: 1733695066:0;mv help.zsh $ADDON
+: 1733695074:0;nn $ALIAS_FILE
+: 1733695316:0;ala dich "trans -b :vi --no-auto --color --print-table"
+: 1733695323:0;bat --help
+: 1733695335:0;. $ALIAS_FILE
+: 1733695337:0;bat --help
+: 1733695360:0;nn $ALIAS_FILE
+: 1733695429:0;ala dich "trans -b :vi --no-auto --color --print-table"
+: 1733695433:0;. $ALIAS_FILE
+: 1733695435:0;ala dich "trans -b :vi --no-auto --color --print-table"
+: 1733695442:0;als dich
+: 1733695461:0;als dichhelp
+: 1733695475:0;bat --help
+: 1733695680:0;ald dichhelp
+: 1733695744:0;ala dichhelp 'sed -n "/^NAME/,/^OPTIONS/p" sed "/^--/d" | trans -b :vi --no-auto'
+: 1733695751:0;bat --help
+: 1733695767:0;ald dichhelp
+: 1733695807:0;ala dichhelp "trans -b :vi --no-auto"
+: 1733695825:0;man man
+: 1733695833:0;manv man
+: 1733695858:0;als manv
+: 1733695880:0;als manvi
+: 1733695889:0;ald manv
+: 1733695899:0;als bat
+: 1733695913:0;als trans
+: 1733695974:0;bat $ALIAS_FILE
+: 1733695995:0;bat $ZS/.zshrc
+: 1733696040:0;bat ~/.config/.zshrc
+: 1733696194:0;man vi
+: 1733696231:0;zsh --help
+: 1733696464:0;ala manv 'man $1 | sed -n "/^NAME/,/^OPTIONS/p" | trans -b :vi --no-auto --color --print-table | lolcat'
+: 1733696470:0;manv man
+: 1733696512:0;man man
+: 1733696521:0;man man --all
+: 1733696534:0;ald manv
+: 1733696551:0;man --help
+: 1733696748:0;ala man ""man $1 | trans -b :vi --no-auto | bat --style=full --color=always --paging=always""
+: 1733696763:0;man man
+: 1733696776:0;ald man
+: 1733696800:0;ala man "man $1 | trans -b :vi --no-auto | bat --style=full --color=always --paging=always"
+: 1733696804:0;man man
+: 1733696882:0;ald man
+: 1733696891:0;ala man "man $1 | trans -b :vi | less"
+: 1733696896:0;man man
+: 1733696982:0;man ls
+: 1733696998:0;.z
+: 1733697028:0;exec zsh
+: 1733697044:0;man man
+: 1733697056:0;bat man
+: 1733697068:0;ald man
+: 1733697071:0;man ls
+: 1733697082:0;bat ls
+: 1733697084:0;l
+: 1733697097:0;ald "l"
+: 1733697137:0;le -X
+: 1733697140:0;le -F
+: 1733697143:0;le -Fa
+: 1733697150:0;le -a -F
+: 1733697160:0;le -a -Fx
+: 1733697163:0;le -ax -F
+: 1733697186:0;ala l "le -ax -F"
+: 1733697188:0;l
+: 1733697190:0;ll
+: 1733697192:0;l
+: 1733697202:0;bat --help
+: 1733697218:0;which bat
+: 1733697245:0;mv /usr/local/bin/bat /usr/bin/
+: 1733697255:0;bat
+: 1733697262:0;which bat
+: 1733697275:0;d /usr/local/bin/bat
+: 1733697278:0;which bat
+: 1733697286:0;bat --help
+: 1733697308:0;nn $ALIAS_FILE
+: 1733697359:0;. $ALIAS_FILE
+: 1733697363:0;bat --help
+: 1733697373:0;man ls
+: 1733697379:0;man cd
+: 1733697386:0;sudo catman -n
+: 1733697401:0;sudo catman -- n
+: 1733697410:0;sudo catman
+: 1733697566:0;cd
+: 1733698930:0;man git
+: 1733698959:0;git --help
+: 1733698987:0;git -g
+: 1733698989:0;git -h
+: 1733699251:0;curl -fLo ~/.vim/autoload/plug.vim --create-dirs \\
+     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+: 1733699284:0;l
+: 1733699411:0;nn ~/.vimrc
+: 1733699442:0;vi
+: 1733731210:0;cd
+: 1733731242:0;l
+: 1733731791:0;cd apps/
+: 1733731900:0;cd
+: 1733731906:0;l
+: 1733731932:0;$ZPLUGINDIR
+: 1733731935:0;l
+: 1733732243:0;df -h
+: 1733732266:0;lsblk
+: 1733732273:0;df -T -h
+: 1733732281:0;gnome-disks
+: 1733732288:0;cai gnome-disks
+: 1733732302:0;dir
+: 1733732324:0;df --help
+: 1733732454:0;cd
+: 1733732688:0;exec zsh
+: 1733732702:0;cd
+: 1733733208:0;nn $ADDON/plugins-clone.sh
+: 1733733266:0;plugin-clone zshzoo/cd-ls
+: 1733733279:0;$ZPLUGINDIR
+: 1733733285:0;cd cd-ls/
+: 1733733287:0;l
+: 1733733312:0;pla cd-ls
+: 1733733314:0;cd
+: 1733733317:0;exec zsh
+: 1733733331:0;cd
+: 1733733396:0;cd apps/
+: 1733733495:0;gr
+: 1733733580:0;dash
+: 1733733614:0;gh
+: 1733733625:0;g --help
+: 1733733650:0;git --help
+: 1733733655:0;git -h
+: 1733733673:0;nn $ALIAS_FILE
+: 1733733812:0;cd
+: 1733733820:0;lsblk
+: 1733734014:0;cd
+: 1733734185:0;as dia "df -T -h"
+: 1733734198:0;ald dia "df -T -h"
+: 1733734223:0;ala dia "df -T -h | bat"
+: 1733734226:0;dia
+: 1733734251:0;df -T -h | bat --color=always
+: 1733734275:0;als bat
+: 1733734286:0;df -T -h | bat --language=help --style=full --color=always
+: 1733734307:0;df -T -h | bat --language=list --style=full --color=always 
+: 1733734316:0;bat --help
+: 1733734342:0;df -T -h | bat --list-languages --style=full --color=always 
+: 1733734366:0;df -T -h | bat --list-languages=auto --style=full --color=always 
+: 1733734379:0;df -T -h | bat --style=full --color=always 
+: 1733734392:0;df -T -h | bat --style=full --color=always --languages
+: 1733734403:0;df -T -h | bat --style=full --color=always --languages=zsh
+: 1733734422:0;df -T -h | bat --style=full --color=always --languages=help
+: 1733734448:0;df -T -h | bat --theme-dark --style=full --color=always --languages=
+: 1733734460:0;bat --help
+: 1733734505:0;nn ~/.config/bat/bat.zsh
+: 1733734558:0;. ~/.config/bat/bat.zsh
+: 1733734565:0;df -T -h | bat
+: 1733734581:0;df -T -h | bat --theme-dark=TowDark
+: 1733734588:0;df -T -h | bat --theme=TowDark
+: 1733734646:0;df -T -h | bat --theme=TwoDark --style=full --color=auto
+: 1733734679:0;df -T -h | bat --theme=TwoDark --style=full --color=auto --languages=auto
+: 1733734696:0;df -T -h | bat --theme=TwoDark --style=full --color=always
+: 1733734707:0;df -T -h | bat --theme=TwoDark --style=full --color=always ----languages=help
+: 1733734718:0;als bat
+: 1733734737:0;ald dia
+: 1733734778:0;ala dia "df -T -h | bat --language=help --style=full --color=always ----theme=TwoDark"
+: 1733734779:0;dia
+: 1733734789:0;ala dia "df -T -h | bat --language=help --style=full --color=always --theme=TwoDark"
+: 1733734792:0;ald dia
+: 1733734794:0;ala dia "df -T -h | bat --language=help --style=full --color=always --theme=TwoDark"
+: 1733734795:0;dia
+: 1733744850:0;nn /root/.oh-my-zsh/lib/diagnostics.zsh
+: 1733744876:0;echo $progfile
+: 1733744891:0;nn /root/.oh-my-zsh/lib/diagnostics.zsh
+: 1733745111:0;bat $ALIAS_FILE
+: 1733745217:0;nn $ALIAS_FILE
+: 1733745448:0;ls -h ... 2>&1 | trans -b --no-auto :vi | less -R
+: 1733745475:0;ls -h ... 2>&1 | split -l 500 - | while read -r part; do echo "$part" | trans -b --no-auto :vi; done | bat --language=help --style=full --color=always
+: 1733745493:0;q
+: 1733745506:0;. $ALIAS_FILE
+: 1733745509:0;ls -h ... 2>&1 | split -l 500 - | while read -r part; do echo "$part" | trans -b --no-auto :vi; done | bat --language=help --style=full --color=always
+: 1733745537:0;nn $ALIAS_FILE
+: 1733745549:0;. $ALIAS_FILE
+: 1733745553:0;ls -h
+: 1733745571:0;als ls
+: 1733745598:0;ls --help
+: 1733745622:0;nn $ALIAS_FILE
+: 1733745785:0;bat $BAT_CONFIG_PATH
+: 1733745796:0;bat $BAT_CONFIG_PATH/config
+: 1733745834:0;bat $HOME/.config/bat/config
+: 1733745882:0;.z
+: 1733745906:0;exec zsh
+: 1733745927:0;echo $BAT_CONFIG_PATH
+: 1733745947:0;nn $BAT_CONFIG_PATH/config
+: 1733745954:0;nn $BAT_CONFIG_PATH/bat.zsh
+: 1733745976:0;. $BAT_CONFIG_PATH/bat.zsh
+: 1733746000:0;source $BAT_CONFIG_PATH/bat.zshD
+: 1733746009:0;source $BAT_CONFIG_PATH/bat.zsh
+: 1733746017:0;.z
+: 1733746040:0;nn $BAT_CONFIG_PATH/bat.zsh
+: 1733746175:0;.z
+: 1733746194:0;echo $BAT_CONFIG_PATH
+: 1733746205:0;bat $HOME/.config/bat/config
+: 1733746213:0;bat .zshrc
+: 1733746220:0;bat $HOME/.zshrc
+: 1733746246:0;echo $HOME
+: 1733746283:0;bat $CAUHINH/aliases.ps1
+: 1733746679:0;ls -h
+: 1733746705:0;nn $A
+: 1733746719:0;nn $ALIAS_FILE
+: 1733746886:0;. $ALIAS_FILE
+: 1733746890:0;ls -h
+: 1733746937:0;echo $LS_COLORS
+: 1733746989:0;bat $ALIAS_FILE
+: 1733747131:0;nn $ALIAS_FILE
+: 1733747155:0;. $ALIAS_FILE
+: 1733747161:0;ls -h
+: 1733747560:0;cus
+: 1733747571:0;nn dich.zsh
+: 1733747586:0;zsh -d
+: 1733747706:0;help zsh
+: 1733747724:0;nn dich.zsh
+: 1733747733:0;. $ALIAS_FILE
+: 1733747745:0;als helpd
+: 1733747758:0;. dich.zsh
+: 1733747768:0;chx dich.zsh
+: 1733747771:0;als helpd
+: 1733747778:0;source dich.zsh
+: 1733747780:0;als helpd
+: 1733747787:0;helpd zsh
+: 1733748034:0;nn dich.zsh
+: 1733748254:0;source dich.zsh
+: 1733748257:0;helpd zsh
+: 1733748466:0;nn dich.zsh
+: 1733748476:0;helpd zsh
+: 1733748484:0;source dich.zsh
+: 1733748486:0;helpd zsh
+: 1733748575:0;cd
+: 1733748583:0;help zsh
+: 1733748599:0;man zsh
+: 1733748612:0;man zsh -d
+: 1733748663:0;als help
+: 1733749013:0;cus
+: 1733749015:0;nn dich.zsh
+: 1733749023:0;source dich.zsh
+: 1733749026:0;dich zsh
+: 1733749108:0;sudo gawk '{ print $0 }' file.txt
+: 1733749122:0;df -h
+: 1733749142:0;nano $ALIAS_FILE
+: 1733749161:0;als -g
+: 1733749163:0;als -h
+: 1733749182:0;. $ALIAS_FILE
+: 1733749185:0;als -h
+: 1733749209:0;als bat
+: 1733749230:0;ald "-h"
+: 1733749238:0;ald "-g -- -h"
+: 1733749242:0;ald "-g -- --h"
+: 1733749245:0;ald "-g -- h"
+: 1733749254:0;nano $ALIAS_FILE
+: 1733749370:0;. $ALIAS_FILE
+: 1733749371:0;dia
+: 1733749469:0;l
+: 1733749483:0;mv viman.zsh $ADDON
+: 1733749485:0;l
+: 1733749502:0;. $ALIAS_FILE
+: 1733749505:0;als bat
+: 1733749560:0;alias -h
+: 1733749578:0;ald h
+: 1733749585:0;als bat
+: 1733749605:0;ald "--help 2>&1 | trans -b --no-auto :vi | bat --language=help --style=full --color=auto"
+: 1733749621:0;ald "-h 2>&1 | trans -b --no-auto :vi | bat --language=help --style=full --color=auto"
+: 1733749627:0;ald "h"
+: 1733749631:0;ald 'h'
+: 1733749636:0;ald '-h'
+: 1733749642:0;. $ALIAS_FILE
+: 1733749645:0;nn dich.zsh
+: 1733749657:0;ll
+: 1733749672:0;nn trans.zsh
+: 1733749750:0;als bat
+: 1733749759:0;als -h
+: 1733749799:0;man als
+: 1733749805:0;dich
+: 1733749811:0;dich zsh
+: 1733750743:0;cd
+: 1733750749:0;nano $ALIAS_FILE
+: 1733750781:0;cus
+: 1733750786:0;nn dich.zsh
+: 1733750817:0;nano $ALIAS_FILE
+: 1733750834:0;q
+: 1733750868:0;nano $ALIAS_FILE
+: 1733750880:0;q
+: 1733750892:0;. dich.zsh
+: 1733750897:0;source dich.zsh
+: 1733750901:0;dich zsh
+: 1733750925:0;chx /dev/stdout
+: 1733750932:0;zsh --help
+: 1733750938:0;zsh -h
+: 1733750952:0;cd
+: 1733750957:0;ls -h
+: 1733750959:0;cd
+: 1733750961:0;nn
+: 1733750965:0;update
+: 1733750988:0;upgrade
+: 1733750995:0;df -h
+: 1733751001:0;dia
+: 1733752063:0;cd
+: 1733752073:0;dia
+: 1733752084:0;dia apps
+: 1733752093:0;dia /root/apps
+: 1733752100:0;dia ~root/apps
+: 1733752103:0;cd
+: 1733752105:0;l
+: 1733752111:0;cd
+: 1733755613:0;nfd /home/kali
+: 1733755619:0;cd /home/kali
+: 1733755638:0;ald .pl
+: 1733755777:0;ala .pl "$HOME/.config/custom/plugins"
+: 1733755824:0;git init
+: 1733755917:0;gh auth login
+: 1733755925:0;gh auth status
+: 1733755961:0;gh --help
+: 1733755972:0;man gh
+: 1733755986:0;dich gh
+: 1733838803:0;l
+: 1734106719:0;cd
+: 1734106741:0;dia
+: 1734140484:0;cd
+: 1734140888:0;dir
+: 1734140891:0;dia
+: 1734140898:0;bat $ALIAS_FILE
+: 1734140991:0;9
+: 1734140999:0;4
+: 1734162240:0;nn dichbat
+: 1734162256:0;d dichbat
+: 1734162259:0;l
+: 1734162269:0;bat zsh_vi.txt
+: 1734165382:0;cd
+: 1734190174:0;.c
+: 1734190204:0;git add .config/.zshrc
+: 1734190214:0;git add ~/.config/.zshrc
+: 1734190230:0;gmm "cap nhat ~/.config/.zshrc"
+: 1734244051:0;git config --add secrets.allowed "ghp_.*"
+: 1734244059:0;gmm "cap nhat ~/.config/.zshrc"
+: 1734244071:0;git push config config --force
+: 1734244111:0;nano ~/.ssh/config
+: 1734244128:0;git push config config --force
+: 1734244142:0;ls ~/.ssh/
+: 1734244160:0;eval "$(ssh-agent -s)"\
+ssh-add ~/.ssh/id_ed25519\
+
+: 1734244171:0;ssh -T git@github.com
+: 1734244274:0;sudo nano /etc/resolv.conf
+: 1734244288:0;cat ~/.ssh/config
+: 1734244305:0;sudo systemctl restart networking
+: 1734245997:0;git push config config --force
+: 1734246015:0;ping github.com
+: 1734275842:0;f5
+: 1734277838:0;ping github.com
+: 1734308514:0;sudo nano /etc/wsl.conf
+: 1734308532:0;ping 140.82.112.3
+: 1734308592:0;nslookup github.com 8.8.8.8
+: 1734308598:0;sudo apt update && sudo apt install -y dnsutils
+: 1734308613:0;ip a
+: 1734308656:0;sudo nano /etc/network/interfaces
+: 1734308678:0;sudo netplan apply
+: 1734308691:0;sudo ufw status
+: 1734308709:0;systemctl status NetworkManager
+: 1734308733:0;sudo systemctl restart networking
+: 1734308737:0;systemctl status NetworkManager
+: 1734308755:0;sudo apt update\
+sudo apt install netplan.io\
+
+: 1734308793:0;sudo netplan apply
+: 1734308806:0;ip a
+: 1734308817:0;update
+: 1734308827:0;upgrade
+: 1734308834:0;git push config config --force
+: 1734350428:0;cd
+: 1734350432:0;ping 140.82.112.3
+: 1734403912:0;cd
+: 1734403925:0;g --help
+: 1734403957:0;zsh --help
+: 1734517676:0;cd
+: 1734517685:0;update 
+: 1734517753:0;aptitude update
+: 1734517794:0;api upgrade
+: 1734517871:0;nmap boybh.ddns.net
+: 1734517908:0;api install telnet
+: 1734517953:0;telnet boybh.ddns.net
+: 1734518031:0;cd
+: 1734518052:0;api --help
+: 1734518064:0;api -h
+: 1734518081:0;man aptitude
+: 1734518091:0;manvi aptitude
+: 1734518101:0;cd
+: 1734673524:0;ls
+: 1734673526:0;la
+: 1734673527:0;li
+: 1734673539:0;dia
+: 1734709924:0;cd
+: 1734711360:0;sudo apt install bluetooth bluez
+: 1734711420:0;bluetoothctl 
+: 1734711675:0;sudo apt install bluetooth bluez bluez-tools rfkill
+: 1734711717:0;bluetoothctl --version
+: 1734711728:0;sudo systemctl start bluetooth\
+sudo systemctl enable bluetooth\
+
+: 1734711739:0;sudo systemctl status bluetooth
+: 1734711776:0;rfkill list
+: 1734711792:0;sudo rfkill unblock bluetooth
+: 1734711815:0;lsusb
+: 1734711836:0;sudo modprobe btusb\
+sudo modprobe bluetooth\
+
+: 1734711842:0;ls /dev/rfkill
+: 1734711849:0;sudo modprobe rfkill
+: 1734711882:0;sudo apt update\
+sudo apt install linux-firmware\
+
+: 1734712142:0;uname -a
+: 1734712346:0;pip install openai-cli
+: 1734712561:0;chatgpt-cli
+: 1734712580:0;curl -sS https://update.tabnine.com/bundles/tabnine.zip -o tabnine.zip 
+: 1734712634:0;curl -sS https://update.tabnine.com/bundles/tabnine.zip -o tabnine.zip && unzip tabnine.zip -d ~/.config/.tabnine && echo  'export PATH="$PATH: ~/.config/.tabnine"' >> ~/.config/.zshrc 
+: 1734712650:0;l
+: 1734712653:0;ll
+: 1734712664:0;unzip tabnine.zip -d ~/.config/.tabnine
+: 1734712680:0;nfd ~/.config/.tabnine
+: 1734712682:0;unzip tabnine.zip -d ~/.config/.tabnine
+: 1734713756:0;curl -sS https://update.tabnine.com/bundles/tabnine.zip -o tabnine.zip
+: 1734713762:0;ll
+: 1734713773:0;d tabnine.zip
+: 1734713775:0;ll
+: 1734713819:0;cus
+: 1734713824:0;cd plugins/
+: 1734713827:0;git clone https://github.com/Plugins/oh-my-zsh-tabnine.git
+: 1734713866:0;cd
+: 1734713868:0;npm install -g tabnine
+: 1734713876:0;sudo apt install nodejs npm
+: 1734714264:0;nn ~/.vimrc
+: 1734714294:0;nn ~/.config/.vimrc
+: 1734714310:0;ll
+: 1734714320:0;cd .config/
+: 1734714322:0;ll
+: 1734714342:0;cd nano/
+: 1734714344:0;ll
+: 1734714366:0;cat .nanorc
+: 1734714404:0;cd
+: 1734714412:0;nn ~/.nanorc
+: 1734714456:0;plugin-clone git clone tom-doerr/zsh_codex
+: 1734714465:0;plugin-clone tom-doerr/zsh_codex
+: 1734714486:0;pla zsh_codex
+: 1734714504:0;npm install -g tabnine
+: 1734715159:0;vi
+: 1734715339:0;cp ~/.config/nano/.nanorc ~/.nanorc
+: 1734715342:0;l
+: 1734715344:0;ll
+: 1734715371:0;nn ~/.vimrc
+: 1734715415:0;nn ~/.nanorc
+: 1734715458:0;cai dos2unix
+: 1734715483:0;dos2unix ~/.nanorc
+: 1734715487:0;nn ~/.nanorc
+: 1734715538:0;. ~/.nanorc
+: 1734715544:0;nn ~/.nanorc
+: 1734715570:0;. ~/.nanorc
+: 1734715574:0;nn ~/.nanorc
+: 1734715595:0;vi
+: 1734715718:0;ll
+: 1734715746:0;vi
+: 1734715897:0;ls ~/.config/nvim/init.vim
+: 1734715921:0;mkdir -p ~/.config/nvim\
+touch ~/.config/nvim/init.vim\
+
+: 1734715927:0;nano ~/.config/nvim/init.vim
+: 1734715990:0;copytext ~/.vimrc
+: 1734716003:0;nano ~/.config/nvim/init.vim
+: 1734716101:0;als vi
+: 1734716126:0;vim
+: 1734716132:0;caidat nvim
+: 1734716137:0;cai nvim
+: 1734716191:0;sudo apt install neovim
+: 1734716245:0;vim
+: 1734716267:0;nvi
+: 1734716281:0;nn /root/.config/nvim/init.vim
+: 1734716316:0;vim
+: 1734716349:0;copytext ~/.vimrc
+: 1734716373:0;copytext ~/.config/nvim/init.vim
+: 1734716523:0;sua~
+: 1734716543:0;.z
+: 1734716565:0;exec zsh
+: 1734716596:0;vim
+: 1734716681:0;als vi
+: 1734716731:0;als vim
+: 1734716774:0;nvi
+: 1734716784:0;ls /root/.config/nvim/init.vim
+: 1734716790:0;ld /root/.config/nvim/init.vim
+: 1734716808:0;chx /root/.config/nvim/init.vim
+: 1734716810:0;ld /root/.config/nvim/init.vim
+: 1734716814:0;nvi
+: 1734716857:0;nn /root/.config/nvim/init.vim
+: 1734716869:0;q
+: 1734716889:0;nvi
+: 1734716899:0;nn /root/.config/nvim/init.vim
+: 1734716907:0;vi /root/.config/nvim/init.vim
+: 1734716949:0;nvi
+: 1734716956:0;vim
+: 1734717040:0;vi /root/.config/nvim/init.vim
+: 1734717049:0;nvim -c 'PlugInstall' -c 'qa!'
+: 1734717057:0;vim
+: 1734717162:0;sudo apt upgrade neovim nano
+: 1734717236:0;sudo add-apt-repository ppa:neovim-ppa/stable
+: 1734717263:0;sudo apt-get install python3-launchpadlib
+: 1734717313:0;sudo add-apt-repository ppa:neovim-ppa/stable
+: 1734717412:0;sudo apt-get install apt-transport-https lsb-release ca-certificates\
+sudo wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg\
+echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/php.list\
+sudo apt-get update\
+
+: 1734717463:0;nn /etc/apt/sources.list
+: 1734717558:0;sudo aptsudo add-apt-repository --remove ppa:neovim-ppa/stable
+: 1734717562:0;sudo add-apt-repository --remove ppa:neovim-ppa/stable
+: 1734717595:0;ala xoaapt "sudo add-apt-repository --remove"
+: 1734717673:0;nn $ALIAS_FILE
+: 1734717742:0;vim $ALIAS_FILE
+: 1734717788:0;q
+: 1734717832:0;vim $ALIAS_FILE
+: 1734717852:0;. $ALIAS_FILE
+: 1734717862:0;neoapt
+: 1734717883:0;vim $ALIAS_FILE
+: 1734717915:0;. $ALIAS_FILE
+: 1734717917:0;neoapt
+: 1734717948:0;sudo apt-get install neovim
+: 1734717955:0;upgrade
+: 1734717998:0;ald neoapt
+: 1734718051:0;ala aptneo 'apt-get install apt-transport-https lsb-release ca-certificates && \ wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg && \ echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | tee /etc/apt/sources.list.d/php.list && \ apt-get update'
+: 1734718060:0;aptneofetch
+: 1734718063:0;aptneo 
+: 1734718075:0;cai wget
+: 1734718100:0;sudo apt-get install wget
+: 1734718141:0;git clone https://github.com/neovim/neovim.git\
+cd neovim\
+
+: 1734718310:0;make CMAKE_BUILD_TYPE=Release\
+sudo make install\
+
+: 1734718652:0;cd
+: 1734718709:0;cp $ALIAS_FILE /mnt/e/config/cauhinh
+: 1734718729:0;nn /mnt/e/config/cauhinh/aliases.zsh
+: 1734718758:0;ala caineovim 'git clone https://github.com/neovim/neovim.git && \ cd neovim && \ git checkout stable && \ make CMAKE_BUILD_TYPE=Release && \ sudo make install'
+: 1734718766:0;bat $ALIAS_FILE
+: 1734718797:0;ala cpalias "cp $ALIAS_FILE /mnt/e/config/cauhinh"
+: 1734718854:0;ala cpzsh "cp ~/.config/zsh /mnt/e/config/cauhinh"
+: 1734718859:0;cpzsh
+: 1734718866:0;ald cpzsh "cp ~/.config/zsh /mnt/e/config/cauhinh"
+: 1734718879:0;ala cpzsh "cp -rf ~/.config/zsh /mnt/e/config/cauhinh"
+: 1734718883:0;cpzsh
+: 1734718903:0;cpalias
+: 1734718909:0;nn /mnt/e/config/cauhinh/aliases.zsh
+: 1734718939:0;ald cpalias "cp $ALIAS_FILE /mnt/e/config/cauhinh"
+: 1734718948:0;ala cpalias "cp -rf $ALIAS_FILE /mnt/e/config/cauhinh"
+: 1734718951:0;cpalias
+: 1734718958:0;nn /mnt/e/config/cauhinh/aliases.zsh
+: 1734718973:0;d /mnt/e/config/cauhinh/aliases.zsh
+: 1734718976:0;cpalias
+: 1734718980:0;nn /mnt/e/config/cauhinh/aliases.zsh
+: 1734718998:0;ald cpalias "cp $ALIAS_FILE /mnt/e/config/cauhinh"
+: 1734719047:0;ala cpalias "rm -rf /mnt/e/config/cauhinh/aliases.zsh && \ cp -rf $ALIAS_FILE /mnt/e/config/cauhinh"
+: 1734719051:0;cpalias
+: 1734719070:0;ald cpalias "rm -rf /mnt/e/config/cauhinh/aliases.zsh && \ cp -rf $ALIAS_FILE /mnt/e/config/cauhinh"
+: 1734719082:0;ald cpalias "rm -rf /mnt/e/config/cauhinh/aliases.zsh && cp -rf $ALIAS_FILE /mnt/e/config/cauhinh"
+: 1734719088:0;ala cpalias "rm -rf /mnt/e/config/cauhinh/aliases.zsh && cp -rf $ALIAS_FILE /mnt/e/config/cauhinh"
+: 1734719091:0;cpalias
+: 1734719098:0;nn /mnt/e/config/cauhinh/aliases.zsh
+: 1734719144:0;nn ~/.nanorc
+: 1734719216:0;. ~/.nanorc
+: 1734719220:0;nn /mnt/e/config/cauhinh/aliases.zsh
+: 1734719324:0;nn ~/.nanorc
+: 1734719339:0;. ~/.nanorc
+: 1734719342:0;nn ~/.nanorc
+: 1734719349:0;. ~/.nanorc
+: 1734719351:0;nn ~/.nanorc
+: 1734719360:0;. ~/.nanorc
+: 1734719363:0;nn ~/.nanorc
+: 1734719399:0;vim $ALIAS_FILE
+: 1734719466:0;git checkout stable
+: 1734719529:0;sudo apt-get install gettext
+: 1734719618:0;which msgmerge\
+which msgfmt\
+
+: 1734719627:0;make CMAKE_BUILD_TYPE=Release sudo make install
+: 1734719642:0;make CMAKE_BUILD_TYPE=Release
+: 1734719793:0;nn $ALIAS_FILE
+: 1734719935:0;cmake --version
+: 1734719986:0;ala caimake 'sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip curl doxygen gettext'
+: 1734719993:0;caimake
+: 1734720118:0;sudo make install
+: 1734720158:0;sudo add-apt-repository ppa:neovim-ppa
+: 1734720206:0;d .deps
+: 1734720211:0;sudo make install
+: 1734720264:0;sudo add-apt-repository ppa:neovim-ppa/stable
+: 1734720438:0;curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+: 1734720477:0;chmod u+x nvim.appimage
+: 1734720483:0;./nvim.appimage
+: 1734720534:0;vim
+: 1734720552:0;git checkout stable
+: 1734720562:0;make CMAKE_BUILD_TYPE=Release
+: 1734720735:0;cd /root/neovim\
+rm -rf CMakeCache.txt CMakeFiles\
+
+: 1734720747:0;make CMAKE_BUILD_TYPE=Release
+: 1734720782:0;mkdir -p build\
+/usr/bin/cmake -B build -G "Ninja" -DCMAKE_BUILD_TYPE=Release /root/neovim/\
+
+: 1734720796:0;ll
+: 1734720811:0;git pull
+: 1734720824:0;gr
+: 1734720844:0;git pull https://github.com/neovim/neovim.git
+: 1734720860:0;git pull https://github.com/neovim/neovim.git origin
+: 1734720876:0;git pull -c
+: 1734720880:0;git pull -C
+: 1734720902:0;git pull -f
+: 1734720946:0;git checkout stable
+: 1734720955:0;git pull origin stable
+: 1734720969:0;ll
+: 1734720984:0;make
+: 1734720993:0;d .deps
+: 1734721010:0;make
+: 1734721237:0;d CMakeCache.txt
+: 1734721244:0;make
+: 1734721264:0;d CMakeFiles
+: 1734721266:0;make
+: 1734721280:0;ll
+: 1734721341:0;cd
+: 1734721348:0;d neovim
+: 1734721375:0;mv  nvim.appimage ~/.config
+: 1734721463:0;ala taineoevim 'cd ~/.config && curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage && sudo chmod u+x nvim.appimage'
+: 1734721503:0;ala neo '~/.config/nvim.appimage'
+: 1734721506:0;neo
+: 1734721550:0;neo ~/.nanorc
+: 1734721589:0;upgrade
+: 1734721618:0;update
+: 1734721963:0;git clone https://github.com/neovim/neovim.git\
+cd neovim\
+git checkout stable\
+
+: 1734721981:0;sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip curl doxygen
+: 1734722003:0;git clone https://github.com/neovim/neovim.git\
+cd neovim\
+git checkout stable\
+
+: 1734722436:0;gr
+: 1734722547:0;ƒÉ∞ang c·∫≠p nh·∫≠t c√ÉÅc t·∫≠p tin: 100% (1346/1346), xong.\
+Ch√∫ √Ω: ƒÉ±ang chuy·ªÉ£n sang ‚ÄÉºstable‚ÄÉΩ.\
+\
+B·∫ÉÅn ƒÉ±ang ·ªÉø t√¨nh tr·∫ÉÅng ‚ÄÉºdetached HEAD‚ÄÉΩ. B·∫ÉÅn c√≥ th·ªÉ£ xem qua, t·∫ÉÅo c√ÉÅc thay\
+ƒÉ±·ªÉµi th·ª≠ nghi·ªÉßm v√ÉÄ chuy·ªÉ£n giao ch√∫ng, b·∫ÉÅn c√≥ th·ªÉ£ lo·∫ÉÅi b·ªÉØ b·∫•t k·ª≥ l·∫ßn chuy·ªÉ£n\
+giao n√ÉÄo trong t√¨nh tr·∫ÉÅng n√ÉÄy m√ÉÄ kh√¥ng c·∫ßn ƒÉ±·ª•ng ch·∫ÉÅm ƒÉ±·∫øn b·∫•t k·ª≥ nh√ÉÅnh n√ÉÄo\
+b·∫±ng c√ÉÅch chuy·ªÉ£n tr·ªÉø l·∫ÉÅi m·ªÉπt nh√ÉÅnh.\
+\
+N·∫øu b·∫ÉÅn mu·ªÉ±n t·∫ÉÅo m·ªÉπt nh√ÉÅnh m·ªÉªi ƒÉ±·ªÉ£ gi·ªØ l·∫ÉÅi c√ÉÅc l·∫ßn chuy·ªÉ£n giao b·∫ÉÅn t·∫ÉÅo,\
+b·∫ÉÅn c√≥ th·ªÉ£ l√ÉÄm th·∫ø (ngay b√ÉÇy gi·ªÉΩ hay sau n√ÉÄy) b·∫±ng c√ÉÅch d√πng t√πy ch·ªÉ≠n\
+d√≤ng l·ªÉßnh -c. V√≠ d·ª•:\
+\
+  git switch -c <t√™n-nh√ÉÅnh-m·ªÉªi>\
+\
+Ho√ÉÄn l·∫ÉÅi thao t√ÉÅc n√ÉÄy b·∫±ng:\
+\
+  git switch -\
+\
+T·∫Øt h∆∞·ªÉªng d·∫´n n√ÉÄy b·∫±ng c√ÉÅch ƒÉ±·∫∑t bi·∫øn advice.detachedHead th√ÉÄnh false\
+
+: 1734722580:0;nn ~/.config/nvim/init.vim
+: 1734722622:0;vim
+: 1734722985:0;vi
+: 1734723013:0;vim
+: 1734723052:0;make CMAKE_BUILD_TYPE=RelWithDebInfo\
+sudo make install
+: 1734723180:0;cd .config/
+: 1734723188:0;ll
+: 1734723442:0;ala taineo "cd ~/.config/nvim && curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz && sudo tar -C ~/.config/nvim -xzf nvim-linux64.tar.gz echo 'export PATH="$PATH:~/.config/nvim/bin' >> ~/.config/.zshrc"
+: 1734723471:0;ala taineo "cd ~/.config/nvim && curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz && sudo tar -C ~/.config/nvim -xzf nvim-linux64.tar.gz echo 'export PATH="$PATH:~/.config/nvim/bin"' >> ~/.config/.zshrc"
+: 1734723476:0;taineo
+: 1734723516:0;ald taineo "cd ~/.config/nvim && curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz && sudo tar -C ~/.config/nvim -xzf nvim-linux64.tar.gz echo 'export PATH="$PATH:~/.config/nvim/bin"' >> ~/.config/.zshrc"
+: 1734723531:0;ala taineo "cd ~/.config/nvim && curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz && sudo tar -C ~/.config/nvim -xzf nvim-linux64.tar.gz && echo 'export PATH="$PATH:~/.config/nvim/bin"' >> ~/.config/.zshrc"
+: 1734723535:0;taineo
+: 1734723545:0;.z
+: 1734723597:0;ll
+: 1734723614:0;cd nvim-linux64/
+: 1734723616:0;ll
+: 1734723621:0;cd bin
+: 1734723622:0;ll
+: 1734723654:0;ald taineo
+: 1734723695:0;which nvim
+: 1734723707:0;where nvim
+: 1734723719:0;nvim --version
+: 1734723730:0;nvim -V1 -v
+: 1734723756:0;echo $VIM
+: 1734723776:0;vim --version
+: 1734723778:0;vim
+: 1734723822:0;vi
+: 1734723854:0;als caine
+: 1734723869:0;ald caineovim
+: 1734723873:0;ald caineo
+: 1734724053:0;als caimake
+: 1734724108:0;ala caineovim 'git clone https://github.com/neovim/neovim.git && cd ~/neovim && sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip curl doxygen gettext && make CMAKE_BUILD_TYPE=RelWithDebInfo && sudo make install'
+: 1734724122:0;ald caineovim
+: 1734724143:0;ala caineovim 'git clone https://github.com/neovim/neovim.git && cd ~/neovim && sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip curl doxygen gettext && make CMAKE_BUILD_TYPE=RelWithDebInfo && sudo make install && sudo rm -rf ~/neovim'
+: 1734724150:0;where nvim
+: 1734724159:0;which nvim
+: 1734724183:0;sudo make install
+: 1734724198:0;neovim
+: 1734724204:0;als neovim
+: 1734724210:0;als nvim
+: 1734724234:0;vim
+: 1734724250:0;nvimconfig
+: 1734724305:0;cd
+: 1734724318:0;d ~/neovim ~/noip-duc_3.3.0 ~/noip-duc_3.3.0.tar.gz
+: 1734724324:0;ll
+: 1734724338:0;cd
+: 1734724341:0;gr
+: 1734724348:0;cd .config/
+: 1734724426:0;ga ~/.config/.zshrc ~/.config/zsh/aliases.zsh ~/.config/nvim/*
+: 1734724451:0;gmm "C·∫¨P NH·∫¨T ~/.config"
+: 1734724492:0;git rm ~/.config/nvim/nvim-linux64
+: 1734724500:0;git rm -r  ~/.config/nvim/nvim-linux64
+: 1734724524:0;cd ~/.config/nv
+: 1734724527:0;cd ~/.config/nvim/
+: 1734724529:0;ll
+: 1734724540:0;ga ~/.config/.zshrc ~/.config/zsh/aliases.zsh ~/.config/nvim/*
+: 1734724548:0;gmm "C·∫¨P NH·∫¨T ~/.config"
+: 1734724563:0;git push config config --force
+: 1734724617:0;ssh-keygen -t rsa -b 4096 -C "lygiaquan@outlook.com"
+: 1734724632:0;eval "$(ssh-agent -s)"
+: 1734724660:0;ssh -T git@github.com
+: 1734724673:0;ssh-add ~/.ssh/id_rsa
+: 1734724687:0;cat ~/.ssh/id_rsa.pub
+: 1734724753:0;copytext ~/.ssh/id_rsa.pub
+: 1734724789:0;ssh -T git@github.com
+: 1734724836:0;cp  ~/.ssh/* ~/.config/ssh/
+: 1734724848:0;nfd ~/.config/ssh/
+: 1734724852:0;cp  ~/.ssh/* ~/.config/ssh/
+: 1734724869:0;git add ~/.config/ssh
+: 1734724890:0;ga ~/.config/.zshrc ~/.config/zsh/aliases.zsh ~/.config/nvim/* ~/.config/ssh
+: 1734724895:0;gmm "C·∫¨P NH·∫¨T ~/.config"
+: 1734724906:0;git push config config --force
+: 1734725269:0;git commit --amend --all

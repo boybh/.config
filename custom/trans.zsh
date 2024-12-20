@@ -15,5 +15,5 @@ man_trans() {
     fi
 
     # Dịch nội dung sang tiếng Việt
-    echo "$man_output" | trans -b :vi
+    echo "$man_output" | trans -b :vi | bat
 }

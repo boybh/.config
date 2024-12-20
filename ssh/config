@@ -1,0 +1,9 @@
+Host 192.168.1.199
+    KexAlgorithms +diffie-hellman-group1-sha1
+Host 192.168.1.199
+    HostKeyAlgorithms +ssh-rsa
+    PubkeyAcceptedKeyTypes +ssh-rsa
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_rsa
