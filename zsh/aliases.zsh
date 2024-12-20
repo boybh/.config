@@ -1,4 +1,3 @@
-#!/usr/bin/zsh
 alias suacus="sudo nano /root/.oh-my-zsh/custom/custom.zsh"
 alias xc='$ZSH_CUSTOM'
 alias excus="$zsh_custom/example.zsh"
@@ -107,7 +106,7 @@ alias tcpdump="tcpdump -i eth1"
 alias ethtool="ethtool eth1"
 alias cpuinfo="lscpu"
 alias gpumeminfo="grep -i --color memory /var/log/Xorg.0.log"
-#alias wget="wget -c"
+alias wget="wget -c"
 alias ff4="/opt/firefox4/firefox"
 alias ff13="/opt/firefox13/firefox"
 alias chrome="/opt/google/chrome/chrome"
@@ -221,7 +220,7 @@ alias curlw="/mnt/c/WINDOWS/system32/curl.exe"
 alias gpc="git push origin config"
 alias zsh_custom="$ZSH_CUSTOM"
 alias vi~="svi $HOME/.zshrc"
-alias .c="/root/.config"
+alias .c="$HOME/.config"
 alias lld="eza --icons --group-directories-first --color=auto -axliF -a --sort=modified"
 alias ali="/mnt/e/config/cauhinh/aliases.zsh"
 alias upali="cp /mnt/e/config/cauhinh/aliases.zsh ~/.config/aliases.zsh"
@@ -247,7 +246,7 @@ alias nnzim='nano ~/.config/.zimrc'
 alias zii='zi install'
 alias suazcf='nano ~/.config/.zshrc'
 alias xoaals='unalias'
-alias copy='cp -v -f'
+alias copy='cp -v -f -r'
 alias ziin='zimfw uninstall && zimfw install && exec zsh'
 alias nnini='nano $ZIM_HOME/init.zsh'
 alias zib='zimfw build'
@@ -294,7 +293,6 @@ alias nn='nano'
 alias sua~='nano ~/.zshrc'
 alias zim='zimfw'
 alias cus='~/.config/custom'
-alias manv='man_trans'
 alias caionedrivecli='/mnt/d/Apps/install_onedrive_cli.zsh'
 alias onedrivecli='source /home/kali/.onedrivecli-env/bin/activate && onedrive-cli'
 alias onedrive='onedrive'
@@ -317,7 +315,6 @@ alias gitcm='git commit -m'
 alias chokali='sudo chown -R kali:kali'
 alias pyw='python3 -m http.server'
 alias ncatRS='ncat -v -l -4 127.0.0.1 -p 4444'
-alias .pl='cd /home/kali/.config/custom/plugins/'
 alias upkali='source /mnt/e/config/cauhinh/update.zsh'
 alias ss='sudo service'
 alias git_forgit='git clone https://github.com/wfxr/forgit.git /home/kali/.config/custom/plugins/forgit'
@@ -357,18 +354,18 @@ alias xsel:0='Xvfb :0 &'
 alias cp='cp -i'
 alias ope='omz plugin enable'
 alias opi='omz plugin info'
-alias opl='omz plugin load'
 alias opd='omz plugin disable'
 #alias --help='--help 2>&1 | batcat --language=help --style=Fusion | trans -b vi'
 alias scut='sudo mv -if'
 alias caighex='/home/kali/.config/addon/gh_ex.sh'
-alias dich='trans -b :vi'
-alias -g -- --help="--help 2>&1 | bat --language=help --style=full --color=always"
-#alias -g -h="--help"
-#alias -g -h="-h 2>&1 | bat --language=help --style=full --color=always"
+#alias -g -- --help="--help ... 2>&1 | trans -b :vi --no-auto | stdbuf -oL bat --language=help --style=full --color=always"
+#alias -g -- --help="--help ... 2>&1 | trans -b :vi --no-auto | tee /tmp/output.txt | bat --language=help --style=full --color=always"
+alias -g -- --help='--help 2>&1 | bat --language=help --style=full --color=always'
+#alias -g -- -h='--help 2>&1 | trans -b --no-auto :vi | bat --language=help --style=full --color=auto'
+
+#alias -g -- -h='-h ... 2>&1 | bat --language=help --style=full --color=always'
 alias caiman='/home/kali/.config/addon/caidat_man.sh'
 alias dichcat='trans -b :vi | cat'
-alias dichbat='trans -b :vi | bat'
 alias dichtxt='trans -b :vi > /tmp/vi.txt'
 alias caibat='~/.config/addon/install_bat.sh'
 alias cd='cd '
@@ -395,4 +392,17 @@ alias cai_vi='~/.config/addon/cai_vi.sh'
 alias manvi='man --locale=vi_VN.UTF-8'
 alias addkey_keyserver.ubuntu.com='sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32 871920D1991BC93C'
 alias gawk='sudo gawk'
-alias -g l='le'
+alias gsc='git secrets --scan'
+alias cat='bat'
+alias dichhelp='trans -b :vi --no-auto'
+alias l='le -ax -F'
+alias dia='df -h | bat --language=help --style=full --color=always --theme=TwoDark'
+alias .pl='/root/.config/custom/plugins'
+alias xoaapt='sudo add-apt-repository --remove'
+alias aptneo='apt-get install apt-transport-https lsb-release ca-certificates && \ wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg && \ echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | tee /etc/apt/sources.list.d/php.list && \ apt-get update'
+alias cpzsh='cp -rf ~/.config/zsh /mnt/e/config/cauhinh'
+alias cpalias='rm -rf /mnt/e/config/cauhinh/aliases.zsh && cp -rf /root/.config/zsh/aliases.zsh /mnt/e/config/cauhinh'
+alias caimake='sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip curl doxygen gettext'
+alias taineoevim='cd ~/.config && curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage && sudo chmod u+x nvim.appimage'
+alias neo='~/.config/nvim.appimage'
+alias caineovim='git clone https://github.com/neovim/neovim.git && cd ~/neovim && sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip curl doxygen gettext && make CMAKE_BUILD_TYPE=RelWithDebInfo && sudo make install && sudo rm -rf ~/neovim'
