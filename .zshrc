@@ -241,9 +241,14 @@ export FZF_BASE=~/.fzf
 enable-fzf-tab
 
 # Kiểm tra và cài đặt vim-plug nếu chưa được cài đặt
+if [ ! -f ~/.config/nvim/plug.vim ]; then
+  echo "Cài đặt vim-plug..."
+  curl -fLo ~/.config/nvim/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+fi
+
 if [ ! -f ~/.local/share/nvim/site/autoload/plug.vim ]; then
   echo "Cài đặt vim-plug..."
   curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 fi
-

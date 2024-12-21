@@ -13,7 +13,7 @@ Plug 'Shougo/deoplete.nvim'
 Plug 'roxma/nvim-yarp'
 Plug 'roxma/vim-hug-neovim-rpc'
 Plug 'codota/tabnine-nvim', { 'do': './dl_binaries.sh' }
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'jiangmiao/auto-pairs'
 Plug 'hrsh7th/nvim-compe'
 Plug 'itchyny/lightline.vim'
@@ -21,6 +21,16 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'folke/which-key.nvim'
 Plug 'airblade/vim-gitgutter'
 Plug 'lewis6991/gitsigns.nvim'
+Plug 'hrsh7th/nvim-cmp' " Plugin chính
+Plug 'hrsh7th/cmp-nvim-lsp' " Nguồn cho LSP
+Plug 'hrsh7th/cmp-buffer' " Nguồn cho buffer
+Plug 'hrsh7th/cmp-path' " Nguồn cho đường dẫn
+Plug 'saadparwaiz1/cmp_luasnip' " Nguồn cho LuaSnip (nếu bạn dùng)
+Plug 'hrsh7th/cmp-nvim-lua'
+Plug 'onsails/lspkind.nvim'
+Plug 'L3MON4D3/LuaSnip'
+Plug 'rafamadriz/friendly-snippets'
+
 
 " Cài đặt fzf
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }

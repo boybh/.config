@@ -406,3 +406,6 @@ alias caimake='sudo apt-get install ninja-build gettext libtool libtool-bin auto
 alias taineoevim='cd ~/.config && curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage && sudo chmod u+x nvim.appimage'
 alias neo='~/.config/nvim.appimage'
 alias caineovim='git clone https://github.com/neovim/neovim.git && cd ~/neovim && sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip curl doxygen gettext && make CMAKE_BUILD_TYPE=RelWithDebInfo && sudo make install && sudo rm -rf ~/neovim'
+alias viz='vim ~/.config/.zshrc'
+alias cainano='git clone https://git.savannah.gnu.org/git/nano.git && cd nano && ./configure && make && sudo make install && sudo rm -rf ~/nano'
+alias cpt='copytext'
